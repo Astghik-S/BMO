@@ -1,0 +1,30 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+OMIT
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OMIT_0024288
+http://purl.obolibrary.org/obo/OMIT_0012292
+http://purl.obolibrary.org/obo/OMIT_0005305
+http://purl.obolibrary.org/obo/OMIT_0009194
+http://purl.obolibrary.org/obo/OMIT_0012415
+http://purl.obolibrary.org/obo/OMIT_0013279
+http://purl.obolibrary.org/obo/OMIT_0025787
+http://purl.obolibrary.org/obo/OMIT_0010388
+http://purl.obolibrary.org/obo/OMIT_0020024
+http://purl.obolibrary.org/obo/OMIT_0001343
+http://purl.obolibrary.org/obo/OMIT_0019447
+http://purl.obolibrary.org/obo/OMIT_0019447
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

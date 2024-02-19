@@ -1,0 +1,24 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+SIO
+
+[Low level source term URIs]
+http://semanticscience.org/resource/SIO_000144
+http://semanticscience.org/resource/SIO_010052
+http://semanticscience.org/resource/SIO_010048
+http://semanticscience.org/resource/SIO_000554
+http://semanticscience.org/resource/SIO_000027
+http://semanticscience.org/resource/SIO_000923
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

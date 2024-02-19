@@ -1,0 +1,639 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/8knbfs0a.owl#"
+     xml:base="http://ontofox.hegroup.org/8knbfs0a.owl"
+     xmlns:efo="http://www.ebi.ac.uk/efo/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/8knbfs0a.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label>editor note</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#exactMatch"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition_citation">
+        <obo:IAO_0000115>A definition citation is a document, ontology class, person or organization from which the definition of the class is derived. It is used in the same sense as a citation in literature, in that the definition may have been derived from these sources or that this definition is related to these source.</obo:IAO_0000115>
+        <rdfs:label>definition_citation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/gwas_trait -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/gwas_trait"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>An alternative label for a given entity such as a commonly used abbreviation or synonym. </obo:IAO_0000115>
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000195 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000195">
+        <obo:IAO_0000115>A cluster of metabolic risk factors for CARDIOVASCULAR DISEASES and TYPE 2 DIABETES MELLITUS. The major components of metabolic syndrome X include excess ABDOMINAL FAT; atherogenic DYSLIPIDEMIA; HYPERTENSION; HYPERGLYCEMIA; INSULIN RESISTANCE; a proinflammatory state; and a prothrombotic (THROMBOSIS) state. (from AHA/NHLBI/ADA Conference Proceedings, Circulation 2004; 109:551-556)</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>DOID:14221</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:277.7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D024821</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10052066</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C84442</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:605552</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:615812</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:237602007</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Cardiovascular Syndrome, Metabolic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cardiovascular Syndromes, Metabolic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Dysmetabolic Syndrome X</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Insulin Resistance Syndrome X</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>MetS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Metabolic Cardiovascular Syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Metabolic Syndrome X</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Metabolic X Syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Reaven Syndrome X</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Syndrome X, Dysmetabolic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Syndrome X, Insulin Resistance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Syndrome X, Metabolic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Syndrome X, Reaven</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Syndrome, Metabolic Cardiovascular</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Syndrome, Metabolic X</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>X Syndrome, Metabolic</oboInOwl:hasExactSynonym>
+        <rdfs:label>metabolic syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000264 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000264">
+        <obo:IAO_0000115>An antibody function (or antigen binding function) is an infection-fighting protein molecule in blood or secretory fluids that tags, neutralizes, and helps destroy pathogenic microorganisms such as bacteria, viruses and toxins.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117>Jie Zheng</obo:IAO_0000117>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <oboInOwl:hasDbXref>MO:833</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D000906</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C16295</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NIFSTD:birnlex_2110</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:68498002</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>antibodies</oboInOwl:hasExactSynonym>
+        <rdfs:label>antibody</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000384 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000384">
+        <obo:IAO_0000115>A chronic transmural inflammation that may involve any part of the DIGESTIVE TRACT from MOUTH to ANUS, mostly found in the ILEUM, the CECUM, and the COLON. In Crohn disease, the inflammation, extending through the intestinal wall from the MUCOSA to the serosa, is characteristically asymmetric and segmental. Epithelioid GRANULOMAS may be seen in some patients.</obo:IAO_0000115>
+        <obo:IAO_0000115>A gastrointestinal disorder characterized by chronic inflammation involving all layers of the intestinal wall, noncaseating granulomas affecting the intestinal wall and regional lymph nodes, and transmural fibrosis. Crohn disease most commonly involves the terminal ileum; the colon is the second most common site of involvement.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/mesh/D003424"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/snomedct/7620006"/>
+        <mondo:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/CN043071"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_8778"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2965"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>DOID:8778</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10:K50</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:555.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D003424</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10011401</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2965</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C27837</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:266600</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Orphanet:206</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:7620006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:34000006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:CN043071</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CROHN DIS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CROHNS DIS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Colitis, Granulomatous</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Crohn disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Crohn&apos;s associated gastritis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Crohn&apos;s disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Crohn&apos;s disease of colon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Enteritis, Granulomatous</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Enteritis, Regional</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Gastritis Associated with Crohn Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Gastritis Associated with Crohn&apos;s Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ileitis, Regional</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ileitis, Terminal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ileocolitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>granulomatous colitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>regional enteritis</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000714 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000714">
+        <obo:IAO_0000115>Time of survival is an information entity which is about the length of time a material entity has survived after some adverse event, such as infection from a disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MeSH:D013534</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C17177</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PERSON: James Malone</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:445320007</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>survival</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>time of survival</oboInOwl:hasExactSynonym>
+        <rdfs:label>survival time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001428 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001428">
+        <obo:IAO_0000115>A study in which participants are examined at only a single time for characteristics of a disease.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117>Natalja Kurbatova</obo:IAO_0000117>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <oboInOwl:hasDbXref>NCIt:C53310</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Cross-Sectional Study</oboInOwl:hasExactSynonym>
+        <rdfs:label>cross sectional design</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0002721 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002721">
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <oboInOwl:hasDbXref>NCIt:C15421</oboInOwl:hasDbXref>
+        <rdfs:label>postmenopausal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0002950 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002950">
+        <obo:IAO_0000115>The state or condition of having a developing embryo or fetus in the body (uterus), after union of an ovum and spermatozoon, during the period from conception to birth.</obo:IAO_0000115>
+        <obo:IAO_0000115>The status during which female mammals carry their developing young (EMBRYOS or FETUSES) in utero before birth, beginning from FERTILIZATION to BIRTH.</obo:IAO_0000115>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>ICD10:Z34</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D011247</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10036556</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C25742</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:289908002</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Gestation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PREGN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Pregnancies</oboInOwl:hasExactSynonym>
+        <rdfs:label>pregnancy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003276 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003276">
+        <obo:IAO_0000115>Vascular endothelial growth factor (VEGF) is a signal protein produced by cells that stimulates vasculogenesis and angiogenesis. It is part of the system that restores the oxygen supply to tissues when blood circulation is inadequate. Serum concentration of VEGF is high in bronchial asthma and low in diabetes mellitus. VEGF&apos;s normal function is to create new blood vessels during embryonic development, new blood vessels after injury, muscle following exercise, and new vessels (collateral circulation) to bypass blocked vessels.
+When VEGF is overexpressed, it can contribute to disease. Solid cancers cannot grow beyond a limited size without an adequate blood supply; cancers that can express VEGF are able to grow and metastasize. Overexpression of VEGF can cause vascular disease in the retina of the eye and other parts of the body. Drugs such as bevacizumab can inhibit VEGF and control or slow those diseases.
+VEGF is a sub-family of growth factors, to be specific, the platelet-derived growth factor family of cystine-knot growth factors. They are important signaling proteins involved in both vasculogenesis (the de novo formation of the embryonic circulatory system) and angiogenesis (the growth of blood vessels from pre-existing vasculature).</obo:IAO_0000115>
+        <obo:IAO_0000117>Ele Holloway</obo:IAO_0000117>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:definition_citation>http://en.wikipedia.org/wiki/Vascular_endothelial_growth_factor</efo:definition_citation>
+        <oboInOwl:hasDbXref>CASRN:127464-60-2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DSSTox_Generic_SID:40639</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:192240</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:417324009</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>VEGF</oboInOwl:hasExactSynonym>
+        <rdfs:label>vascular endothelial growth factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003919 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003919">
+        <obo:IAO_0000115>An aspect of personal behavior or lifestyle, environmental exposure, or inborn or inherited characteristic, which, on the basis of epidemiologic evidence, is known to be associated with a health-related condition considered important to prevent.</obo:IAO_0000115>
+        <obo:IAO_0000115>Any aspect of an individual&apos;s life, behavior, an environmental exposure, or an inborn or inherited characteristic that increases the likelihood of a disease, condition or injury.</obo:IAO_0000115>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MeSH:D012307</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C17103</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:80943009</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Factor, Risk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Factors, Risk</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Risk Factors</oboInOwl:hasExactSynonym>
+        <rdfs:label>risk factor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004134 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004134">
+        <obo:IAO_0000115>The physical size of a tumor.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <oboInOwl:hasDbXref>NCIt:C120284</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:263605001</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>size of tumor</oboInOwl:hasExactSynonym>
+        <rdfs:label>tumor size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004285 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004285">
+        <obo:IAO_0000115>The presence of albumin in the urine, an indicator of KIDNEY DISEASES.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>HP:0012592</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D000419</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10001580</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:274769005</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>urinary albumin excretion</oboInOwl:hasExactSynonym>
+        <rdfs:label>albuminuria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004297 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004297">
+        <obo:IAO_0000115>A clinical laboratory measurement is a measurement of some entity e.g. erythrocyte count or metabolite panel which is used in the process of clinical diagnosis in human patients</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasExactSynonym>clinical laboratory techniques</oboInOwl:hasExactSynonym>
+        <rdfs:label>clinical laboratory measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004325 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004325">
+        <obo:IAO_0000115>PRESSURE of the BLOOD on the ARTERIES and other BLOOD VESSELS.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MeSH:D001794</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10005727</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C54706</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:75367002</oboInOwl:hasDbXref>
+        <rdfs:label>blood pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004338 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004338">
+        <obo:IAO_0000115>The mass or quantity of heaviness of an individual. It is expressed by units of pounds or kilograms.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MeSH:D001835</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C81328</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:27113001</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>weight</oboInOwl:hasExactSynonym>
+        <rdfs:label>body weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004342 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004342">
+        <obo:IAO_0000115>The measurement around the body at the level of the ABDOMEN and just above the hip bone. The measurement is usually taken immediately after exhalation.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MeSH:D055105</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10074998</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C100948</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:276361009</oboInOwl:hasDbXref>
+        <rdfs:label>waist circumference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004352 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004352">
+        <obo:IAO_0000115>Quantification of the number of deaths in a population.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MeSH:D009026</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:Q000401</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C16880</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:409651001</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>mortality measurement</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>mortality rate</oboInOwl:hasExactSynonym>
+        <rdfs:label>mortality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004471 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004471">
+        <obo:IAO_0000115>An insulin sensitivity measurement is a measurement of insulin metabolism, which can be measured in a number of ways, for example using the HOMA model or via a glucose tolerance test.</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasExactSynonym>insulin sensitivity test</oboInOwl:hasExactSynonym>
+        <rdfs:label>insulin sensitivity measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004501 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004501">
+        <obo:IAO_0000115>The HOMA-IR measurement employs the homeostatic model assessment (HOMA)  to quantify insulin resistance.</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasExactSynonym>homeostasis model assessment insulin resistance</oboInOwl:hasExactSynonym>
+        <rdfs:label>HOMA-IR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004517 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004517">
+        <obo:IAO_0000115>An Arterial stiffness measurement is the information output of a non invasive pulse wave velocity assay. Arterial stiffness is a predictor of cardiovascular mortality</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasExactSynonym>arterial stiffness</oboInOwl:hasExactSynonym>
+        <rdfs:label>arterial stiffness measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004745 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004745">
+        <obo:IAO_0000115>Is a quantification of NT-proBNP (N-terminal prohormone of brain natriuretic peptide) which is associated with acute congestive heart failure.</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:definition_citation>http://en.wikipedia.org/wiki/NT-proBNP</efo:definition_citation>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <rdfs:label>NT-proBNP measurement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004952 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004952">
+        <obo:IAO_0000115>The recurrence of a disease after treatment</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MedDRA:10061819</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>relapse</oboInOwl:hasExactSynonym>
+        <rdfs:label>disease recurrence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005208 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005208">
+        <obo:IAO_0000115>measurement of the flow rate of filtered fluid through the kidney, calculated either by comparative measurements of substances in the blood and urine, or estimated from a blood test</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MeSH:D005919</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10018355</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C90505</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:80274001</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>GFR</oboInOwl:hasExactSynonym>
+        <rdfs:label>glomerular filtration rate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0006335 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0006335">
+        <obo:IAO_0000115>The blood pressure during the contraction of the left ventricle of the heart.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MedDRA:10042955</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C25298</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:271649006</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>SYSBP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>systolic pressure</oboInOwl:hasExactSynonym>
+        <rdfs:label>systolic blood pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0006851 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0006851">
+        <obo:IAO_0000115>Refers to abnormal cell activity manifested by decreased control over growth and function, causing tumor growth or spread into surrounding tissue and adverse effects to the host</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:definition_citation>C14143</efo:definition_citation>
+        <oboInOwl:hasDbXref>NCIt:C14143</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:21594007</oboInOwl:hasDbXref>
+        <rdfs:label>malignant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0006890 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0006890">
+        <obo:IAO_0000115>the formation of excess fibrous connective tissue in an organ or tissue in a reparative or reactive process. This can be a reactive, benign, or pathological state.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sirarat Sarntivijai</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>MedDRA:10016642</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C3044</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Fibrosis</oboInOwl:hasDbXref>
+        <rdfs:label>fibrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009708 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009708">
+        <obo:IAO_0000115>The spread or migration of cancer cells from one part of the body (where they first appeared) to another. The secondary tumor contains cells that are like those in the original (primary) tumor. [ NCI ]</obo:IAO_0000115>
+        <obo:IAO_0000116>A tumor formed by cells that have spread is referred to as a &quot;metastatic tumor&quot; or a &quot;metastasis&quot;, but, strictly speaking, “metastasis” refers to the process of cancer cell migration, not to the tumor mass itself.</obo:IAO_0000116>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <oboInOwl:hasDbXref>MeSH:D009362</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10062194</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C19151</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cancer metastasis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neoplasm metastasis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tumor cell migration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tumor metastasis</oboInOwl:hasExactSynonym>
+        <rdfs:label>metastasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009709 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009709">
+        <obo:IAO_0000115>A tumor that has spread from its original (primary) site of growth to another site, close to or distant from the primary site. Metastasis is characteristic of advanced malignancies, but in rare instances can be seen in neoplasms lacking malignant morphology.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3261"/>
+        <oboInOwl:hasDbXref>ICDO:8000/6</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:0024883</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3261</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>metastatic disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>metastatic neoplasm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>metastatic tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>EFO:0009709</oboInOwl:id>
+        <rdfs:comment>Note that we currently treat secondary neoplasms as being neoplastic diseases that are derived from neoplasm; classes such as &apos;neoplasm&apos;, &apos;carcinoma&apos; are implicitly primary. This may change in future.</rdfs:comment>
+        <rdfs:label>metastatic neoplasm</rdfs:label>
+        <skos:closeMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C2939420"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3261"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_1001461 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_1001461">
+        <obo:IAO_0000115>In vascular diseases, endothelial dysfunction is a systemic pathological state of the endothelium (the inner lining of blood vessels) and can be broadly defined as an imbalance between vasodilating and vasoconstricting substances produced by (or acting on) the endothelium. Normal functions of endothelial cells include mediation of coagulation, platelet adhesion, immune function and control of volume and electrolyte content of the intravascular and extravascular spaces.</obo:IAO_0000115>
+        <obo:IAO_0000117>Gautier Koscielny</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <oboInOwl:hasDbXref>MedDRA:10048554</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Endothelial_dysfunction</oboInOwl:hasDbXref>
+        <rdfs:label>endothelial dysfunction</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

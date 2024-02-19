@@ -1,0 +1,621 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/zbm6x8g3.owl#"
+     xml:base="http://ontofox.hegroup.org/zbm6x8g3.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/zbm6x8g3.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://protege.stanford.edu/plugins/owl/protege#readOnly -->
+
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <obo:IAO_0000115>A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&apos;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>DEFINITION</oboInOwl:hasExactSynonym>
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A23 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A23">
+        <obo:IAO_0000115>An association that specifies one of three data types for a particular variable, String, Code or Number.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A23</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Has_PCDC_Data_Type</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Has_PCDC_Data_Type</oboInOwl:hasExactSynonym>
+        <rdfs:label>Has_PCDC_Data_Type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A32 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A32">
+        <obo:IAO_0000115>An association that that connects a concept representing a GDC value to any associated GDC property concept(s).</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A32</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Is_Value_For_GDC_Property</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Is_Value_For_GDC_Property</oboInOwl:hasExactSynonym>
+        <rdfs:label>Is_Value_For_GDC_Property</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A33 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A33">
+        <obo:IAO_0000115>An association that indicates a concept is a dedicated Permissible Value concept for a specific PCDC GCT Variable.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A33</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Is_PCDC_GCT_Permissible_Value_For_Variable</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Is_PCDC_GCT_Permissible_Value_For_Variable</oboInOwl:hasExactSynonym>
+        <rdfs:label>Is_PCDC_GCT_Permissible_Value_For_Variable</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A34 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A34">
+        <obo:IAO_0000115>An association that shows which Permissible Values are possible for a specific PCDC GCT Variable.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A34</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Has_PCDC_GCT_Permissible_Value</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Has_PCDC_GCT_Permissible_Value</oboInOwl:hasExactSynonym>
+        <rdfs:label>Has_PCDC_GCT_Permissible_Value</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A37 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A37">
+        <obo:IAO_0000115>An association that shows which Permissible Values are possible for a specific SeroNet Variable.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A37</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Has_SeroNet_Permissible_Value</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Has_SeroNet_Permissible_Value</oboInOwl:hasExactSynonym>
+        <rdfs:label>Has_SeroNet_Permissible_Value</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A38 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A38">
+        <obo:IAO_0000115>An association that shows which Permissible Values are possible for a specific PCDC OS Variable.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>A38</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Has_PCDC_OS_Permissible_Value</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Has_PCDC_OS_Permissible_Value</oboInOwl:hasExactSynonym>
+        <rdfs:label>Has_PCDC_OS_Permissible_Value</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0">
+        <protege:readOnly>true</protege:readOnly>
+        <obo:IAO_0000115>A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service&apos;s NCI Thesaurus.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>NHC0</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>code</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>code</oboInOwl:hasExactSynonym>
+        <rdfs:label>code</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
+        <obo:IAO_0000115>A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P106</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Semantic Type</obo:NCIT_P107>
+        <obo:NCIT_P108>Semantic_Type</obo:NCIT_P108>
+        <obo:NCIT_P98>In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS.</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>Semantic_Type</oboInOwl:hasExactSynonym>
+        <rdfs:label>Semantic_Type</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P107 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
+        <obo:IAO_0000115>A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P107</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Display Name</obo:NCIT_P107>
+        <obo:NCIT_P108>Display_Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Display Name</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Display_Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Display_Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
+        <obo:IAO_0000115>A property representing the word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P108</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Preferred Name</obo:NCIT_P107>
+        <obo:NCIT_P108>Preferred_Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Preferred Name</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preferred Term</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Preferred_Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Preferred_Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207">
+        <obo:IAO_0000115>A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P207</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>UMLS CUI</obo:NCIT_P107>
+        <obo:NCIT_P108>UMLS_CUI</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>UMLS_CUI</oboInOwl:hasExactSynonym>
+        <rdfs:label>UMLS_CUI</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322">
+        <obo:IAO_0000115>A property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept. This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P322</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Contributing Source</obo:NCIT_P107>
+        <obo:NCIT_P108>Contributing_Source</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Contributing_Source</oboInOwl:hasExactSynonym>
+        <rdfs:label>Contributing_Source</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325">
+        <obo:IAO_0000115>A property representing the English language definition of a concept from a source other than NCI.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P325</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>[source] Definition</obo:NCIT_P107>
+        <obo:NCIT_P108>ALT_DEFINITION</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>ALT_DEFINITION</oboInOwl:hasExactSynonym>
+        <rdfs:label>ALT_DEFINITION</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
+        <protege:readOnly>true</protege:readOnly>
+        <obo:IAO_0000115>A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P366</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Legacy Concept Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Legacy Concept Name</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Legacy_Concept_Name</oboInOwl:hasExactSynonym>
+        <rdfs:label>Legacy Concept Name</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P375 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P375">
+        <obo:IAO_0000115>A property representing that a term in another terminology has been mapped to a term in NCIt and describes the relationship between the mapped terms.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P375</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Maps_To</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Maps_To</oboInOwl:hasExactSynonym>
+        <rdfs:label>Maps_To</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P98 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
+        <obo:IAO_0000115>A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>P98</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>DesignNote</obo:NCIT_P107>
+        <obo:NCIT_P108>DesignNote</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>DesignNote</oboInOwl:hasExactSynonym>
+        <rdfs:label>DesignNote</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>FULL_SYN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Synonym with Source Data</oboInOwl:hasExactSynonym>
+        <rdfs:label>has exact synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <obo:IAO_0000115>An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Concept_In_Subset</oboInOwl:hasExactSynonym>
+        <rdfs:label>in subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C113609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C113609">
+        <obo:IAO_0000115>Hepatic necrosis, inflammation, or scarring due to any cause that persists for more than 6 months. Manifestations may include signs and symptoms of cholestasis, portal hypertension, and/or abnormal liver function tests.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A37 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A37 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48660"/>
+        <obo:NCIT_A37 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49487"/>
+        <obo:NCIT_A37 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C49488"/>
+        <obo:NCIT_NHC0>C113609</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Disease or Syndrome</obo:NCIT_P106>
+        <obo:NCIT_P108>Chronic Liver Disease</obo:NCIT_P108>
+        <obo:NCIT_P207>C0341439</obo:NCIT_P207>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>MedDRA</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322>SeroNet</obo:NCIT_P322>
+        <obo:NCIT_P325>Hepatic necrosis, inflammation, or scarring due to any cause that persists for more than 6 months. Manifestations may include signs and symptoms of cholestasis, portal hypertension, and/or abnormal liver function tests.</obo:NCIT_P325>
+        <obo:NCIT_P375>Chronic liver disease</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym>Chronic Liver Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Chronic_Liver_Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118464"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158034"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C158520"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178718"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C179026"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <rdfs:label>Chronic Liver Disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C15367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C15367">
+        <obo:IAO_0000115>An estimated probability that one or more adverse event(s) will occur as a result of exposure to an actual or potential hazardous situation or chemical.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C15367</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Health Care Activity</obo:NCIT_P106>
+        <obo:NCIT_P107>Risk Assessment</obo:NCIT_P107>
+        <obo:NCIT_P108>Risk Assessment</obo:NCIT_P108>
+        <obo:NCIT_P207>C0086930</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>A process used to estimate the risk that a certain event will happen. In medicine, this may include a person&apos;s risk of having a child with a certain condition or disease, such as cancer. It may also be used to estimate the risk of carrying a certain gene mutation (change), or of having an adverse event (unexpected medical problem) in response to certain types of drugs or other substances. A risk assessment may be done by collecting information about a person&apos;s age, sex, personal and family medical history, ethnic background, lifestyle, and other factors and using statistics tools to calculate risk.</obo:NCIT_P325>
+        <obo:NCIT_P366>Risk_Assessment</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Risk Assessment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>risk assessment</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <rdfs:label>Risk Assessment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16866 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16866">
+        <obo:IAO_0000115>A representation of something, often idealized or modified to make it conceptually easier to understand.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C16866</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Intellectual Product</obo:NCIT_P106>
+        <obo:NCIT_P108>Model</obo:NCIT_P108>
+        <obo:NCIT_P207>C3161035</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P325>A formal structure for representing and analyzing a process such as a clinical trial or the information pertaining to a restricted context (e.g., clinical trial data). [CDISC]</obo:NCIT_P325>
+        <obo:NCIT_P366>Model_System</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Model</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Model System</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Modeling System</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Models</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>model</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
+        <rdfs:label>Model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C18000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C18000">
+        <obo:IAO_0000115>The degree of abnormality of cancer cells, a measure of differentiation, the extent to which cancer cells are similar in appearance and function to healthy cells of the same tissue type. The degree of differentiation often relates to the clinical behavior of the particular tumor. Based on the microscopic findings, tumor grade is commonly described by one of four degrees of severity. Histopathologic grade of a tumor may be used to plan treatment and estimate the future course, outcome, and overall prognosis of disease. Certain types of cancers, such as soft tissue sarcoma, primary brain tumors, lymphomas, and breast have special grading systems.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_A23 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25162"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28077"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28078"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28079"/>
+        <obo:NCIT_A34 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43234"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17998"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28077"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28078"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C28079"/>
+        <obo:NCIT_A38 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43234"/>
+        <obo:NCIT_NHC0>C18000</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Qualitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Histologic Grade</obo:NCIT_P108>
+        <obo:NCIT_P207>C0919553</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>ICDC</obo:NCIT_P322>
+        <obo:NCIT_P322>NAACCR</obo:NCIT_P322>
+        <obo:NCIT_P322>PCDC</obo:NCIT_P322>
+        <obo:NCIT_P325>A description of a tumor based on how abnormal the cancer cells look under a microscope and how quickly the tumor is likely to grow and spread. Grading systems are different for each type of cancer.</obo:NCIT_P325>
+        <obo:NCIT_P325>An assigned tumor grade based on a defined scoring system.</obo:NCIT_P325>
+        <obo:NCIT_P366>Histopathologic_Grade</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Grade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Grade (high/low)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Grading</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HISTOLOGY_GRADE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Histologic Grade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Histopathologic Grade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Histopathology Grade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>OVLTGRD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Overall Tumor Grade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tumor Grade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tumor_Grade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>grade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>grading</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>histological grade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>histological_grade</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132262"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C132263"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156952"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C156953"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157531"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159416"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159417"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C159419"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C160911"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165451"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C166372"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C166373"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177384"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177396"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C179490"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186764"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <rdfs:label>Histologic Grade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C21051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C21051">
+        <obo:IAO_0000115>Changes in the regulation of the expression of gene activity without alteration of genetic structure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C21051</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Genetic Function</obo:NCIT_P106>
+        <obo:NCIT_P107>Epigenetic Process</obo:NCIT_P107>
+        <obo:NCIT_P108>Epigenetic Process</obo:NCIT_P108>
+        <obo:NCIT_P207>C1516924</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P366>Epigenetic_Process</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Epigenetic Change</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Epigenetic Mechanism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Epigenetic Process</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Epigenetics</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C142799"/>
+        <rdfs:label>Epigenetic Process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C28234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C28234">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C28234</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Quantitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P108>Progression-free Survival</obo:NCIT_P108>
+        <obo:NCIT_P207>C0242792</obo:NCIT_P207>
+        <obo:NCIT_P325>The length of time during and after treatment in which a patient is living with a disease that does not get worse. Progression-free survival may be used in a clinical study or trial to help find out how well a new treatment works.</obo:NCIT_P325>
+        <obo:NCIT_P366>Progression-free_Survival</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>PFS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Progression-free Survival</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>progression-free survival</oboInOwl:hasExactSynonym>
+        <rdfs:label>Progression-free Survival</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C28378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C28378">
+        <obo:IAO_0000115>Multiplying or increasing in number.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C28378</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Proliferation</obo:NCIT_P108>
+        <obo:NCIT_P207>C1514485</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Multiplying or increasing in number.  In biology, cell proliferation occurs by a process known as cell division.</obo:NCIT_P325>
+        <obo:NCIT_P325>Pertaining to the state of proliferation, in which the entity is actively multiplying or increasing in number.</obo:NCIT_P325>
+        <obo:NCIT_P366>Proliferating</obo:NCIT_P366>
+        <obo:NCIT_P366>Proliferation</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>PROLIFERATING</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Proliferating</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Proliferation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>proliferating</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C181172"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <rdfs:label>Proliferation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C61256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C61256">
+        <obo:IAO_0000115>The act of observing something (and sometimes keeping a record of it).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C61256</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Activity</obo:NCIT_P106>
+        <obo:NCIT_P107>Monitoring</obo:NCIT_P107>
+        <obo:NCIT_P108>Monitoring</obo:NCIT_P108>
+        <obo:NCIT_P207>C1283169</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>Act of overseeing, tracking, observing, evaluating or supervising over time by a person, device or system. See also subject monitoring, medical monitoring, study monitoring, trial monitoring, data monitoring, risk based monitoring.</obo:NCIT_P325>
+        <obo:NCIT_P325>In medicine, to regularly watch and check a person or condition to see if there is any change. Also refers to a device that records and/or displays patient data, such as for an electrocardiogram (EKG).</obo:NCIT_P325>
+        <obo:NCIT_P366>Monitoring</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Monitoring</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>monitor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>monitoring</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67497"/>
+        <rdfs:label>Monitoring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C68771 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C68771">
+        <obo:IAO_0000115>A characteristic or variable that reflects how a patient feels, functions, or survives. Clinical endpoints are distinct measurements or analyses of disease characteristics observed in a study or a clinical trial that reflect the effect of a therapeutic intervention. Clinical endpoints are the most credible characteristics used in the assessment of the benefits and risks of a therapeutic intervention in randomized clinical trials.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C68771</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108>Clinical Endpoint</obo:NCIT_P108>
+        <obo:NCIT_P207>C2347784</obo:NCIT_P207>
+        <obo:NCIT_P366>Clinical_Endpoint</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Clinical Endpoint</oboInOwl:hasExactSynonym>
+        <rdfs:label>Clinical Endpoint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C75944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C75944">
+        <obo:IAO_0000115>Information or variable that supports a probabilistic estimate of future events.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C75944</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Clinical Attribute</obo:NCIT_P106>
+        <obo:NCIT_P108>Predictor</obo:NCIT_P108>
+        <obo:NCIT_P207>C2698872</obo:NCIT_P207>
+        <obo:NCIT_P366>Predictor</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Predictor</oboInOwl:hasExactSynonym>
+        <rdfs:label>Predictor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C88227 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C88227">
+        <obo:IAO_0000115>A laboratory test used for the measurement of creatinine levels in the serum to determine the glomerular filtration rate.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C88227</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Serum Creatinine Assay</obo:NCIT_P108>
+        <obo:NCIT_P207>C2981751</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Serum Creatinine Assay</oboInOwl:hasExactSynonym>
+        <rdfs:label>Serum Creatinine Assay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C94342 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C94342">
+        <obo:IAO_0000115>A healthy subject that is matched with an affected individual in a trial.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+        <obo:NCIT_NHC0>C94342</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Qualitative Concept</obo:NCIT_P106>
+        <obo:NCIT_P107>Healthy Control</obo:NCIT_P107>
+        <obo:NCIT_P108>Healthy Control</obo:NCIT_P108>
+        <obo:NCIT_P207>C2986479</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>In a clinical study, a person who does not have the disorder or disease being studied. Results from healthy controls are compared to results from the group being studied.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>Healthy Control</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>healthy control</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <rdfs:label>Healthy Control</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

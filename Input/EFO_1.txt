@@ -1,0 +1,47 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+EFO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/EFO_0011061
+http://www.ebi.ac.uk/efo/EFO_0005208
+http://www.ebi.ac.uk/efo/EFO_0009709
+http://www.ebi.ac.uk/efo/EFO_1001461
+http://www.ebi.ac.uk/efo/EFO_0006851
+http://www.ebi.ac.uk/efo/EFO_0004342
+http://www.ebi.ac.uk/efo/EFO_0000384
+http://www.ebi.ac.uk/efo/EFO_0004338
+http://www.ebi.ac.uk/efo/EFO_0004325
+http://www.ebi.ac.uk/efo/EFO_0006335
+http://www.ebi.ac.uk/efo/EFO_0000195
+http://www.ebi.ac.uk/efo/EFO_0000264
+http://www.ebi.ac.uk/efo/EFO_0000714
+http://www.ebi.ac.uk/efo/EFO_0001428
+http://www.ebi.ac.uk/efo/EFO_0002721
+http://www.ebi.ac.uk/efo/EFO_0002950
+http://www.ebi.ac.uk/efo/EFO_0003276
+http://www.ebi.ac.uk/efo/EFO_0003919
+http://www.ebi.ac.uk/efo/EFO_0004134
+http://www.ebi.ac.uk/efo/EFO_0004285
+http://www.ebi.ac.uk/efo/EFO_0004297
+http://www.ebi.ac.uk/efo/EFO_0004352
+http://www.ebi.ac.uk/efo/EFO_0004501
+http://www.ebi.ac.uk/efo/EFO_0004517
+http://www.ebi.ac.uk/efo/EFO_0004745
+http://www.ebi.ac.uk/efo/EFO_0004952
+http://www.ebi.ac.uk/efo/EFO_0006890
+http://www.ebi.ac.uk/efo/EFO_0004471
+http://www.ebi.ac.uk/efo/EFO_0009708
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

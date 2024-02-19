@@ -1,0 +1,63 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+DOID
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/DOID_10608
+http://purl.obolibrary.org/obo/DOID_8893
+http://purl.obolibrary.org/obo/DOID_0014667
+http://purl.obolibrary.org/obo/DOID_0050589
+http://purl.obolibrary.org/obo/DOID_10283
+http://purl.obolibrary.org/obo/DOID_10538
+http://purl.obolibrary.org/obo/DOID_10591
+http://purl.obolibrary.org/obo/DOID_10763
+http://purl.obolibrary.org/obo/DOID_114
+http://purl.obolibrary.org/obo/DOID_11612
+http://purl.obolibrary.org/obo/DOID_12858
+http://purl.obolibrary.org/obo/DOID_1287
+http://purl.obolibrary.org/obo/DOID_1324
+http://purl.obolibrary.org/obo/DOID_14499
+http://purl.obolibrary.org/obo/DOID_1575
+http://purl.obolibrary.org/obo/DOID_1579
+http://purl.obolibrary.org/obo/DOID_1612
+http://purl.obolibrary.org/obo/DOID_162
+http://purl.obolibrary.org/obo/DOID_178
+http://purl.obolibrary.org/obo/DOID_2355
+http://purl.obolibrary.org/obo/DOID_2394
+http://purl.obolibrary.org/obo/DOID_2841
+http://purl.obolibrary.org/obo/DOID_3082
+http://purl.obolibrary.org/obo/DOID_3312
+http://purl.obolibrary.org/obo/DOID_3388
+http://purl.obolibrary.org/obo/DOID_37
+http://purl.obolibrary.org/obo/DOID_3908
+http://purl.obolibrary.org/obo/DOID_4
+http://purl.obolibrary.org/obo/DOID_409
+http://purl.obolibrary.org/obo/DOID_5082
+http://purl.obolibrary.org/obo/DOID_557
+http://purl.obolibrary.org/obo/DOID_576
+http://purl.obolibrary.org/obo/DOID_5844
+http://purl.obolibrary.org/obo/DOID_6000
+http://purl.obolibrary.org/obo/DOID_6713
+http://purl.obolibrary.org/obo/DOID_684
+http://purl.obolibrary.org/obo/DOID_9256
+http://purl.obolibrary.org/obo/DOID_9351
+http://purl.obolibrary.org/obo/DOID_9352
+http://purl.obolibrary.org/obo/DOID_417
+http://purl.obolibrary.org/obo/DOID_3393
+http://purl.obolibrary.org/obo/DOID_9970
+http://purl.obolibrary.org/obo/DOID_850
+http://purl.obolibrary.org/obo/DOID_784
+http://purl.obolibrary.org/obo/DOID_0050830
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

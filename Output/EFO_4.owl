@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/priapr0m.owl#" xml:base="http://ontofox.hegroup.org/priapr0m.owl" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:efo="http://www.ebi.ac.uk/efo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/priapr0m.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+        <obo:IAO_0000115>An alternative label for a given entity such as a commonly used abbreviation or synonym. </obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition_citation">
+        <rdfs:label>definition_citation</rdfs:label>
+        <obo:IAO_0000115>A definition citation is a document, ontology class, person or organization from which the definition of the class is derived. It is used in the same sense as a citation in literature, in that the definition may have been derived from these sources or that this definition is related to these source.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003271 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003271">
+        <rdfs:label>tumor necrosis factor-alpha</rdfs:label>
+        <oboInOwl:hasDbXref>OMIM:191160</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CASRN:308079-78-9</oboInOwl:hasDbXref>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>TNF-alpha; tumor necrosis factor</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Tumor necrosis factor (TNF, cachexin or cachectin formerly known as tumor necrosis factor-alpha or TNF-α) is a cytokine involved in systemic inflammation and is a member of a group of cytokines that stimulate the acute phase reaction. It is produced chiefly by activated macrophages, although it can be produced by other cell types as well.</obo:IAO_0000115>
+        <obo:IAO_0000117>Ele Holloway</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>DSSTox_CID:40634</oboInOwl:hasDbXref>
+        <efo:definition_citation>http://en.wikipedia.org/wiki/Tumour_necrosis_factor-alpha</efo:definition_citation>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>MeSH:D014409</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004100 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004100">
+        <rdfs:label>interleukin</rdfs:label>
+        <oboInOwl:hasDbXref>NCIt:C20497</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:38476002</oboInOwl:hasDbXref>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000115>An interleukin is a multifunctional cytokine produced by leukocytes for regulating immune responses.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004580 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004580">
+        <rdfs:label>interleukin 18 (Homo sapiens)</rdfs:label>
+        <obo:IAO_0000115>Interleukin-18 (IL18, also known as interferon-gamma inducing factor) is a protein which in humans is encoded by the IL18 gene.[1][2] The protein encoded by this gene is a proinflammatory cytokine.</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>IL-18</oboInOwl:hasExactSynonym>
+        <efo:definition_citation>http://www.uniprot.org/uniprot/Q14116</efo:definition_citation>
+        <efo:definition_citation>http://en.wikipedia.org/wiki/Interleukin_18</efo:definition_citation>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->

@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/fth8abo3.owl#" xml:base="http://ontofox.hegroup.org/fth8abo3.owl" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/fth8abo3.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OMO_0002000"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso">
+        <rdfs:label>see also</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:shorthand>seeAlso</oboInOwl:shorthand>
+        <oboInOwl:hasDbXref>http://www.w3.org/2000/01/rdf-schema#seeAlso</oboInOwl:hasDbXref>
+        <oboInOwl:id>seeAlso</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_class_level"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label>shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002175">
+        <rdfs:label>present_in_taxon</rdfs:label>
+        <rdfs:label xml:lang="en">present in taxon</rdfs:label>
+        <oboInOwl:is_class_level rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_class_level>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:hasDbXref>RO:0002175</oboInOwl:hasDbXref>
+        <obo:OMO_0002000>PREFIX rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt;
+PREFIX owl: &lt;http://www.w3.org/2002/07/owl#&gt;
+PREFIX in_taxon: &lt;http://purl.obolibrary.org/obo/RO_0002162&gt;
+PREFIX present_in_taxon: &lt;http://purl.obolibrary.org/obo/RO_0002175&gt;
+CONSTRUCT {
+  in_taxon: a owl:ObjectProperty .
+  ?witness rdfs:label ?label .
+  ?witness rdfs:subClassOf ?x .
+  ?witness rdfs:subClassOf [
+    a owl:Restriction ;
+    owl:onProperty in_taxon: ;
+    owl:someValuesFrom ?taxon
+  ] .
+}
+WHERE {
+  ?x present_in_taxon: ?taxon .
+  BIND(IRI(CONCAT(
+    "http://purl.obolibrary.org/obo/RO_0002175#",
+    MD5(STR(?x)),
+    "-",
+    MD5(STR(?taxon))
+  )) as ?witness)
+  BIND(CONCAT(STR(?x), " in taxon ", STR(?taxon)) AS ?label)
+}</obo:OMO_0002000>
+        <oboInOwl:id>present_in_taxon</oboInOwl:id>
+        <obo:IAO_0000115>S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:shorthand>present_in_taxon</oboInOwl:shorthand>
+        <rdfs:comment>The SPARQL expansion for this relation introduces new named classes into the ontology. For this reason it is likely that the expansion should only be performed during a QC pipeline; the expanded output should usually not be included in a published version of the ontology.</rdfs:comment>
+        <obo:IAO_0000115>S present_in_taxon T if some instance of T has some S. This does not means that all instances of T have an S - it may only be certain life stages or sexes that have S</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>applicable for taxon</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/22293552"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/wiki/Taxon-constraints"/>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <rdfs:label>cell</rdfs:label>
+        <oboInOwl:hasDbXref>FBbt:00007002</oboInOwl:hasDbXref>
+        <rdfs:comment>The definition of cell is intended to represent all cells, and thus a cell is defined as a material entity and not an anatomical structure, which implies that it is part of an organism (or the entirety of one).</rdfs:comment>
+        <oboInOwl:hasDbXref>GO:0005623</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001533</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>WBbt:0004017</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KUPO:0000002</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A material entity of anatomical origin (part of or deriving from an organism) that has as its parts a maximally connected cell compartment surrounded by a plasma membrane.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>CALOHA:TS-2035</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002477</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>XAO:0003012</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:68646</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/ubprop#_upper_level"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000084">
+        <rdfs:label>T cell</rdfs:label>
+        <oboInOwl:hasDbXref>FMA:62870</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A type of lymphocyte whose defining characteristic is the expression of a T cell receptor complex.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D013601</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>T lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>mature T cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>CALOHA:TS-1001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000782</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>immature T cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>T-lymphocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>T-cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>VHOG:0001479</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000094">
+        <rdfs:label>granulocyte</rdfs:label>
+        <oboInOwl:hasDbXref>CALOHA:TS-0422</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000539</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0001026</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>granular leucocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>FMA:62854</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A leukocyte with abundant granules in the cytoplasm.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>polymorphonuclear leukocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>granular leukocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000542">
+        <rdfs:label>lymphocyte</rdfs:label>
+        <obo:IAO_0000115>A lymphocyte is a leukocyte commonly found in the blood and lymph that has the characteristics of a large nucleus, a neutral staining cytoplasm, and prominent heterochromatin.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>BTO:0000775</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>VHOG:0001535</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:62863</oboInOwl:hasDbXref>
+        <rdfs:comment>Editors note: consider adding taxon constraint to vertebrata (PMID:18025161)</rdfs:comment>
+        <oboInOwl:hasDbXref>MESH:D008214</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0583</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000576 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000576">
+        <rdfs:label>monocyte</rdfs:label>
+        <obo:IAO_0000115>Myeloid mononuclear recirculating leukocyte that can act as a precursor of tissue macrophages, osteoclasts and some populations of tissue dendritic cells.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>FMA:62864</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CALOHA:TS-0638</oboInOwl:hasDbXref>
+        <rdfs:comment>Morphology: Mononuclear cell, diameter, 14 to 20 _M, N/C ratio 2:1-1:1. Nucleus may appear in variety of shapes: round, kidney, lobulated, or convoluted. Fine azurophilic granules present; markers: CD11b (shared with other myeloid cells), human: CD14, mouse: F4/80-mid,GR1-low; location: Blood, but can be recruited into tissues; role or process: immune &amp; tissue remodelling; lineage: hematopoietic, myeloid.</rdfs:comment>
+        <oboInOwl:hasDbXref>BTO:0000876</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#blood_and_immune_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000738 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000738">
+        <rdfs:label>leukocyte</rdfs:label>
+        <oboInOwl:hasExactSynonym>leucocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>white blood cell</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>An achromatic cell of the myeloid or lymphoid lineages capable of ameboid movement, found in blood or other tissue.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D007962</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>BTO:0000751</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>immune cell</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>CALOHA:TS-0549</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>FMA:62852</oboInOwl:hasDbXref>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000775 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000775">
+        <rdfs:label>neutrophil</rdfs:label>
+        <oboInOwl:hasBroadSynonym>polymorphonuclear leucocyte</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>PMN</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>polymorphonuclear leukocyte</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>neutrophilic leukocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neutrophilic leucocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>BTO:0000130</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neutrophil leukocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neutrocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym>polynuclear neutrophilic leucocyte</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>CALOHA:TS-0688</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym>polymorphonuclear neutrophil</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>FMA:62860</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D009504</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Any of the immature or mature forms of a granular leukocyte that in its mature form has a nucleus with three to five lobes connected by slender threads of chromatin, and cytoplasm containing fine inconspicuous granules and stainable by neutral dyes.</obo:IAO_0000115>
+        <oboInOwl:hasBroadSynonym>poly</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>neutrophil leucocyte</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym>polynuclear neutrophilic leukocyte</oboInOwl:hasBroadSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/cl#blood_and_immune_upper_slim"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/uberon/core#human_reference_atlas"/>
+        <obo:RO_0002175 rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_9606"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/cl.owl"/>
+    </owl:Class>
+</rdf:RDF>
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->

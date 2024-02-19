@@ -1,0 +1,21 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+OBCS
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/OBCS_0000054
+http://purl.obolibrary.org/obo/OBCS_0000023
+http://purl.obolibrary.org/obo/OBCS_0000025
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

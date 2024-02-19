@@ -1,0 +1,625 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/ttdxyruj.owl#"
+     xml:base="http://ontofox.hegroup.org/ttdxyruj.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:chebi="http://purl.obolibrary.org/obo/chebi/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/ttdxyruj.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/charge -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/charge"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/formula -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/formula"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchi -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchi"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/inchikey -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/inchikey"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/mass -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/mass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/monoisotopicmass -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/monoisotopicmass"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/chebi/smiles -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/chebi/smiles"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16113">
+        <obo:IAO_0000115>A cholestanoid consisting of cholestane having a double bond at the 5,6-position as well as a 3beta-hydroxy group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C27H46O</chebi:formula>
+        <chebi:inchi>InChI=1S/C27H46O/c1-18(2)7-6-8-19(3)23-11-12-24-22-10-9-20-17-21(28)13-15-26(20,4)25(22)14-16-27(23,24)5/h9,18-19,21-25,28H,6-8,10-17H2,1-5H3/t19-,21+,22+,23-,24+,25+,26+,27-/m1/s1</chebi:inchi>
+        <chebi:inchikey>HVYWMOMLDIMFJA-DPAQBDIFSA-N</chebi:inchikey>
+        <chebi:mass>386.655</chebi:mass>
+        <chebi:monoisotopicmass>386.35487</chebi:monoisotopicmass>
+        <chebi:smiles>C1[C@@]2([C@]3(CC[C@]4([C@]([C@@]3(CC=C2C[C@H](C1)O)[H])(CC[C@@]4([C@H](C)CCCC(C)C)[H])[H])C)[H])C</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:13982</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:23204</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:3659</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:41564</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:2060565</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:57-88-5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB04540</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:550297</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0000067</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00187</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00040</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KNApSAcK:C00003648</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>LIPID_MAPS_instance:LMST01010001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MetaCyc:CHOLESTEROL</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:CLR</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:10901445</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11412894</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16341241</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:24287311</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25308664</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25451949</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25522988</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25658343</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:25977713</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:4696527</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:8838010</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:2060565</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Cholesterol</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>CHOLESTEROL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cholesterol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cholest-5-en-3beta-ol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cholesterol</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>(3beta,14beta,17alpha)-cholest-5-en-3-ol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Cholest-5-en-3beta-ol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Cholesterin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:16113</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>cholesterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_16737 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16737">
+        <obo:IAO_0000115>A lactam obtained by formal cyclocondensation of creatine. It is a metabolite of creatine.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C4H7N3O</chebi:formula>
+        <chebi:inchi>InChI=1S/C4H7N3O/c1-7-2-3(8)6-4(7)5/h2H2,1H3,(H2,5,6,8)</chebi:inchi>
+        <chebi:inchikey>DDRJAANPRJIHGJ-UHFFFAOYSA-N</chebi:inchikey>
+        <chebi:mass>113.11800</chebi:mass>
+        <chebi:monoisotopicmass>113.05891</chebi:monoisotopicmass>
+        <chebi:smiles>CN1CC(=O)NC1=N</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:14029</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:23406</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:3910</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>CAS:60-27-5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0000562</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00791</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D03600</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MetaCyc:CREATININE</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11256540</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:11981083</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17190852</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:17422601</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18182718</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19236048</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19715855</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:19968328</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:21775764</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22047975</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22121923</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22166252</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22207347</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22212624</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22223530</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22331238</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22338083</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22349552</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22390548</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22432114</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22441184</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22459582</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22498455</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:112064</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Creatinine</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>2-imino-1-methylimidazolidin-4-one</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Creatinine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>creatinine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>1-Methylglycocyamidine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>1-Methylhydantoin-2-imide</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>1-methylglycocyamidine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>2-Amino-1-methylimidazolin-4-one</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>2-amino-1,5-dihydro-1-methyl-4H-Imidazol-4-one</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Creatine anhydride</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Kreatinin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>creatinina</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:16737</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>creatinine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17234">
+        <obo:IAO_0000115>An aldohexose used as a source of energy and metabolic intermediate.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C6H12O6</chebi:formula>
+        <chebi:mass>180.15588</chebi:mass>
+        <chebi:monoisotopicmass>180.06339</chebi:monoisotopicmass>
+        <oboInOwl:hasAlternativeId>CHEBI:14313</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:24277</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:33929</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:5418</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>CAS:50-99-7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00293</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Glucose</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Glucose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gluco-hexose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>glucose</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>DL-glucose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Glc</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Glukose</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:17234</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>glucose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17855 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17855">
+        <obo:IAO_0000115>Any glyceride resulting from the condensation of all three hydroxy groups of glycerol (propane-1,2,3-triol) with fatty acids.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C6H5O6R3</chebi:formula>
+        <chebi:mass>173.10030</chebi:mass>
+        <chebi:monoisotopicmass>173.00861</chebi:monoisotopicmass>
+        <chebi:smiles>[*]C(=O)OCC(COC([*])=O)OC([*])=O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:15255</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:27085</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:9664</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>KEGG:C00422</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>LIPID_MAPS_class:LMGL0301</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:2474544</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Triglyceride</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>triglycerides</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Triacylglycerol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Triglycerid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Triglyzerid</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>a triacylglycerol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>triacylglycerols</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>triglycerides</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:17855</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>triglyceride</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_17929 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_17929">
+        <obo:IAO_0000115>A L-arginine derivative  having two methyl groups both attached to the primary amino moiety of the guanidino group.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C8H18N4O2</chebi:formula>
+        <chebi:inchi>InChI=1S/C8H18N4O2/c1-12(2)8(10)11-5-3-4-6(9)7(13)14/h6H,3-5,9H2,1-2H3,(H2,10,11)(H,13,14)/t6-/m0/s1</chebi:inchi>
+        <chebi:inchikey>YDGMGEXADBMOMJ-LURJTMIESA-N</chebi:inchikey>
+        <chebi:mass>202.25428</chebi:mass>
+        <chebi:monoisotopicmass>202.14298</chebi:monoisotopicmass>
+        <chebi:smiles>CN(C)C(=N)NCCC[C@H](N)C(O)=O</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:12680</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:21908</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:25683</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:41833</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:7432</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>Beilstein:2261521</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>CAS:30315-93-6</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB01686</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C03626</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PDBeChem:DA2</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>(2S)-2-amino-5-(N&apos;,N&apos;-dimethylcarbamimidamido)pentanoic acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>(2S)-2-amino-5-{[(dimethylamino)(imino)methyl]amino}pentanoic acid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>N(5)-(N,N-dimethylcarbamimidoyl)-L-ornithine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>N(5)-[(dimethylamino)(imino)methyl]-L-ornithine</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>ADMA</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>N(5)-((dimethylamino)iminomethyl)-L-ornithine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>N(G),N(G)-dimethylarginine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>N(G)-dimethylarginine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>N(G1),N(G1)-dimethylarginine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>N,N-dimethylarginine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>NG,NG-DIMETHYL-L-ARGININE</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>NG,NG-Dimethyl-L-arginine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>asymmetric dimethylarginine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>guanidino-N,N-dimethylarginine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:17929</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>N(omega),N(omega)-dimethyl-L-arginine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_18059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_18059">
+        <obo:IAO_0000115>&apos;Lipids&apos; is a loosely defined term for substances of biological origin that are soluble in nonpolar solvents. They consist of saponifiable lipids, such as glycerides (fats and oils) and phospholipids, as well as nonsaponifiable lipids, principally steroids.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasAlternativeId>CHEBI:14517</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:25054</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:6486</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>KEGG:C01356</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Lipid</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>lipids</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:18059</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>lipid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
+        <obo:IAO_0000115>Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>molecular entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>entidad molecular</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>entidades moleculares</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>entite moleculaire</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>molecular entities</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>molekulare Entitaet</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:23367</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>molecular entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <obo:IAO_0000115>A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasExactSynonym>chemical entity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>CHEBI:24431</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>chemical entity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27226 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27226">
+        <obo:IAO_0000115>An oxopurine that is the final oxidation product of purine metabolism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C5H4N4O3</chebi:formula>
+        <chebi:mass>168.11042</chebi:mass>
+        <chebi:monoisotopicmass>168.02834</chebi:monoisotopicmass>
+        <oboInOwl:hasDbXref>HMDB:HMDB0000289</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Uric_acid</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>uric acids</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:27226</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>uric acid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27899 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27899">
+        <obo:IAO_0000115>A diamminedichloroplatinum compound in which the two ammine ligands and two chloro ligands are oriented in a cis planar configuration around the central platinum ion. An anticancer drug that interacts with, and forms cross-links between, DNA and proteins, it is used as a neoplasm inhibitor to treat solid tumours, primarily of the testis and ovary. Commonly but incorrectly described as an alkylating agent due to its mechanism of action (but it lacks alkyl groups).</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>Cl2H6N2Pt</chebi:formula>
+        <chebi:formula>H6Cl2N2Pt</chebi:formula>
+        <chebi:inchi>InChI=1S/2ClH.2H3N.Pt/h2*1H;2*1H3;/q;;;;+2/p-2</chebi:inchi>
+        <chebi:inchikey>LXZZYRPGZAFOLE-UHFFFAOYSA-L</chebi:inchikey>
+        <chebi:mass>300.04452</chebi:mass>
+        <chebi:monoisotopicmass>298.95560</chebi:monoisotopicmass>
+        <chebi:smiles>[H][N]([H])([H])[Pt](Cl)(Cl)[N]([H])([H])[H]</chebi:smiles>
+        <oboInOwl:hasAlternativeId>CHEBI:23314</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>CHEBI:3722</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>CAS:15663-27-1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB00515</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Gmelin:2519</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HMDB:HMDB0014656</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C06911</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00275</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MetaCyc:CPD0-1392</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MolBase:25</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:10883661</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:12537968</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:12831510</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:12935404</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:16327988</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:18472761</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:1855275</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23554447</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23604226</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:23651576</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:28494534</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Patent:DE2318020</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Patent:DE2329485</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Reaxys:11324567</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Cisplatin</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>(SP-4-2)-diamminedichloridoplatinum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>(SP-4-2)-diamminedichloroplatinum</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cisplatin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cis-diamminedichloridoplatinum(II)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cis-diamminedichloroplatinum(II)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Briplatin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>CDDP</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Cismaplat</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Lederplatin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Neoplatin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Peyrone&apos;s chloride</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Peyrone&apos;s salt</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Platamine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Platinex</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Platinol</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Randa</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>[PtCl2(NH3)2]</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cis-DDP</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cis-Diamminedichloroplatinum(II)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cis-[PtCl2(NH3)2]</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cis-diamminedichloroplatinum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cis-diammineplatinum(II) dichloride</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cis-dichlorodiammineplatinum(II)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cis-platin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cisplatin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cisplatine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cisplatino</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>cisplatinum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:27899</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>cisplatin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35143">
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasDbXref>COMe:PRX000321</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>hemoglobin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>haemoglobin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>vertebrate haemoglobin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:35143</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>hemoglobin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_35664 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_35664">
+        <obo:IAO_0000115>Any EC 1.1.1.* (oxidoreductase acting on donor CH-OH group, NAD(+) or NADP(+) acceptor) inhibitor that inhibits HMG-CoA reductases. Hydroxymethylglutaryl-CoA reductase inhibitors have been shown to lower directly cholesterol synthesis. The Enzyme Commission designation is EC 1.1.1.34 for the NADPH-dependent enzyme and EC 1.1.1.88 for an NADH-dependent enzyme.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasDbXref>PMID:1464741</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:15531285</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:20467214</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:HMG-CoA_reductase</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>HMG-CoA reductase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>HMG-CoA reductase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hydroxymethylglutaryl-CoA reductase inhibitor</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>hydroxymethylglutaryl-CoA reductase inhibitors</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:35664</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>EC 1.1.1.34/EC 1.1.1.88 (hydroxymethylglutaryl-CoA reductase) inhibitor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47867 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_47867">
+        <obo:IAO_0000115>Anything used in a scientific experiment to indicate the presence of a substance or quality, change in a body, etc.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Indikator</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:47867</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>indicator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_5931 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_5931">
+        <obo:IAO_0000115>An insulin that is produced in the pancreas and involved in regulating the metabolism of carbohydrates (particularly glucose) and fats. Commonly thought of as a protein, it consists of two peptide chains, one containing 21 amino acid residues and the other containing 30; the chains are joined together by 2 disulfide bonds. Recombinant insulin is identical to human insulin, but is synthesised by inserting the human insulin gene into E. coli, which then produces insulin for human use. It is used in the treatment of type I and type II diabetes.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/chebi.owl"/>
+        <chebi:charge>0</chebi:charge>
+        <chebi:formula>C257H383N65O77S6</chebi:formula>
+        <chebi:inchi>InChI=1S/C257H383N65O77S6/c1-29-131(23)205(313-193(339)104-259)252(393)317-204(130(21)22)248(389)288-159(75-82-200(349)350)217(358)282-156(71-78-189(263)335)221(362)308-183-116-403-404-117-184-243(384)305-178(111-324)240(381)294-162(88-123(7)8)225(366)295-168(95-140-53-61-146(329)62-54-140)228(369)283-154(69-76-187(261)333)218(359)290-161(87-122(5)6)223(364)285-158(74-81-199(347)348)220(361)302-174(101-190(264)336)235(376)298-170(97-142-57-65-148(331)66-58-142)231(372)309-182(242(383)304-176(255(396)397)103-192(266)338)115-402-401-114-181(214(355)273-107-194(340)278-153(72-79-197(343)344)216(357)281-151(51-42-84-271-257(267)268)212(353)272-108-195(341)279-166(93-138-46-36-32-37-47-138)227(368)297-167(94-139-48-38-33-39-49-139)230(371)299-171(98-143-59-67-149(332)68-60-143)238(379)320-208(135(27)327)254(395)322-85-43-52-186(322)246(387)286-152(50-40-41-83-258)222(363)321-209(136(28)328)256(398)399)311-250(391)203(129(19)20)316-236(377)164(90-125(11)12)292-229(370)169(96-141-55-63-147(330)64-56-141)296-224(365)160(86-121(3)4)289-210(351)133(25)277-215(356)157(73-80-198(345)346)287-247(388)202(128(17)18)315-237(378)165(91-126(13)14)293-233(374)173(100-145-106-270-120-276-145)301-239(380)177(110-323)280-196(342)109-274-213(354)180(113-400-405-118-185(310-244(183)385)245(386)319-207(134(26)326)253(394)306-179(112-325)241(382)318-206(132(24)30-2)251(392)312-184)307-226(367)163(89-124(9)10)291-232(373)172(99-144-105-269-119-275-144)300-219(360)155(70-77-188(262)334)284-234(375)175(102-191(265)337)303-249(390)201(127(15)16)314-211(352)150(260)92-137-44-34-31-35-45-137/h31-39,44-49,53-68,105-106,119-136,150-186,201-209,323-332H,29-30,40-43,50-52,69-104,107-118,258-260H2,1-28H3,(H2,261,333)(H2,262,334)(H2,263,335)(H2,264,336)(H2,265,337)(H2,266,338)(H,269,275)(H,270,276)(H,272,353)(H,273,355)(H,274,354)(H,277,356)(H,278,340)(H,279,341)(H,280,342)(H,281,357)(H,282,358)(H,283,369)(H,284,375)(H,285,364)(H,286,387)(H,287,388)(H,288,389)(H,289,351)(H,290,359)(H,291,373)(H,292,370)(H,293,374)(H,294,381)(H,295,366)(H,296,365)(H,297,368)(H,298,376)(H,299,371)(H,300,360)(H,301,380)(H,302,361)(H,303,390)(H,304,383)(H,305,384)(H,306,394)(H,307,367)(H,308,362)(H,309,372)(H,310,385)(H,311,391)(H,312,392)(H,313,339)(H,314,352)(H,315,378)(H,316,377)(H,317,393)(H,318,382)(H,319,386)(H,320,379)(H,321,363)(H,343,344)(H,345,346)(H,347,348)(H,349,350)(H,396,397)(H,398,399)(H4,267,268,271)/t131-,132-,133-,134+,135+,136+,150-,151-,152-,153-,154-,155-,156-,157-,158-,159-,160-,161-,162-,163-,164-,165-,166-,167-,168-,169-,170-,171-,172-,173-,174-,175-,176-,177-,178-,179-,180-,181-,182-,183-,184-,185-,186-,201-,202-,203-,204-,205-,206-,207-,208-,209-/m0/s1</chebi:inchi>
+        <chebi:inchikey>PBGKTOXHQIOBKM-FHFVDXKLSA-N</chebi:inchikey>
+        <chebi:mass>5807.630</chebi:mass>
+        <chebi:monoisotopicmass>5803.63765</chebi:monoisotopicmass>
+        <chebi:smiles>CC[C@H](C)[C@H](NC(=O)CN)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCC(O)=O)C(=O)N[C@@H](CCC(N)=O)C(=O)N[C@H]1CSSC[C@@H]2NC(=O)[C@@H](NC(=O)[C@H](CO)NC(=O)[C@@H](NC(=O)[C@H](CSSC[C@H](NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CC3=CNC=N3)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](CC(N)=O)NC(=O)[C@@H](NC(=O)[C@@H](N)CC3=CC=CC=C3)C(C)C)C(=O)NCC(=O)N[C@@H](CO)C(=O)N[C@@H](CC3=CNC=N3)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CCC(O)=O)C(=O)N[C@@H](C)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](CC3=CC=C(O)C=C3)C(=O)N[C@@H](CC(C)C)C(=O)N[C@@H](C(C)C)C(=O)N[C@@H](CSSC[C@H](NC(=O)[C@H](CC3=CC=C(O)C=C3)NC(=O)[C@H](CC(N)=O)NC(=O)[C@H](CCC(O)=O)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CCC(N)=O)NC(=O)[C@H](CC3=CC=C(O)C=C3)NC(=O)[C@H](CC(C)C)NC(=O)[C@H](CO)NC2=O)C(=O)N[C@@H](CC(N)=O)C(O)=O)C(=O)NCC(=O)N[C@@H](CCC(O)=O)C(=O)N[C@@H](CCCNC(N)=N)C(=O)NCC(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H](CC2=CC=CC=C2)C(=O)N[C@@H](CC2=CC=C(O)C=C2)C(=O)N[C@@H]([C@@H](C)O)C(=O)N2CCC[C@H]2C(=O)N[C@@H](CCCCN)C(=O)N[C@@H]([C@@H](C)O)C(O)=O)NC1=O)[C@@H](C)O)[C@@H](C)CC</chebi:smiles>
+        <oboInOwl:hasDbXref>CAS:11061-68-0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DrugBank:DB00030</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:C00723</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:D00085</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22249812</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22617471</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22715632</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:22843207</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:31301295</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:31821343</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:31876563</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:32208558</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:32398693</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:32629793</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:32797824</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>PMID:8019699</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>chebi_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym>Exubera</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Insulin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>Insulin recombinant</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>human insulin</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>insulin (recombinant)</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>insulin human</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>insulina humana</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>insuline humaine</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>insulinum humanum</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>CHEBI:5931</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/chebi#3_STAR"/>
+        <rdfs:label>insulin (human)</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+

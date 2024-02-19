@@ -1,0 +1,640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/orp6jn7p.owl#" xml:base="http://ontofox.hegroup.org/orp6jn7p.owl" xmlns:mondo="http://purl.obolibrary.org/obo/mondo#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:terms="http://purl.org/dc/terms/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/orp6jn7p.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/conformsTo"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#excluded_subClassOf">
+        <rdfs:label>excluded subClassOf</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:id>excluded_subClassOf</oboInOwl:id>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589">
+        <rdfs:label xml:lang="en">OBO foundry unique label</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An alternative name for a class or property which is unique across the OBO Foundry.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBO Foundry &lt;http://obofoundry.org/&gt;</obo:IAO_0000119>
+        <obo:IAO_0000111 xml:lang="en">OBO foundry unique label</obo:IAO_0000111>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bjoern Peters</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Chris Mungall</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000116 xml:lang="en">The intended usage of that property is as follow: OBO foundry unique labels are automatically generated based on regular expressions provided by each ontology, so that SO could specify unique label = 'sequence ' + [label], etc. , MA could specify 'mouse + [label]' etc. Upon importing terms, ontology developers can choose to use the 'OBO foundry unique label' for an imported term or not. The same applies to tools .</obo:IAO_0000116>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrowMatch"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115.</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obofoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
+        <rdfs:label xml:lang="en">term tracker item</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An IRI or similar locator for a request or discussion of an ontology term.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">The 'tracker item' can associate a tracker with a specific ontology term.</rdfs:comment>
+        <obo:IAO_0000111 xml:lang="en">term tracker item</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label xml:lang="en">example of usage</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">example of usage</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#excluded_from_qc_check"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0000473 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000473">
+        <rdfs:label>arterial disorder</rdfs:label>
+        <obo:IAO_0000115>An impairment of the structure or function of the blood vessels which carry blood away from the heart.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>disease or disorder of artery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>artery disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0000473</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>arterial disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SCTID:359557001</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>artery disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>DOID:0050828</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease of artery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS:C0852949</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>arterial disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>NCIT:C35317</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:447.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:447.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>arteriopathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of artery</oboInOwl:hasExactSynonym>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/359557001"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0852949"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_0050828"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35317"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004335">
+        <rdfs:label>digestive system disorder</rdfs:label>
+        <oboInOwl:hasDbXref>MESH:D005767</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>git disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gastrointestinal system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD10CM:K00-K95</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:77</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2990</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:53619000</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>digestive system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gastrointestinal disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of digestive system</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0004335</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>gastrointestinal disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gastrointestinal system disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gastroenterological system disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gastroenteropathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>alimentary system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD9:V47.3</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A disease or disorder that involves the digestive system.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>digestive disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>EFO:0000405</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>gastroenterological system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD9:520-579.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>stomach or intestinal disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of digestive system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>digestive system disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>digestive system disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of digestive system</oboInOwl:hasExactSynonym>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D005767"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/53619000"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/K00-K95"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare_grouping"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_77"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2990"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004975 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004975">
+        <rdfs:label>Alzheimer disease</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/4013</obo:IAO_0000233>
+        <oboInOwl:hasDbXref>ICD9:290.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Alzheimer's dementia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alzheimer disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>presenile and senile dementia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>AD</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A progressive, neurodegenerative disease characterized by loss of function and death of nerve cells in several areas of the brain leading to loss of cognitive function such as memory and language.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NIFSTD:birnlex_2092</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D000544</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0002395</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Alzheimer dementia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SCTID:142811000119104</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HP:0002511</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:10652</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2866</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>Alzheimer disease, familial</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>Alzheimers disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alzheimers dementia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>Orphanet:238616</oboInOwl:hasDbXref>
+        <oboInOwl:id>MONDO:0004975</oboInOwl:id>
+        <oboInOwl:hasDbXref>GARD:0000632</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Alzheimer's disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD10CM:G30</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000249</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:331.0</oboInOwl:hasDbXref>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D000544"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/142811000119104"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0002395"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/G30"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#orphanet_rare"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_10652"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2866"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <mondo:excluded_from_qc_check rdf:resource="http://purl.obolibrary.org/obo/mondo/sparql/qc/general/qc-single-child.sparql"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_238616"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005002">
+        <rdfs:label>chronic obstructive pulmonary disease</rdfs:label>
+        <oboInOwl:id>MONDO:0005002</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>pulmonary disease (COPD), chronic obstructive</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD9:490-496.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease (COPD), chronic obstructive</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>obstructive pulmonary disease (COPD), chronic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SCTID:13645005</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>chronic obstructive pulmonary disease, (COPD)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>DOID:3083</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>chronic obstructive lung disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>MESH:D029424</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A chronic and progressive lung disorder characterized by the loss of elasticity of the bronchial tree and the air sacs, destruction of the air sacs wall, thickening of the bronchial wall, and mucous accumulation in the bronchial tree. The pathologic changes result in the disruption of the air flow in the bronchial airways. Signs and symptoms include shortness of breath, wheezing, productive cough, and chest tightness. The two main types of chronic obstructive pulmonary disease are chronic obstructive bronchitis and emphysema.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>chronic obstructive airways disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>chronic obstructive pulmonary disease (COPD)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>OMIM:606963</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000341</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cold (chronic obstructive lung disease)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>NCIT:C3199</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>COPD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>COPD, chronic obstructive pulmonary disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cold</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>chronic obstructive airway disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD9:496</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>obstructive lung disease, chronic</oboInOwl:hasExactSynonym>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D029424"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/13645005"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_3083"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3199"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <mondo:excluded_from_qc_check rdf:resource="http://purl.obolibrary.org/obo/mondo/sparql/qc/general/qc-single-child.sparql"/>
+        <skos:exactMatch rdf:resource="https://omim.org/entry/606963"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005070">
+        <rdfs:label>neoplasm</rdfs:label>
+        <oboInOwl:hasDbXref>ICD10CM:C00-D49</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD10CM:C7B-C7B</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neoplasm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD9:239.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:55342001</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neoplastic disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD9:239.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neoplastic growth</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of cellular proliferation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>other neoplasm</oboInOwl:hasNarrowSynonym>
+        <obo:IAO_0000589>neoplasm (disease)</obo:IAO_0000589>
+        <obo:IAO_0000115>A benign or malignant tissue growth resulting from uncontrolled cell proliferation. Benign neoplastic cells resemble normal cells without exhibiting significant cytologic atypia, while malignant cells exhibit overt signs such as dysplastic features, atypical mitotic figures, necrosis, nuclear pleomorphism, and anaplasia. Representative examples of benign neoplasms include papillomas, cystadenomas, and lipomas; malignant neoplasms include carcinomas, sarcomas, lymphomas, and leukemias.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>EFO:0000616</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HP:0002664</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neoplasm (disease)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS:CN236628</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neoplasia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>NCIT:C3262</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:14566</oboInOwl:hasDbXref>
+        <oboInOwl:id>MONDO:0005070</oboInOwl:id>
+        <oboInOwl:hasDbXref>MESH:D009369</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:140-239.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C7A-C7A</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ONCOTREE:OTHER</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym>cell process disease</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>tumor disease</oboInOwl:hasExactSynonym>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D009369"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/55342001"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/CN236628"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/C00-D49"/>
+        <skos:narrowMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/C7A-C7A"/>
+        <skos:narrowMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/C7B-C7B"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_14566"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3262"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005311">
+        <rdfs:label>atherosclerosis</rdfs:label>
+        <oboInOwl:hasDbXref>DOID:1936</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C35768</oboInOwl:hasDbXref>
+        <rdfs:comment>Note that NCIT distinguishes between atherosclerotic cardiovascular disease and atherosclerosis - we merge these here</rdfs:comment>
+        <oboInOwl:hasExactSynonym>atherosclerosis of artery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SCTID:441574008</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Build-up of fatty material and calcium deposition in the arterial wall resulting in partial or complete occlusion of the arterial lumen.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>atherosclerosis artery</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>ICD9:440</oboInOwl:hasDbXref>
+        <oboInOwl:id>MONDO:0005311</oboInOwl:id>
+        <oboInOwl:hasDbXref>ICD10CM:I70</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:440.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C35771</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>atherosclerotic cardiovascular disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>EFO:0003914</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D050197</oboInOwl:hasDbXref>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D050197"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/441574008"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/I70"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1936"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35768"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C35771"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005381">
+        <rdfs:label>bone disorder</rdfs:label>
+        <oboInOwl:hasDbXref>MESH:D001847</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease of bone element</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD10CM:M80-M85</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>bone element disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SCTID:76069003</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>bone element disease</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Diseases of bones.</obo:IAO_0000115>
+        <oboInOwl:id>MONDO:0005381</oboInOwl:id>
+        <oboInOwl:hasDbXref>UMLS:CN204768</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0004260</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:731.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>skeletal disease</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>disorder of bone element</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>rare bone disease related to a common gene or pathway defect</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>Orphanet:364803</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:733.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0005940</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:0080001</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease or disorder of bone element</oboInOwl:hasExactSynonym>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D001847"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/76069003"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0005940"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/M80-M85"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#disease_grouping"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#ordo_group_of_disorders"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_0080001"/>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0003900"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005438">
+        <rdfs:label>metastatic malignant neoplasm in the lymph nodes</rdfs:label>
+        <oboInOwl:hasDbXref>NCIT:C4904</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0004906</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>metastasis to lymph node</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Metastases to lymph nodes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS:C0686619</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>metastatic tumor to lymph node</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The spread of a malignant neoplasm to the lymph nodes.</obo:IAO_0000115>
+        <oboInOwl:id>MONDO:0005438</oboInOwl:id>
+        <oboInOwl:hasExactSynonym>metastatic neoplasm to the lymph node</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>metastatic malignant neoplasm to the lymph nodes</oboInOwl:hasExactSynonym>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0686619"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#mondo_rare"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare"/>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004993"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4904"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005542">
+        <rdfs:label>acute coronary syndrome</rdfs:label>
+        <oboInOwl:id>MONDO:0005542</oboInOwl:id>
+        <oboInOwl:hasRelatedSynonym>syndrome, acute coronary</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>coronary syndrome, acute</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>NCIT:C53652</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>acute coronary syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>UMLS:C0948089</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:394659003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D054058</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Signs and symptoms related to acute ischemia of the myocardium secondary to coronary artery disease. The clinical presentation covers a spectrum of heart diseases from unstable angina to myocardial infarction.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>syndromes, acute coronary</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>acute coronary syndromes</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>coronary syndromes, acute</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>EFO:0005672</oboInOwl:hasDbXref>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D054058"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/394659003"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0948089"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C53652"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <mondo:excluded_from_qc_check rdf:resource="http://purl.obolibrary.org/obo/mondo/sparql/qc/general/qc-single-child.sparql"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005559 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005559">
+        <rdfs:label>neurodegenerative disease</rdfs:label>
+        <oboInOwl:hasNarrowSynonym>cerebral degeneration disease</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasDbXref>DOID:1289</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C4802</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>brain degeneration</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neurodegenerative disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005559</oboInOwl:id>
+        <oboInOwl:hasDbXref>ICD9:349.89</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym>degenerative disease</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>EFO:0005772</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>central nervous system neurodegenerative disorder</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A disorder of the central nervous system characterized by gradual and progressive loss of neural tissue and neurologic function.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>degenerative disorder of central nervous system</oboInOwl:hasExactSynonym>
+        <rdfs:comment>Editor notes: DO treats this as two diseases</rdfs:comment>
+        <oboInOwl:hasExactSynonym>central nervous system degenerative disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>MESH:D019636</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:80690008</oboInOwl:hasDbXref>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D019636"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/80690008"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#merged_class"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1289"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C4802"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0007915 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0007915">
+        <rdfs:label>systemic lupus erythematosus</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/4521</obo:IAO_0000233>
+        <oboInOwl:hasExactSynonym>SLE - lupus erythematosus, systemic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>DOID:9074</oboInOwl:hasDbXref>
+        <oboInOwl:id>MONDO:0007915</oboInOwl:id>
+        <oboInOwl:hasDbXref>HP:0002725</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>systemic lupus erythematosus, susceptibility to</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD9:710.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>excess LMW-DNA</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>Orphanet:536</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>excess lymphocyte low molecular weight DNA</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>systemic lupus erythematosus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disseminated lupus erythematosus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>systemic lupus erythematosus susceptibility to</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>An autoimmune multi-organ disease typically associated with vasculopathy and autoantibody production. Most patients have antinuclear antibodies (ANA). The presence of anti-dsDNA or anti-Smith antibodies are highly-specific.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>SCTID:55464009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:152700</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>systemic lupus erythematosus (disease)</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000589>systemic lupus erythematosus (disease)</obo:IAO_0000589>
+        <oboInOwl:hasExactSynonym>lupus erythematosus, systemic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>lupus nephritis, susceptibility to</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>MESH:D008180</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3201</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>SLE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>EFO:0002690</oboInOwl:hasDbXref>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D008180"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/55464009"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#ordo_disease"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#orphanet_rare"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_9074"/>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019724"/>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0019737"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3201"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_536"/>
+        <skos:exactMatch rdf:resource="https://omim.org/entry/152700"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0008383 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0008383">
+        <rdfs:label>rheumatoid arthritis</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/4521</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/6094</obo:IAO_0000233>
+        <oboInOwl:hasDbXref>Orphanet:284130</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:69896004</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>rheumatoid arthritis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>autoimmune arthritis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>OMIM:180300</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>rheumatoid arthritis, susceptibility to</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>rheumatoid arthritis, progression of</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>EFO:0000685</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:714.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>HP:0001370</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0003873</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2884</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>RA</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>DOID:7148</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym>atrophic arthritis</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>arthritis, rheumatoid</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0008383</oboInOwl:id>
+        <obo:IAO_0000115>A chronic, systemic autoimmune disorder characterized by inflammation in the synovial membranes and articular surfaces. It manifests primarily as a symmetric, erosive polyarthritis that spares the axial skeleton and is typically associated with the presence in the serum of rheumatoid factor.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>arthritis or polyarthritis, rheumatic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>MESH:D001172</oboInOwl:hasDbXref>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D001172"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/69896004"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0003873"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#orphanet_rare"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_7148"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2884"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <mondo:excluded_from_qc_check rdf:resource="http://purl.obolibrary.org/obo/mondo/sparql/qc/mondo/qc-omim-subsumption.sparql"/>
+        <skos:exactMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_284130"/>
+        <skos:exactMatch rdf:resource="https://omim.org/entry/180300"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0024644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0024644">
+        <rdfs:label>myocardial ischemia</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>ischemic heart diseases</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>UMLS:C0151744</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>myocardial Ischemias</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>IHD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ischemic disease of myocardium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>EFO:1001375</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>heart diseases, ischemic</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>myocardium ischemic disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>diseases, ischemic heart</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>MONDO:0024644</oboInOwl:id>
+        <oboInOwl:hasDbXref>ICD10CM:I20-I25</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C50625</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>disease, ischemic heart</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115>A disorder of cardiac function caused by insufficient blood flow to the muscle tissue of the heart. The decreased blood flow may be due to narrowing of the coronary arteries (coronary artery disease), to obstruction by a thrombus (coronary thrombosis), or less commonly, to diffuse narrowing of arterioles and other small vessels within the heart. Severe interruption of the blood supply to the myocardial tissue may result in necrosis of cardiac muscle (myocardial infarction).</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>heart disease, ischemic</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>ischemias, myocardial</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>MESH:D017202</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>ischemic heart disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>ischemia, myocardial</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>SCTID:414545008</oboInOwl:hasDbXref>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D017202"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/414545008"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0151744"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/I20-I25"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C50625"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->

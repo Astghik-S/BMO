@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/cury2ea6.owl#" xml:base="http://ontofox.hegroup.org/cury2ea6.owl" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/cury2ea6.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label>editor note</rdfs:label>
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obofoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <oboInOwl:id>editor_note</oboInOwl:id>
+        <oboInOwl:hasDbXref>IAO:0000116</oboInOwl:hasDbXref>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <oboInOwl:shorthand>editor_note</oboInOwl:shorthand>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: 'Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions'  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can't be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don't have definitions of 'meaning' or 'expression' or 'property'. For 'reference' in the intended sense I think we use the term 'denotation'. For 'expression', I think we you mean symbol, or identifier. For 'meaning' it differs for class and property. For class we want documentation that let's the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let's the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The 'intended reader' part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+        <rdfs:label xml:lang="en">has exact synonym</rdfs:label>
+        <obo:IAO_0000233>https://github.com/information-artifact-ontology/ontology-metadata/issues/20</obo:IAO_0000233>
+        <obo:IAO_0000115>An alternative label for a class or property which has the exact same meaning than the preferred name/primary label.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="http://orcid.org/0000-0001-5208-3432"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000004">
+        <rdfs:label xml:lang="en">surgical procedure</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-11-16T20:10:35Z</dc:date>
+        <oboInOwl:hasDbXref>OAE:0000067</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A diagnostic or treatment procedure performed by manual and/or instrumental means, often involving an incision and the removal or replacement of a diseased organ or tissue; of or relating to or involving or used in surgery or requiring or amenable to treatment by surgery.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>NCRO:0000228</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C17173</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ERO:0000378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C15329</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCDO:1000017</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>surgical intervention</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>surgery</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>operation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>surgical operation</oboInOwl:hasExactSynonym>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/maxo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000127">
+        <rdfs:label xml:lang="en">genetic testing</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-20T00:46:22Z</dc:date>
+        <oboInOwl:hasDbXref>NCIT:C15709</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>genetic analysis</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>The process of isolating and testing the DNA of an embryo or a person to detect the presence of genetic alterations or defects that may predispose to the future development of a disease or disorder.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/maxo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0000647">
+        <rdfs:label xml:lang="en">chemotherapy</rdfs:label>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2020-06-02T13:10:41Z</dc:date>
+        <oboInOwl:hasExactSynonym>treatment with a chemotherapeutic agent</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>OGMS:0000113</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>The use of synthetic or naturally-occurring chemicals for the treatment of diseases.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>treatment with a chemotherapeutic drug</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>chemotherapeutic agent treatment</oboInOwl:hasExactSynonym>
+        <rdfs:comment>Although this term is used to describe any therapy involving the use of chemical-based agents, it is particularly used to refer to the use of chemical-based agents to treat cancer. Antineoplastic chemotherapy works by arresting or killing the growth and spread of cancer cells. Chemotherapy may also include agents that enhance immune function or alter hormonal activity.</rdfs:comment>
+        <oboInOwl:hasExactSynonym>treatment with a chemotherapeutic medication</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>chemotherapeutic drug treatment</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>NCIT:C15632</oboInOwl:hasDbXref>
+        <oboInOwl:created_by rdf:resource="http://orcid.org/0000-0001-7941-2961"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/maxo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MAXO_0010203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MAXO_0010203">
+        <rdfs:label>echocardiography</rdfs:label>
+        <oboInOwl:hasExactSynonym>heart sonography</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart ultrasound examination</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart medical ultrasound</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>echo procedure</oboInOwl:hasExactSynonym>
+        <dc:date>2020-01-24T20:39:14Z</dc:date>
+        <obo:IAO_0000115>The use of ultrasound to produce images of structures in the heart.</obo:IAO_0000115>
+        <oboInOwl:created_by>http://orcid.org/0000-0001-7941-2961</oboInOwl:created_by>
+        <oboInOwl:hasExactSynonym>heart ultrasound imaging procedure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart ultrasound procedure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>sonography of heart</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ultrasonography of heart</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart diagnostic sonography</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cardiac echo procedure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>echocardiogram procedure</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/maxo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->

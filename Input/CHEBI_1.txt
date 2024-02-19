@@ -1,0 +1,33 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+CHEBI
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/CHEBI_16113
+http://purl.obolibrary.org/obo/CHEBI_16737
+http://purl.obolibrary.org/obo/CHEBI_17234
+http://purl.obolibrary.org/obo/CHEBI_17855
+http://purl.obolibrary.org/obo/CHEBI_17929
+http://purl.obolibrary.org/obo/CHEBI_18059
+http://purl.obolibrary.org/obo/CHEBI_23367
+http://purl.obolibrary.org/obo/CHEBI_24431
+http://purl.obolibrary.org/obo/CHEBI_27226
+http://purl.obolibrary.org/obo/CHEBI_27899
+http://purl.obolibrary.org/obo/CHEBI_35143
+http://purl.obolibrary.org/obo/CHEBI_35664
+http://purl.obolibrary.org/obo/CHEBI_47867
+http://purl.obolibrary.org/obo/CHEBI_5931
+http://purl.obolibrary.org/obo/CHEBI_59163
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]
