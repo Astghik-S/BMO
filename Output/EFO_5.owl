@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/dut859ko.owl#" xml:base="http://ontofox.hegroup.org/dut859ko.owl" xmlns:mondo="http://purl.obolibrary.org/obo/mondo#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:obo="http://purl.obolibrary.org/obo/" xmlns:efo="http://www.ebi.ac.uk/efo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/dut859ko.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#exactMatch"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+        <obo:IAO_0000115>An alternative label for a given entity such as a commonly used abbreviation or synonym. </obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/gwas_trait"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000384 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000384">
+        <rdfs:label>Crohn's disease</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A gastrointestinal disorder characterized by chronic inflammation involving all layers of the intestinal wall, noncaseating granulomas affecting the intestinal wall and regional lymph nodes, and transmural fibrosis. Crohn disease most commonly involves the terminal ileum; the colon is the second most common site of involvement.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's disease of colon</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Crohn's disease of large bowel</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:8778</oboInOwl:hasDbXref>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000384</oboInOwl:id>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9:555.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D003424</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MONDO:0005011</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCIT:C2965</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Orphanet:206</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID:34000006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SCTID:7620006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS:C0010346</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">granulomatous colitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">paediatric Crohn's disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pediatric Crohn's disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">regional enteritis</oboInOwl:hasExactSynonym>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <oboInOwl:hasExactSynonym>Ileocolitis</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A chronic transmural inflammation that may involve any part of the DIGESTIVE TRACT from MOUTH to ANUS, mostly found in the ILEUM, the CECUM, and the COLON. In Crohn disease, the inflammation, extending through the intestinal wall from the MUCOSA to the serosa, is characteristically asymmetric and segmental. Epithelioid GRANULOMAS may be seen in some patients.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Crohn's associated gastritis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ileitis, Terminal</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CROHN DIS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Gastritis Associated with Crohn Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>NCIt:C2965</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10:K50</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Crohn Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>MeSH:D003424</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10011401</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Ileitis, Regional</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Colitis, Granulomatous</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Crohn's disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Enteritis, Granulomatous</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CROHNS DIS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SNOMEDCT:34000006</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Crohns Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>OMIM:266600</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Enteritis, Regional</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>NCIt:C27837</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Gastritis Associated with Crohn's Disease</oboInOwl:hasExactSynonym>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/mesh/D003424"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/snomedct/7620006"/>
+        <mondo:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0010346"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#orphanet_rare"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_8778"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2965"/>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
