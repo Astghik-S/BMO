@@ -37,8 +37,10 @@
         <owl:imports rdf:resource="http://ontofox.hegroup.org/fth8abo3.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/g3wcygyd.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/hazyb3tz.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/hb5z9rf9.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/ice4a0d2.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/ixg0bk3b.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/jngmowhc.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/kpavhdex.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/kxy0d6y5.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/n0qu5nu3.owl"/>
@@ -291,6 +293,12 @@ your use.</rdfs:comment>
     
 
 
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
     <!-- http://purl.org/dc/elements/1.1/member -->
 
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/member"/>
@@ -354,6 +362,14 @@ your use.</rdfs:comment>
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040">
         <rdfs:label xml:lang="en">isQualifiedBiomarker</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000057 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000057">
+        <rdfs:label xml:lang="en">isCandidateBiomarker</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1949,6 +1965,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_35664">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -1957,6 +1974,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_47867">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasRelatedSynonym>prognostic indicator</oboInOwl:hasRelatedSynonym>
     </rdf:Description>
     
 
@@ -2066,6 +2085,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0050589">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2074,6 +2094,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0050830">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasExactSynonym>peripheral arterial disease</oboInOwl:hasExactSynonym>
     </rdf:Description>
     
 
@@ -2100,6 +2122,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_10591">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_10763"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2117,6 +2140,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_10763">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2125,6 +2149,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_114">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2133,6 +2158,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_11612">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2140,7 +2166,8 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_12858 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_12858">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005559"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2166,7 +2193,8 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_14499 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_14499">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000195"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2175,6 +2203,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_1575">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2183,6 +2212,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_1579">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasExactSynonym>respiratory disease</oboInOwl:hasExactSynonym>
     </rdf:Description>
     
 
@@ -2209,6 +2240,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_178">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1287"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2234,7 +2266,8 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_2841 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_2841">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_850"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2243,6 +2276,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3082">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_850"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2260,6 +2294,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2268,6 +2303,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3393">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2276,6 +2312,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_37">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2284,6 +2321,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3908">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2301,6 +2339,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_409">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasRelatedSynonym>fatty liver disease</oboInOwl:hasRelatedSynonym>
     </rdf:Description>
     
 
@@ -2318,6 +2358,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_5082">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_409"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasRelatedSynonym>liver fibrosis</oboInOwl:hasRelatedSynonym>
     </rdf:Description>
     
 
@@ -2326,6 +2368,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_557">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasExactSynonym>renal disease</oboInOwl:hasExactSynonym>
     </rdf:Description>
     
 
@@ -2334,6 +2378,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_576">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_557"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2342,6 +2387,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_5844">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_114"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasExactSynonym>acute myocardial infarction</oboInOwl:hasExactSynonym>
     </rdf:Description>
     
 
@@ -2350,6 +2397,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_6000">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_114"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2358,6 +2406,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_6713">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2366,6 +2415,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_684">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2374,6 +2424,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_784">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_557"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasExactSynonym>CKD</oboInOwl:hasExactSynonym>
     </rdf:Description>
     
 
@@ -2382,6 +2434,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_850">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2390,6 +2443,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_8893">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_37"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2407,6 +2461,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_9351">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2415,6 +2470,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_9352">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_9351"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasExactSynonym>T2DM</oboInOwl:hasExactSynonym>
     </rdf:Description>
     
 
@@ -2423,6 +2480,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_9970">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2504,6 +2562,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0001919">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_557"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2528,6 +2587,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -2536,6 +2596,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2544,6 +2605,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000109">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -2552,6 +2614,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000300">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2560,6 +2623,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000415">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -2665,6 +2729,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0004335">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2682,6 +2747,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005002">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_850"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2715,6 +2781,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005438">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0009709"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasExactSynonym>lymph node metastasis</oboInOwl:hasExactSynonym>
     </rdf:Description>
     
 
@@ -2723,6 +2791,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005542">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2731,6 +2800,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005559">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2739,6 +2809,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0007915">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2747,6 +2818,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0008383">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2771,6 +2843,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MP_0003674">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_1110122"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2779,6 +2852,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MP_0005331">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2795,6 +2869,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C113609">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_409"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -2851,6 +2926,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16866">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -2899,6 +2975,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C28234">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -2957,6 +3034,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C68771">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasRelatedSynonym>primary endpoint</oboInOwl:hasRelatedSynonym>
     </rdf:Description>
     
 
@@ -3029,6 +3108,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBCS_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3061,6 +3141,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3069,6 +3150,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -3093,6 +3175,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000175">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3149,6 +3232,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0000674">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3182,6 +3266,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0001305">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3271,6 +3356,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000023">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3279,6 +3365,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000045">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -3311,6 +3398,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000093">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3361,6 +3449,7 @@ your use.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0010388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000000"/>
         <obo:IAO_0000115>Exfoliate neoplastic cells circulating in the blood and associated with metastasizing tumors.</obo:IAO_0000115>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <rdfs:isDefinedBy>https://www.ncbi.nlm.nih.gov/mesh/?term=Neoplastic+Cells%2C+Circulating</rdfs:isDefinedBy>
     </owl:Class>
     
@@ -3372,6 +3461,7 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000075"/>
         <obo:IAO_0000115>The study of chance processes or the relative frequency characterizing a chance process.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/68011336</obo:IAO_0000119>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3388,6 +3478,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0013279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_012786"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -3425,6 +3516,7 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0024288">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0014667"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -3435,6 +3527,8 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_16670"/>
         <obo:IAO_0000115>Polypeptides produced by the ADIPOCYTES. They include LEPTIN; ADIPONECTIN; RESISTIN; and many cytokines of the immune system, such as TUMOR NECROSIS FACTOR-ALPHA; INTERLEUKIN-6; and COMPLEMENT FACTOR D (also known as ADIPSIN). They have potent autocrine, paracrine, and endocrine functions.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/68054392</obo:IAO_0000119>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasExactSynonym>adipokine</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -3525,6 +3619,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPMI_0000445">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000030"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasExactSynonym>biological marker</oboInOwl:hasExactSynonym>
     </rdf:Description>
     
 
@@ -3533,6 +3629,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000011">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3557,6 +3654,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000085">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3565,6 +3663,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001241">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3581,6 +3680,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002096">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3738,6 +3838,12 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016506">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5844"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
@@ -3747,6 +3853,12 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016509">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5844"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -3773,6 +3885,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/STATO_0000412">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000027"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3837,6 +3950,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000062">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000467"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3942,6 +4056,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002107">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3950,6 +4065,7 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0002113">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000062"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -3993,6 +4109,7 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
         <obo:IAO_0000115>A biomarker of genomic variation in which blocks of DNA are missing or for which multiple copies exist.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <oboInOwl:hasExactSynonym>CNV biomarker</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">copy number variant biomarker</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/30203254/</rdfs:seeAlso>
@@ -4006,6 +4123,7 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
         <obo:IAO_0000115>A biomarker to discriminate between healthy individuals and those in an early stage of the disease.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <rdfs:label xml:lang="en">screening biomarker</rdfs:label>
     </owl:Class>
     
@@ -4017,6 +4135,7 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
         <obo:IAO_0000115>A biomarker that is essential to the efficacy and safety of a corresponding therapeutic product.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <rdfs:label xml:lang="en">companion endpoint</rdfs:label>
     </owl:Class>
     
@@ -4028,6 +4147,7 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
         <obo:IAO_0000115>A biomarker that reports interaction of the drug with its target</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <rdfs:label xml:lang="en">target biomarker</rdfs:label>
     </owl:Class>
     
@@ -4039,6 +4159,7 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
         <obo:IAO_0000115>A biomarker to monitor efficacy or side effects of a drug treatment.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <rdfs:label xml:lang="en">monitoring biomarker</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/32541893/</rdfs:seeAlso>
     </owl:Class>
@@ -4051,6 +4172,7 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
         <obo:IAO_0000115>A biomarker that distinguishes between different stages of chronic disease.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <rdfs:label xml:lang="en">staging biomarker</rdfs:label>
     </owl:Class>
     
@@ -4062,6 +4184,7 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
         <obo:IAO_0000115>A biomarker that predicts a beneficial effect of a given treatment.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <rdfs:label xml:lang="en">efficacy biomarker</rdfs:label>
     </owl:Class>
     
@@ -4073,6 +4196,7 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
         <obo:IAO_0000115>A biomarker that indicates adverse response to a treatment</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <rdfs:label xml:lang="en">safety biomarker</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/36385904/</rdfs:seeAlso>
     </owl:Class>
@@ -4082,9 +4206,10 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000013 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000013">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000012"/>
         <obo:IAO_0000115>A biomarker that reports to the toxic effect of a drug on an in vitro or in vivo system.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <rdfs:label xml:lang="en">toxicity biomarker</rdfs:label>
     </owl:Class>
     
@@ -4093,9 +4218,9 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
-        <obo:IAO_0000115>An inflammatory biomarker is a measurable indicator in the body that reflects inflammation levels, often associated with various health conditions and diseases. These biomarkers include proteins, cytokines, and other molecules released by the immune system in response to inflammation. They play a crucial role in diagnosing, monitoring, and understanding inflammatory processes within the body.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">ADD Definition inflammatory biomarker</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16866"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <rdfs:label xml:lang="en">ADDDEF COX proportional hazards regression model</rdfs:label>
     </owl:Class>
     
 
@@ -4105,8 +4230,10 @@ your use.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000015">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
         <obo:IAO_0000115>A biomarker that is regarded as a valid substitute for a clinical endpoint. A surrogate endpoint is expected to predict clinical benefit (or harm or lack of benefit or harm)</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3432208/</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <oboInOwl:hasExactSynonym>surrogate endpoint</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>surrogate marker</oboInOwl:hasExactSynonym>
         <rdfs:label xml:lang="en">surrogate biomarker</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/32541893/</rdfs:seeAlso>
     </owl:Class>
@@ -4420,7 +4547,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
-        <rdfs:label xml:lang="en">ADD DEF composite biomarkers</rdfs:label>
+        <rdfs:label xml:lang="en">ADDDEF composite biomarkers</rdfs:label>
     </owl:Class>
     
 
@@ -4502,6 +4629,80 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000051 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000051">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <obo:IAO_0000115>A biomarker that measures epigenetic alterations, such as DNA methylation, histone methylation, histone acetylation, microRNAs, or other non-coding RNA.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22122639/</obo:IAO_0000119>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <rdfs:label xml:lang="en">epigenetic biomarker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000052">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <obo:IAO_0000115>An inflammatory biomarker is a measurable indicator in the body that reflects inflammation levels, often associated with various health conditions and diseases. These biomarkers include proteins, cytokines, and other molecules released by the immune system in response to inflammation. They play a crucial role in diagnosing, monitoring, and understanding inflammatory processes within the body.</obo:IAO_0000115>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasExactSynonym>inflammation biomarker</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inflammation marker</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>inflammatory marker</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">ADDDEF inflammatory biomarker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000053 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000053">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <rdfs:label xml:lang="en">ADDDEF stratification biomarker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000054 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000054">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16866"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <rdfs:label xml:lang="en">ADDDEF prediction model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000055">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <dc:description>The &apos;qualified biomarker TM_BIN&apos; concept enables a compilation of diverse concepts that are related to qualified biomarkers in a specific disease via the Axiome &apos;isQualifiedBiomarkerFor some disease&apos;.  Thus enables the adaptation of the ontology for text mining purposes for qualified biomarker related information retrieval and information extraction within specific disease.</dc:description>
+        <rdfs:label xml:lang="en">qualified biomarker TM_BIN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000056">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="en">candidate biomarker TM_BIN</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://semanticscience.org/resource/SIO_000027 -->
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000027">
@@ -4522,6 +4723,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_000144">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -4554,6 +4756,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_010048">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -4562,6 +4765,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://semanticscience.org/resource/SIO_010052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PATO_0001241"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -4570,6 +4774,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000195">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0014667"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -4578,6 +4783,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000264">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -4585,7 +4791,8 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     <!-- http://www.ebi.ac.uk/efo/EFO_0000384 -->
 
     <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000384">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0050589"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -4602,6 +4809,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0001428">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CTO_0000220"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -4618,6 +4826,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0002721">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
 
@@ -4674,6 +4883,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004134">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -4682,6 +4892,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000023"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -4690,6 +4901,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004297">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -4698,6 +4910,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004325">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -4714,6 +4927,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004342">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -4722,6 +4936,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004352">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -4730,6 +4945,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004471">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <oboInOwl:hasRelatedSynonym>insulin sensitivity</oboInOwl:hasRelatedSynonym>
     </owl:Class>
     
 
@@ -4738,6 +4954,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004501">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -4746,6 +4963,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004517">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -4762,6 +4980,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004745">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -4770,6 +4989,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004952">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
 
@@ -4822,10 +5042,51 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0022597 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0022597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_1001461 -->
 
     <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_1001461">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1287"/>
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPMI_0000450">
+        <oboInOwl:hasExactSynonym>disease marker</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>marker of disease</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPMI_0000455">
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasExactSynonym>predictive marker</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPMI_0000456">
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPMI_0000457">
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasExactSynonym>diagnostic marker</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OPMI_0000464">
+        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasExactSynonym>cancer biomarker</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tumor biomarker</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tumour marker</oboInOwl:hasExactSynonym>
     </rdf:Description>
 </rdf:RDF>
 
