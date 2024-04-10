@@ -1,0 +1,32 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+EFO
+
+[Low level source term URIs]
+http://www.ebi.ac.uk/efo/EFO_0003144
+http://www.ebi.ac.uk/efo/EFO_0004286
+http://www.ebi.ac.uk/efo/EFO_0000319
+http://www.ebi.ac.uk/efo/EFO_0000182
+http://www.ebi.ac.uk/efo/EFO_0002618
+http://www.ebi.ac.uk/efo/EFO_1000627
+http://www.ebi.ac.uk/efo/EFO_0005769
+http://www.ebi.ac.uk/efo/EFO_0003762
+http://www.ebi.ac.uk/efo/EFO_0004255
+http://www.ebi.ac.uk/efo/EFO_0000401
+http://www.ebi.ac.uk/efo/EFO_0000182
+http://www.ebi.ac.uk/efo/EFO_0004197
+http://www.ebi.ac.uk/efo/EFO_0003047
+http://www.ebi.ac.uk/efo/EFO_0001361
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

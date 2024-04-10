@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/hp9dk3h8.owl#"
+     xml:base="http://ontofox.hegroup.org/hp9dk3h8.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/hp9dk3h8.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+        <rdfs:comment>disease_ontology</rdfs:comment>
+        <obo:IAO_0000115>Name space of the ontology.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has exact synonym</rdfs:label>
+        <rdfs:label>has_exact_synonym</rdfs:label>
+        <obo:IAO_0000115>Exact synonym.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+        <obo:IAO_0000115>The official definition.</obo:IAO_0000115>
+        <obo:IAO_0000115>The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+        <obo:IAO_0000115>Reference database or publication source.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label>label</rdfs:label>
+        <rdfs:label xml:lang="en">label</rdfs:label>
+        <obo:IAO_0000115>A human readable name for this class.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+        <obo:IAO_0000115>In subset.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <rdfs:label>id</rdfs:label>
+        <obo:IAO_0000115>An identifier for an individual entity.</obo:IAO_0000115>
+        <obo:IAO_0000115>An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <rdfs:label>comment</rdfs:label>
+        <obo:IAO_0000115>Comment.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060903 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060903">
+        <rdfs:label xml:lang="en">thrombosis</rdfs:label>
+        <oboInOwl:id>DOID:0060903</oboInOwl:id>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115 xml:lang="en">A vascular disease caused by the formation of a blood clot inside a blood vessel, obstructing the flow of blood through the circulatory system.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>MESH:D013927</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2351">
+        <rdfs:label xml:lang="en">iron metabolism disease</rdfs:label>
+        <oboInOwl:id>DOID:2351</oboInOwl:id>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0012715</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasDbXref>MESH:D019189</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:275.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:30913008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:E83.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">disorder of iron metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">iron disorder</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4989">
+        <rdfs:label xml:lang="en">pancreatitis</rdfs:label>
+        <oboInOwl:hasDbXref>ICD10CM:K85.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2023_03_01:393591004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000278</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:167800</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3306</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D010195</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0030305</oboInOwl:hasDbXref>
+        <oboInOwl:id>DOID:4989</oboInOwl:id>
+        <obo:IAO_0000115 xml:lang="en">A pancreas disease that is characterized by inflammation of the pancreas.</obo:IAO_0000115>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

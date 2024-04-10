@@ -30,15 +30,20 @@
         <owl:imports rdf:resource="http://ontofox.hegroup.org/cj7pi5cw.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/cnb02b47.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/cury2ea6.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/cxbfs3hx.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/d3ffhde3.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/dut859ko.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/e8z780zj.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/eg7dshd6.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/fth8abo3.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/g3wcygyd.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/h0vh2pzo.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/hazyb3tz.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/hb5z9rf9.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/hp9dk3h8.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/ice4a0d2.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/iutjjwqu.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/ivkr8xq9.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/ixg0bk3b.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/jngmowhc.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/kpavhdex.owl"/>
@@ -54,6 +59,7 @@
         <owl:imports rdf:resource="http://ontofox.hegroup.org/q02nf4n4.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/r46ho4pd.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/s8k8obrz.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/t23ctuxd.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/ttdxyruj.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/uftgp0qv.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/uiw68d5s.owl"/>
@@ -81,6 +87,7 @@
         <owl:imports rdf:resource="http://ontofox.hegroup.org/3haqtzby.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/3zid7hw0.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/4jxbmo5t.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/4qmp3oyj.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/47yqy8h4.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/5iqzaw07.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/5qsm923c.owl"/>
@@ -355,6 +362,12 @@ your use.</rdfs:comment>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl#isCirculatingBiomarker -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl#isCirculatingBiomarker"/>
     
 
 
@@ -2100,6 +2113,14 @@ your use.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_0060903 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_0060903">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_178"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_10283 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_10283">
@@ -2245,6 +2266,14 @@ your use.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/DOID_2351 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_2351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0014667"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/DOID_2355 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_2355">
@@ -2293,7 +2322,7 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_3388 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3388">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005071"/>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
@@ -2350,6 +2379,14 @@ your use.</rdfs:comment>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_417">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4989 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_4989">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
     </rdf:Description>
     
 
@@ -2725,6 +2762,22 @@ your use.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0001056 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0001056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0001343 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0001343">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_557"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0004335 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0004335">
@@ -2760,6 +2813,22 @@ your use.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005071 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005113 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/MONDO_0005311 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005311">
@@ -2790,7 +2859,7 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/MONDO_0005542 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005542">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1287"/>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
@@ -2827,6 +2896,22 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0024644">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_178"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0043510 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0043510">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0858950 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0858950">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0043510"/>
     </rdf:Description>
     
 
@@ -2984,6 +3069,14 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C28378">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C2902 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C2902">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
     </rdf:Description>
     
 
@@ -3423,8 +3516,20 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0001343">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000264"/>
+        <obo:IAO_0000115>A humanized monoclonal antibody against the ERBB-2 RECEPTOR (HER2). As an ANTINEOPLASTIC AGENT, it is used to treat BREAST CANCER where HER2 is overexpressed.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/2009893</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0003470 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0003470">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>Disorders in the processing of calcium in the body: its absorption, transport, storage, and utilization.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/?term=calcium+metabolism+disorders</obo:IAO_0000119>
+    </rdf:Description>
     
 
 
@@ -3432,6 +3537,19 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0005305">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000002"/>
+        <obo:IAO_0000115>Adjusting the quantity and quality of food intake to improve health status of an individual. This term does not include the methods of food intake (NUTRITIONAL SUPPORT).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/68004035</obo:IAO_0000119>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0007313 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0007313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000045"/>
+        <obo:IAO_0000115>Deviations from the average values for a specific age and sex in any or all of the following: height, weight, skeletal proportions, osseous development, or maturation of features. Included here are both acceleration and retardation of growth.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/?term=growth+disorder</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>growth disorder</oboInOwl:hasExactSynonym>
     </rdf:Description>
     
 
@@ -3440,6 +3558,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0009194">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <obo:IAO_0000115>Blood tests that are used to evaluate how well a patient&apos;s liver is working and also to help diagnose liver conditions.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/?term=liver+function+tests</obo:IAO_0000119>
     </rdf:Description>
     
 
@@ -3470,6 +3590,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0012415">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000004"/>
+        <obo:IAO_0000115>Complete or partial surgical removal of the prostate. Three primary approaches are commonly employed: suprapubic - removal through an incision above the pubis and through the urinary bladder; retropubic - as for suprapubic but without entering the urinary bladder; and transurethral (TRANSURETHRAL RESECTION OF PROSTATE).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/?term=Prostatectomy</obo:IAO_0000119>
     </rdf:Description>
     
 
@@ -3478,6 +3600,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0013279">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GSSO_012786"/>
+        <obo:IAO_0000115>A graphic means for assessing the ability of a screening test to discriminate between healthy and diseased persons; may also be used in other studies, e.g., distinguishing stimuli responses as to a faint stimuli or nonstimuli.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/?term=roc+curve</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
@@ -3516,6 +3640,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0024288">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0014667"/>
+        <obo:IAO_0000115>Abnormalities in the serum levels of LIPIDS, including overproduction or deficiency. Abnormal serum lipid profiles may include high total CHOLESTEROL, high TRIGLYCERIDES, low HIGH DENSITY LIPOPROTEIN CHOLESTEROL, and elevated LOW DENSITY LIPOPROTEIN CHOLESTEROL.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/?term=Dyslipidemias</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
@@ -3547,6 +3673,8 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0028283">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005070"/>
+        <obo:IAO_0000115>The origin, production or development of cancer through genotypic and phenotypic changes which upset the normal balance between cell proliferation and cell death. Carcinogenesis generally requires a constellation of steps, which may occur quickly or over a period of many years.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/68063646</obo:IAO_0000119>
     </rdf:Description>
     
 
@@ -3555,6 +3683,8 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0030323">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <obo:IAO_0000115>The ARG1 gene encodes the enzyme arginase-1, which is a key enzyme in the urea cycle. The urea cycle is a series of biochemical reactions that occur in the liver and are responsible for removing excess nitrogen from the body in the form of urea. Arginase-1 specifically catalyzes the conversion of arginine to ornithine and urea.</obo:IAO_0000115>
+        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3563,6 +3693,8 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0033136">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <obo:IAO_0000115>The KLRB1 gene encodes a protein called Killer cell lectin-like receptor B1, also known as CD161. This gene is located on chromosome 12q24.13 in humans. CD161 is a type II transmembrane glycoprotein that belongs to the C-type lectin superfamily and is primarily expressed on certain subsets of immune cells, particularly natural killer (NK) cells, T cells, and some subsets of innate lymphoid cells (ILCs).</obo:IAO_0000115>
+        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3571,6 +3703,9 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0033342">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <obo:IAO_0000115>The MAF gene, also known as musculoaponeurotic fibrosarcoma oncogene homolog (MAF), is a gene that encodes a transcription factor protein belonging to the basic leucine zipper (bZIP) family. The MAF gene is found on chromosome 16q23.1 in humans.</obo:IAO_0000115>
+        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>musculoaponeurotic fibrosarcoma oncogene homolog</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -3579,6 +3714,8 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0033345">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <obo:IAO_0000115>The MAFG gene is a member of the MAF family of transcription factors and encodes the MAFG protein. This gene is located on chromosome 17q25.3 in humans. MAFG, along with other members of the MAF family, plays important roles in regulating gene expression and various cellular processes.</obo:IAO_0000115>
+        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3587,6 +3724,8 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0036686">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <obo:IAO_0000115>The TPST1 gene encodes the enzyme tyrosylprotein sulfotransferase 1 (TPST1). This gene is located on chromosome 22q13.2 in humans. TPST1 is responsible for the post-translational modification known as tyrosine sulfation, which involves the transfer of a sulfate group from 3&apos;-phosphoadenosine 5&apos;-phosphosulfate (PAPS) to the hydroxyl group of tyrosine residues in target proteins.</obo:IAO_0000115>
+        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3595,6 +3734,8 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0036840">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <obo:IAO_0000115>The AKR1C3 gene encodes the enzyme Aldo-keto reductase family 1 member C3, often abbreviated as AKR1C3. This gene is located on chromosome 10q23.3 and belongs to the aldo-keto reductase (AKR) superfamily.</obo:IAO_0000115>
+        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3603,6 +3744,9 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0043247">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
+        <obo:IAO_0000115>The WWC3 gene encodes the protein WWC family member 3, also known as KIBRA (Kidney and Brain expressed protein). This gene is located on chromosome 2q35 in humans. WWC3/KIBRA is a scaffolding protein involved in various cellular processes, including cell polarity, cell adhesion, and cell signaling.</obo:IAO_0000115>
+        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>KIBRA</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -3840,11 +3984,18 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl#isCirculatingBiomarker"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005542"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5844"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+        <oboInOwl:hasExactSynonym>troponin I</oboInOwl:hasExactSynonym>
     </owl:Class>
     
 
@@ -3869,6 +4020,14 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SCDO_1000433 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SCDO_1000433">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    </rdf:Description>
     
 
 
@@ -3911,6 +4070,14 @@ your use.</rdfs:comment>
         <owl:annotatedTarget>The probability that people with a positive screening test result do indeed have the condition of interest, taking into account the prevalence of the disease or condition.</owl:annotatedTarget>
         <rdfs:isDefinedBy>https://pubmed.ncbi.nlm.nih.gov/32541893/</rdfs:isDefinedBy>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SYMP_0000061 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SYMP_0000061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000462"/>
+    </rdf:Description>
     
 
 
@@ -4219,8 +4386,10 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16866"/>
+        <obo:IAO_0000115>The Cox proportional hazards regression model, often referred to as Cox regression or just proportional hazards model, is a statistical technique used to analyze the relationship between the survival time of subjects and predictor variables. It&apos;s commonly employed in survival analysis, a branch of statistics that deals with time-to-event data, such as time until death or time until recurrence of a disease.</obo:IAO_0000115>
+        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">ADDDEF COX proportional hazards regression model</rdfs:label>
+        <rdfs:label xml:lang="en">COX proportional hazards regression model</rdfs:label>
     </owl:Class>
     
 
@@ -4547,7 +4716,11 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
-        <rdfs:label xml:lang="en">ADDDEF composite biomarkers</rdfs:label>
+        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>multimarker panel</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>multimarker signature</oboInOwl:hasExactSynonym>
+        <rdfs:comment>Composite biomarkers, also known as multimarker panels or signatures, are combinations of multiple individual biomarkers that are used collectively to assess biological processes, disease states, or responses to treatments. These biomarkers can be diverse, including genetic, molecular, cellular, or clinical markers.</rdfs:comment>
+        <rdfs:label xml:lang="en">composite biomarkers</rdfs:label>
     </owl:Class>
     
 
@@ -4619,7 +4792,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000050 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000050">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000006933"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115>Human epidermal growth factor receptor 2 (HER2) is a member of the epidermal growth factor receptor family having tyrosine kinase activity.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/25276427/</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
@@ -4645,12 +4818,13 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
-        <obo:IAO_0000115>An inflammatory biomarker is a measurable indicator in the body that reflects inflammation levels, often associated with various health conditions and diseases. These biomarkers include proteins, cytokines, and other molecules released by the immune system in response to inflammation. They play a crucial role in diagnosing, monitoring, and understanding inflammatory processes within the body.</obo:IAO_0000115>
+        <obo:IAO_0000115>Inflammatory biomarkers are molecules or substances that are indicative of inflammation occurring in the body. Inflammation is a natural response by the immune system to infection, injury, or other harmful stimuli, and it plays a crucial role in the body&apos;s defense mechanisms. However, chronic or excessive inflammation can contribute to the development and progression of various diseases, including autoimmune disorders, cardiovascular diseases, cancer, and neurodegenerative conditions.</obo:IAO_0000115>
+        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <oboInOwl:hasExactSynonym>inflammation biomarker</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>inflammation marker</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>inflammatory marker</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">ADDDEF inflammatory biomarker</rdfs:label>
+        <rdfs:label xml:lang="en">inflammatory biomarker</rdfs:label>
     </owl:Class>
     
 
@@ -4659,7 +4833,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
-        <rdfs:label xml:lang="en">ADDDEF stratification biomarker</rdfs:label>
+        <obo:IAO_0000115>A stratification biomarker is a biological characteristic or measurement used to categorize individuals into different subgroups based on their likelihood of responding to a particular treatment or exhibiting certain disease characteristics. These biomarkers are especially valuable in the context of personalized or precision medicine, where treatments can be tailored to individual patients based on their unique characteristics.</obo:IAO_0000115>
+        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
+        <rdfs:label xml:lang="en">stratification biomarker</rdfs:label>
     </owl:Class>
     
 
@@ -4668,8 +4844,10 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16866"/>
+        <obo:IAO_0000115>A prediction model, also known as a predictive model or forecasting model, is a statistical or computational tool used to make predictions or forecasts about future events or outcomes based on historical data and patterns. Prediction models are widely used across various fields, including finance, healthcare, marketing, weather forecasting, and sports analytics, among others. These models leverage patterns and relationships within the data to make predictions about future behavior or events.</obo:IAO_0000115>
+        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">ADDDEF prediction model</rdfs:label>
+        <rdfs:label xml:lang="en">prediction model</rdfs:label>
     </owl:Class>
     
 
@@ -4788,6 +4966,14 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000319 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000319">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_1287"/>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0000384 -->
 
     <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000384">
@@ -4797,11 +4983,27 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000401 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0000401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_557"/>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0000714 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000714">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001361 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0001361">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_10763"/>
+    </rdf:Description>
     
 
 
@@ -4822,6 +5024,14 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0002618 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0002618">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0002721 -->
 
     <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0002721">
@@ -4839,6 +5049,22 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003047 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0003047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_409"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003144 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0003144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_114"/>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0003271 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003271">
@@ -4852,6 +5078,14 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003276">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003762 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0003762">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    </rdf:Description>
     
 
 
@@ -4888,12 +5122,36 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004197 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_409"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004255 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004255">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_557"/>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0004285 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004285">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000023"/>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004286 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004286">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_178"/>
+    </rdf:Description>
     
 
 
@@ -5002,6 +5260,14 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005769 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0005769">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_0014667"/>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0006335 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0006335">
@@ -5050,6 +5316,14 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_1000627 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_1000627">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_1001461 -->
 
     <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_1001461">
@@ -5092,5 +5366,5 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
 
 
-<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
 

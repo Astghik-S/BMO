@@ -1,0 +1,841 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/iutjjwqu.owl#"
+     xml:base="http://ontofox.hegroup.org/iutjjwqu.owl"
+     xmlns:efo="http://www.ebi.ac.uk/efo/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/iutjjwqu.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000233 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#closeMatch"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#exactMatch"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#excluded_subClassOf -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#excluded_subClassOf"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#narrowMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#narrowMatch"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/conformsTo -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/conformsTo"/>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/definition_citation -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition_citation">
+        <obo:IAO_0000115>A definition citation is a document, ontology class, person or organization from which the definition of the class is derived. It is used in the same sense as a citation in literature, in that the definition may have been derived from these sources or that this definition is related to these source.</obo:IAO_0000115>
+        <rdfs:label>definition_citation</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/gwas_trait -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/gwas_trait"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>An alternative label for a given entity such as a commonly used abbreviation or synonym. </obo:IAO_0000115>
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000319 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000319">
+        <obo:IAO_0000115>A body system disease which occurs in the blood, heart, blood vessels or the lymphatic system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells or lymph to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis.</obo:IAO_0000115>
+        <obo:IAO_0000115>A non-neoplastic or neoplastic disorder affecting the heart or the vessels (arteries, veins and lymph vessels).  Representative examples of non-neoplastic cardiovascular disorders are endocarditis and hypertension.  Representative examples of neoplastic cardiovascular disorders are endocardial myxoma and angiosarcoma. -- 2003</obo:IAO_0000115>
+        <obo:IAO_0000115>A non-neoplastic or neoplastic disorder affecting the heart or the vessels (arteries, veins and lymph vessels). Representative examples of non-neoplastic cardiovascular disorders are endocarditis and hypertension. Representative examples of neoplastic cardiovascular disorders are endocardial myxoma and angiosarcoma.</obo:IAO_0000115>
+        <obo:IAO_0000115>Pathological conditions involving the CARDIOVASCULAR SYSTEM including the HEART; the BLOOD VESSELS; or the PERICARDIUM.</obo:IAO_0000115>
+        <obo:IAO_0000115>A disease involving the cardiovascular system.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/mesh/D002318"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/snomedct/49601007"/>
+        <mondo:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0007222"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1287"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2931"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>DOID:1287</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10:I98</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10:I99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:390-459.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:420-429.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:423</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:423.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:424</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:429</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:429.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:429.7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:429.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:429.81</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:429.89</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:459.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D002318</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10007648</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C2931</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:105980002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:49601007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:459.89</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002318</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:0004995</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C2931</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:49601007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0007222</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>ASCVD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CARDIOVASC DIS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CIRCULATORY DISEASE NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CVD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CVD, NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>CVS disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cardiovascular Disease (CVD)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cardiovascular Diseases</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cardiovascular Disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cardiovascular Disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cardiovascular disease, NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cardiovascular disease, unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cardiovascular disorder, NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cardiovascular system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Certain sequelae of myocardial infarction, not elsewhere classified</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Circulatory system disease NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Circulatory system disease NOS (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DISEASES OF THE CIRCULATORY SYSTEM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Disease affecting entire cardiovascular system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Disease affecting entire cardiovascular system (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Disease of cardiovascular system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Disease of cardiovascular system (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Disease of cardiovascular system, NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Disease, Cardiovascular</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diseases, Cardiovascular</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Disorder of cardiovascular system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Disorder of cardiovascular system (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Disorder of circulatory system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Disorder of circulatory system, NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Disorder of the circulatory system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>ILL-DEFINED HRT DIS NEC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ill-defined descriptions and complications of heart disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>OTHER SEQUELAE OF MI NEC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other diseases of endocardium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other diseases of endocardium (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other diseases of pericardium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other diseases of pericardium (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other disorders of papillary muscle</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other forms of heart disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other forms of heart disease (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other heart disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other heart disease (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other heart disease NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other heart disease NOS (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other ill-defined heart disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other ill-defined heart disease (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other ill-defined heart disease NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other ill-defined heart disease NOS (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other ill-defined heart diseases</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other pericardial disease NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other pericardial disease NOS (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other sequelae of myocardial infarction, not elsewhere classified</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other specified diseases of pericardium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other specified pericardial disease NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Other specified pericardial disease NOS (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PAPILLARY MUSCLE DIS NEC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PERICARDIAL DISEASE NEC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Unspecified circulatory system disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>[X]Cardiovascular disease, unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>[X]Cardiovascular disease, unspecified (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>[X]Other forms of heart disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>[X]Other forms of heart disease (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>[X]Other ill-defined heart diseases</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>[X]Other ill-defined heart diseases (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>[X]Other specified diseases of pericardium</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>[X]Other specified diseases of pericardium (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>circulatory system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of subdivision of hemolymphoid system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cardiovascular disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cardiovascular disease (CVD)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cardiovascular disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cardiovascular system disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cardiovascular system disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of cardiovascular system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of cardiovascular system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of cardiovascular system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>circulatory system disease</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>EFO:0000319</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare_grouping"/>
+        <rdfs:label>cardiovascular disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0000401 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0000401">
+        <obo:IAO_0000115>Diabetic nephropathy (sometimes called Kimmelstiel-Wilson syndrome) is a progressive kidney disorder caused by vascular damage to the glomerular capillaries, in patients with diabetes mellitus. It is usually manifested with nephritic syndrome and glomerulosclerosis.</obo:IAO_0000115>
+        <obo:IAO_0000115>Progressive kidney disorder caused by vascular damage to the glomerular capillaries, in patients with diabetes mellitus. It is usually manifested with nephritic syndrome and glomerulosclerosis.</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/mesh/D003928"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/snomedct/127013003"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C84417"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>ICD9:250.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D003928</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10061835</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C84417</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:612624</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:612628</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:612634</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:127013003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:197605007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:311366001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:38542009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:54181000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:707221002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:11503</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0004996</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0004997</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:250.40</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:583.81</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D003928</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:0005016</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C84417</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:127013003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:50620007</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>DKD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DMII RENAL UNCNTRLD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DMII RENL NT ST UNCNTRLD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diabetes with renal manifestations</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diabetes with renal manifestations (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diabetes-nephrosis syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diabetes-nephrosis syndrome (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diabetic Glomerulosclerosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diabetic Kidney Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diabetic Kidney Diseases</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diabetic Nephropathies</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diabetic renal disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Diabetic renal disease (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Glomerulosclerosis, Diabetic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Glomerulosclerosis, Nodular</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Intracapillary Glomerulosclerosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Kidney Disease, Diabetic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Kidney Diseases, Diabetic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Kimmelstiel - Wilson disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Kimmelstiel Wilson Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Kimmelstiel Wilson Syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Kimmelstiel-Wilson Disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Kimmelstiel-Wilson Syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Nephropathies, Diabetic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Nephropathy, Diabetic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Nephrotic syndrome due to diabetes mellitus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Nephrotic syndrome in diabetes mellitus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Nephrotic syndrome in diabetes mellitus (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Nodular Glomerulosclerosis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Renal disorder associated with diabetes mellitus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Syndrome, Kimmelstiel-Wilson</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>diabetic kidney disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>diabetic nephropathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>type 1 diabetes nephropathy</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>type 2 diabetes nephropathy</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:id>EFO:0000401</oboInOwl:id>
+        <rdfs:label>diabetic nephropathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0001361 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0001361">
+        <obo:IAO_0000115>A syndrome with pathological changes in the pulmonary arteries and impaired PULMONARY CIRCULATION that can be the result of PULMONARY HYPERTENSION. Ayerza syndrome is characterized by slowly developing ASTHMA; BRONCHITIS; DYSPNEA; and CYANOSIS in association with POLYCYTHEMIA.</obo:IAO_0000115>
+        <obo:IAO_0000115>Increased VASCULAR RESISTANCE in the PULMONARY CIRCULATION, usually secondary to HEART DISEASES or LUNG DISEASES.</obo:IAO_0000115>
+        <obo:IAO_0000115>Pulmonary arterial hypertension (PAH) is a group of diseases characterized by mean pulmonary artery pressure &gt;20 mmHg and elevated pulmonary arterial resistance leading to right heart failure. PAH is progressive and potentially fatal. PAH may be idiopathic and/ or familial, have overt features of venous/capillary involvement (pulmonary veno-occlusive disease, PVOD/pulmonary capillary hemangiomatosis, PCH), induced by drug or toxin (drug-or toxin-induced PAH), or associated with other diseases like congenital heart disease, connective tissue disease, HIV, schistosomiasis, portal hypertension (PAH associated with other disease).</obo:IAO_0000115>
+        <obo:IAO_0000117>James Malone</obo:IAO_0000117>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/5537</obo:IAO_0000233>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/5781</obo:IAO_0000233>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <mondo:closeMatch rdf:resource="http://identifiers.org/meddra/10064911"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/mesh/D000081029"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/snomedct/11399002"/>
+        <mondo:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C2973725"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/Orphanet_182090"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>DOID:6432</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D006976</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10064911</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C3120</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:615371</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:70995007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GARD:7501</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D000081029</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:0015924</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NORD:1634</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Orphanet:182090</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:11399002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C2973725</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Ayerza Arrilaga Syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ayerza Syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ayerza&apos;s Syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ayerza-Arrilaga Syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Ayerzas Syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HYPERTENSION PULM</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hypertension, Pulmonary</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PAH</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PHT - Pulmonary hypertension</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PPH1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>PULM HYPERTENSION</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Pulmonary hypertension, NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Syndrome, Ayerza</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Syndrome, Ayerza-Arrilaga</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary hypertension</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary hypertension (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary hypertension, primary, 1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pulmonary arterial hypertension</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>PAH with overt features of venous/capillaries involvement</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasNarrowSynonym>PVOD/PCH</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym>PPH</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>idiopathic pulmonary hypertension</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>EFO:0001361</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#disease_grouping"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#gard_rare"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#nord_rare"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#ordo_group_of_disorders"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#orphanet_rare"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare"/>
+        <rdfs:label>pulmonary arterial hypertension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0002618 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0002618">
+        <obo:IAO_0000115>A carcinoma that arises from epithelial cells of the exocrine pancreas</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/snomedct/372142002"/>
+        <mondo:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0235974"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_4905"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3850"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/carcinoma.yaml"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasBroadSynonym>cancer of pancreas</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>cancer of the pancreas</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>exocrine cancer</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>pancreas cancer</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasBroadSynonym>pancreatic cancer</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>DOID:4905</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0002618</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:260350</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:372142002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0235974</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:0005192</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3850</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>carcinoma of exocrine pancreas</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>carcinoma of pancreas</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>carcinoma of the pancreas</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>exocrine pancreas carcinoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>exocrine pancreatic carcinoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pancreas carcinoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pancreatic cancer (not islets)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>pancreatic carcinoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>pancreatic carcinoma, familial</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>EFO:0002618</oboInOwl:id>
+        <rdfs:label>pancreatic carcinoma</rdfs:label>
+        <skos:closeMatch rdf:resource="http://identifiers.org/mesh/C562463"/>
+        <skos:closeMatch rdf:resource="http://identifiers.org/snomedct/154475002"/>
+        <skos:closeMatch rdf:resource="http://identifiers.org/snomedct/255089009"/>
+        <skos:closeMatch rdf:resource="http://identifiers.org/snomedct/93938001"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/372142002"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0235974"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_4905"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3850"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003047 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003047">
+        <obo:IAO_0000115>A Hepacivirus infectious disease and is_a viral hepatitis that results_in inflammation located_in liver, has_agent Hepatitis C virus, which is transmitted_by blood from an infected person enters the body of an uninfected person. The infection has_symptom fever, has_symptom fatigue, has_symptom loss of appetite, has_symptom nausea, has_symptom vomiting, has_symptom abdominal pain, has_symptom clay-colored bowel movements, has_symptom joint pain, and has_symptom jaundice.</obo:IAO_0000115>
+        <obo:IAO_0000115>A Hepacivirus infectious disease which is a chronic bloodborne infectious disease caused by Hepatitis C virus. The symptoms include fever, fatigue, loss of appetite, nausea, vomiting, abdominal pain, clay-colored bowel movements, joint pain and jaundice.</obo:IAO_0000115>
+        <obo:IAO_0000115>A viral hepatitis and is_a Hepacivirus infectious disease, that results_in inflammation located_in liver, has_agent Hepatitis C virus, which is transmitted_by blood from an infected person enters the body of an uninfected person. The infection has_symptom fever, has_symptom fatigue, has_symptom loss of appetite, has_symptom nausea, has_symptom vomiting, has_symptom abdominal pain, has_symptom clay-colored bowel movements, has_symptom joint pain, and has_symptom jaundice.</obo:IAO_0000115>
+        <obo:IAO_0000115>A viral infection caused by the hepatitis C virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/mesh/D006526"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/snomedct/128302006"/>
+        <mondo:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0019196"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1883"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3098"/>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005093"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>ICD9:070.41</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C3098</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:50711007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:1883</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:070.54</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:070.7</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006526</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:0005231</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3098</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:128302006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0019196</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>HCV infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hepatitis C (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hepatitis non-A non-B (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>NANBH</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Viral hepatitis C</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Viral hepatitis C (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>acute hepatitis C with hepatic coma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hepatitis C</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hepatitis nonA nonB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hepatitis C virus caused hepatitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hepatitis C virus hepatitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hepatitis C infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hepatitis C virus infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hepatitis Nona nonB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hepatitis type C</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>non-A, non-B Hepatitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral hepatitis C</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>chronic hepatitis C</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:id>EFO:0003047</oboInOwl:id>
+        <rdfs:label>hepatitis C virus infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003144 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003144">
+        <obo:IAO_0000115>Inability of the heart to pump blood at an adequate rate to meet tissue metabolic requirements. Clinical symptoms of heart failure include: unusual dyspnea on light exertion, recurrent dyspnea occurring in the supine position, fluid retention or rales, jugular venous distension, pulmonary edema on physical exam, or pulmonary edema on chest x-ray presumed to be cardiac dysfunction.</obo:IAO_0000115>
+        <obo:IAO_0000117>Catherine Leroy</obo:IAO_0000117>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/mesh/D006333"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/snomedct/84114007"/>
+        <mondo:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0018801"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C50577"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>ICD10:I50</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:428</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D006333</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10007554</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10007564</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10019279</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10019284</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10019285</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C50577</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:84114007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:428.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006333</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:0005252</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C50577</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:84114007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0018801</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Heart failure (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Heart failure NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Heart failure NOS (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Heart failure, unspecified</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Heart: [weak] or [failure NOS]</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Weak heart</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cardiac dysfunction</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cardiac failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cardiac insufficiency</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>failure, heart</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>heart failure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>insufficiency, Cardiac</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>EFO:0003144</oboInOwl:id>
+        <rdfs:label>heart failure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003762 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0003762">
+        <obo:IAO_0000115>A nutritional condition produced by a deficiency of VITAMIN D in the diet, insufficient production of vitamin D in the skin, inadequate absorption of vitamin D from the diet, or abnormal conversion of vitamin D to its bioactive metabolites. It is manifested clinically as RICKETS in children and OSTEOMALACIA in adults. (From Cecil Textbook of Medicine, 19th ed, p1406)</obo:IAO_0000115>
+        <obo:IAO_0000117>Tomasz Adamusiak</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>ICD10:E55</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:268</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D014808</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10047626</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C114830</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:34713006</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Avitaminosis D</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Avitaminosis D, NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>DEFIC VITAMIN D</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Deficiencies, Vitamin D</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Deficiency, Vitamin D</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>VITAMIN D DEFIC</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Vitamin D Deficiencies</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Vitamin D deficiency (disorder)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Vitamin D deficiency, NOS</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Vitamin D insufficiency</oboInOwl:hasExactSynonym>
+        <rdfs:label>vitamin D deficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004197 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004197">
+        <obo:IAO_0000115>INFLAMMATION of the LIVER in humans caused by a member of the ORTHOHEPADNAVIRUS genus, HEPATITIS B VIRUS. It is primarily transmitted by parenteral exposure, such as transfusion of contaminated blood or blood products, but can also be transmitted via sexual or intimate personal contact.</obo:IAO_0000115>
+        <obo:IAO_0000115>A viral infection caused by the hepatitis B virus.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/mesh/D006509"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/snomedct/66071002"/>
+        <mondo:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0019163"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_2043"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C3097"/>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005093"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>ICD10:B16</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D019694</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C3097</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:2043</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:070.30</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006509</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:0005344</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C3097</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:66071002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0019163</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>HBV infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hepatitis B, chronic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral hepatitis B</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hepatitis B</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hepatitis B infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hepatitis B virus caused hepatitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hepatitis B virus hepatitis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hepatitis B infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hepatitis B virus infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>hepatitis type B</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>viral Hepatitis B</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>chronic hepatitis B</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasRelatedSynonym>serum hepatitis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>EFO:0004197</oboInOwl:id>
+        <rdfs:label>hepatitis B virus infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004255 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004255">
+        <obo:IAO_0000115>A condition characterized by severe PROTEINURIA, greater than 3.5 g/day in an average adult. The substantial loss of protein in the urine results in complications such as HYPOPROTEINEMIA; generalized EDEMA; HYPERTENSION; and HYPERLIPIDEMIAS. Diseases associated with nephrotic syndrome generally cause chronic kidney dysfunction.</obo:IAO_0000115>
+        <obo:IAO_0000115>A collection of symptoms that include severe edema, proteinuria, and hypoalbuminemia; it is indicative of renal dysfunction.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/mesh/D009404"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/snomedct/52254009"/>
+        <mondo:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0027726"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_1184"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C34845"/>
+        <mondo:narrowMatch rdf:resource="http://purl.obolibrary.org/obo/Orphanet_564127"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>ICD10:N04</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:581</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D009404</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10029164</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C34845</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:615861</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:617783</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:618176</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:618177</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:618178</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:618594</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:52254009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:1184</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:581.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D009404</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:0005377</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C34845</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Orphanet:564127</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:52254009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0027726</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>nephrotic syndrome (acquired)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nephrotic syndrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nephrotic syndromes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>syndrome, nephrotic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>syndromes, nephrotic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>nephrosis</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>EFO:0004255</oboInOwl:id>
+        <rdfs:label>nephrotic syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004286 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004286">
+        <obo:IAO_0000115>Obstruction of a vein or VEINS (embolism) by a blood clot ( THROMBUS) in the blood stream.</obo:IAO_0000115>
+        <obo:IAO_0000115>Occlusion of the lumen of a vein by a thrombus that has migrated from a distal site via the blood stream.</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/mesh/D054556"/>
+        <mondo:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C1861172"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C99537"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>ICD10:I74</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10:I82</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D054556</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10066899</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIt:C99537</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D054556</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:0005399</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C99537</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C1861172</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>VTE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>venous thromboembolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>EFO:0004286</oboInOwl:id>
+        <rdfs:label>venous thromboembolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005769 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005769">
+        <obo:IAO_0000115>Disorders of calcium metabolism occur when the body has too little or too much calcium. The serum level of calcium is closely regulated within a fairly limited range in the human body. In a healthy physiology, extracellular calcium levels are maintained within a tight range through the actions of parathyroid hormone, vitamin D and the calcium sensing receptor.[1] Disorders in calcium metabolism can lead to hypocalcemia, decreased plasma levels of calcium or hypercalcemia, elevated plasma calcium levels.</obo:IAO_0000115>
+        <obo:IAO_0000115>Disorders in the processing of calcium in the body: its absorption, transport, storage, and utilization.</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/mesh/D002128"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/snomedct/71638002"/>
+        <mondo:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0006705"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_10575"/>
+        <efo:definition_citation>http://en.wikipedia.org/wiki/Disorders_of_calcium_metabolism</efo:definition_citation>
+        <efo:definition_citation>DOID:10575</efo:definition_citation>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>ICD9CM:275.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:275.40</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MeSH:D002128</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:190863003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:190874007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:267442002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT:71638002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0006705</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:10575</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:275.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:275.40</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:275.49</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002128</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:0005557</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:71638002</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Calcium Metabolism Disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>calcium metabolic disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>calcium metabolism disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>calcium metabolism disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>calcium metabolic disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of calcium metabolism</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>calcium metabolism disease</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasRelatedSynonym>calcium metabolism disorder</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>EFO:0005769</oboInOwl:id>
+        <rdfs:comment>Consider relocating this as a sibling of metabolic disease. </rdfs:comment>
+        <rdfs:comment>Defined in terms of GO calcium ion homeostatis. Also consistent with HPO. Note advice from GO as calcium ions are neither created or destroyed is not metabolic process in terms of go, but name retained for purposes of consistency with e.g. Snomed and Mesh</rdfs:comment>
+        <rdfs:comment>Defined in terms of GO calcium ion homeostatis. Also consistent with HPO. Note advice from GO as calcium ions are neither created or destroyed is not metabolic process in terms of go, but name retained for purposes of consistency with e.g. Snomed and Mesh, Consider relocating this as a sibling of metabolic disease.</rdfs:comment>
+        <rdfs:label>calcium metabolic disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_1000627 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_1000627">
+        <obo:IAO_0000115>A thyroid disease is a medical condition impairing the function of the thyroid. Different thyroid diseases include Hashimoto&apos;s thyroiditis, hyperthyroidism and hypothyroidism. These diseases have a large range of symptoms and affect all ages.</obo:IAO_0000115>
+        <obo:IAO_0000115>A disease involving the thyroid gland.</obo:IAO_0000115>
+        <obo:IAO_0000117>Sirarat Sarntivijai</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/mesh/D013959"/>
+        <mondo:exactMatch rdf:resource="http://identifiers.org/snomedct/14304000"/>
+        <mondo:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C4317107"/>
+        <mondo:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/E00-E07"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_50"/>
+        <mondo:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26893"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>ICD10:E06</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10:E07</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10043778</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MedDRA:10043785</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>Wikipedia:Thyroid_disease</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:50</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:E00-E07</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:240-246.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:246.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:246.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D013959</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MONDO:0003240</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCIT:C26893</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:14304000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C4317107</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Thyroiditis</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of thyroid gland</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of thyroid gland</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disorder of thyroid gland</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>thyroid disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>thyroid gland disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>thyroid gland disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>thyroid gland diseases</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>thyroid gland disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>thyroid gland disorders</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>EFO:1000627</oboInOwl:id>
+        <rdfs:label>thyroid disease</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+

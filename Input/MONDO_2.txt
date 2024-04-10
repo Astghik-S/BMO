@@ -1,0 +1,25 @@
+[URI of the OWL(RDF/XML) output file]
+
+
+[Source ontology]
+MONDO
+
+[Low level source term URIs]
+http://purl.obolibrary.org/obo/MONDO_0005113
+http://purl.obolibrary.org/obo/MONDO_0001056
+http://purl.obolibrary.org/obo/MONDO_0005071
+http://purl.obolibrary.org/obo/MONDO_0043510
+http://purl.obolibrary.org/obo/MONDO_0858950
+http://purl.obolibrary.org/obo/MONDO_0001343
+http://purl.obolibrary.org/obo/MONDO_0005381
+
+[Top level source term URIs and target direct superclass URIs]
+
+
+[Source term retrieval setting]
+includeNoIntermediates
+
+[Source annotation URIs]
+includeAllAnnotationProperties
+
+[Source annotation URIs to be excluded]

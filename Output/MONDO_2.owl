@@ -1,0 +1,397 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/cxbfs3hx.owl#"
+     xml:base="http://ontofox.hegroup.org/cxbfs3hx.owl"
+     xmlns:mondo="http://purl.obolibrary.org/obo/mondo#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/cxbfs3hx.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/conformsTo"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label xml:lang="en">term editor</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">20110707, MC: label update to term editor and definition modified accordingly. See https://github.com/information-artifact-ontology/IAO/issues/115.</obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Name of editor entering the term in the file. The term editor is a point of contact for information regarding the term. The term editor may be, but is not always, the author of the definition, which may have been worked upon by several people</obo:IAO_0000115>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">term editor</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/mondo#excluded_subClassOf">
+        <rdfs:label>excluded subClassOf</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:id>excluded_subClassOf</oboInOwl:id>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119">
+        <rdfs:label xml:lang="en">definition source</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">Discussion on obo-discuss mailing-list, see http://bit.ly/hgm99w</obo:IAO_0000119>
+        <obo:IAO_0000115 xml:lang="en">Formal citation, e.g. identifier in external database to indicate / attribute source(s) for the definition. Free text indicate / attribute source(s) for the definition. EXAMPLE: Author Name, URI, MeSH Term C04, PUBMED ID, Wiki uri on 31.01.2007</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">definition source</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114">
+        <rdfs:label xml:lang="en">has curation status</rdfs:label>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Alan Ruttenberg</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Bill Bug</obo:IAO_0000117>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Melanie Courtot</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">has curation status</obo:IAO_0000111>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116">
+        <rdfs:label xml:lang="en">editor note</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An administrative note intended for its editor. It may not be included in the publication version of the ontology, so it should contain nothing necessary for end users to understand the ontology.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obofoundry.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">editor note</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <obo:IAO_0000116 xml:lang="en">2012-04-05: 
+Barry Smith
+
+The official OBI definition, explaining the meaning of a class or property: &#39;Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions&#39;  is terrible.
+
+Can you fix to something like:
+
+A statement of necessary and sufficient conditions explaining the meaning of an expression referring to a class or property.
+
+Alan Ruttenberg
+
+Your proposed definition is a reasonable candidate, except that it is very common that necessary and sufficient conditions are not given. Mostly they are necessary, occasionally they are necessary and sufficient or just sufficient. Often they use terms that are not themselves defined and so they effectively can&#39;t be evaluated by those criteria. 
+
+On the specifics of the proposed definition:
+
+We don&#39;t have definitions of &#39;meaning&#39; or &#39;expression&#39; or &#39;property&#39;. For &#39;reference&#39; in the intended sense I think we use the term &#39;denotation&#39;. For &#39;expression&#39;, I think we you mean symbol, or identifier. For &#39;meaning&#39; it differs for class and property. For class we want documentation that let&#39;s the intended reader determine whether an entity is instance of the class, or not. For property we want documentation that let&#39;s the intended reader determine, given a pair of potential relata, whether the assertion that the relation holds is true. The &#39;intended reader&#39; part suggests that we also specify who, we expect, would be able to understand the definition, and also generalizes over human and computer reader to include textual and logical definition. 
+
+Personally, I am more comfortable weakening definition to documentation, with instructions as to what is desirable. 
+
+We also have the outstanding issue of how to aim different definitions to different audiences. A clinical audience reading chebi wants a different sort of definition documentation/definition from a chemistry trained audience, and similarly there is a need for a definition that is adequate for an ontologist to work with.  </obo:IAO_0000116>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The official definition, explaining the meaning of a class or property. Shall be Aristotelian, formalized and normalized. Can be augmented with colloquial definitions.</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">definition</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#narrowMatch"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000233">
+        <rdfs:label xml:lang="en">term tracker item</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">An IRI or similar locator for a request or discussion of an ontology term.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">Person: Jie Zheng, Chris Stoeckert, Alan Ruttenberg</obo:IAO_0000117>
+        <rdfs:comment xml:lang="en">The &#39;tracker item&#39; can associate a tracker with a specific ontology term.</rdfs:comment>
+        <obo:IAO_0000111 xml:lang="en">term tracker item</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">the URI for an OBI Terms ticket at sourceforge, such as https://sourceforge.net/p/obi/obi-terms/772/</obo:IAO_0000112>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label xml:lang="en">example of usage</rdfs:label>
+        <obo:IAO_0000115 xml:lang="en">A phrase describing how a term should be used and/or a citation to a work which uses it. May also include other kinds of examples that facilitate immediate understanding, such as widely know prototypes or instances of a class, or cases where a relation is said to hold.</obo:IAO_0000115>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000111 xml:lang="en">example of usage</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111">
+        <rdfs:label xml:lang="en">editor preferred term</rdfs:label>
+        <obo:IAO_0000119 xml:lang="en">GROUP:OBI:&lt;http://purl.obolibrary.org/obo/obi&gt;</obo:IAO_0000119>
+        <obo:IAO_0000117 xml:lang="en">PERSON:Daniel Schober</obo:IAO_0000117>
+        <obo:IAO_0000115 xml:lang="en">The concise, meaningful, and human-friendly name for a class or property preferred by the ontology developers. (US-English)</obo:IAO_0000115>
+        <obo:IAO_0000111 xml:lang="en">editor preferred term</obo:IAO_0000111>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000122"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasBroadSynonym">
+        <rdfs:label>has_broad_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym">
+        <rdfs:label>has_narrow_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0001056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001056">
+        <rdfs:label>gastric cancer</rdfs:label>
+        <obo:IAO_0000233 rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://github.com/monarch-initiative/mondo/issues/4521</obo:IAO_0000233>
+        <oboInOwl:hasExactSynonym>malignant neoplasm of stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>malignant tumor of the stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gastric cancer risk after h. pylori infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gastric cancer, somatic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>malignant neoplasm of lesser curve of stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stomach cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasBroadSynonym>gastric neoplasm</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasExactSynonym>malignant tumour of body of stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>gastric cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>malignant tumor of stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>NCIT:C9331</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>malignant tumor of greater curve of stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>malignant tumour of stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>OMIM:613659</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Ca lesser curvature - stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>Ca body - stomach</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>malignant gastric tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>DOID:10534</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A primary or metastatic malignant neoplasm involving the stomach.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>malignant gastric tumour</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>Orphanet:63443</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>cancer of stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>malignant tumour of greater curve of stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>malignant tumor of lesser curve of stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>malignant tumor of body of stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasNarrowSynonym>ca greater curvature of stomach</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:hasExactSynonym>malignant gastric neoplasm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>malignant neoplasm of the stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD9:151</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>malignant tumour of the stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>malignant stomach neoplasm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>malignant tumour of lesser curve of stomach</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD10CM:C16</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:151.5</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>gastric cancer, intestinal</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>ICD9:151.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:151.6</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:151.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasNarrowSynonym>malignant neoplasm of body of stomach</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:id>MONDO:0001056</oboInOwl:id>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/C16"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_10534"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C9331"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/cancer.yaml"/>
+        <skos:exactMatch rdf:resource="https://omim.org/entry/613659"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0001343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001343">
+        <rdfs:label>impaired renal function disease</rdfs:label>
+        <oboInOwl:hasDbXref>SCTID:197663003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:N25</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:588.89</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Any disease in which the causes of the disease is a perturbation of the kidney leading to its dysfunction.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>ICD9:588.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym>kidney disease</oboInOwl:hasBroadSynonym>
+        <oboInOwl:hasDbXref>ICD9:588.9</oboInOwl:hasDbXref>
+        <oboInOwl:id>MONDO:0001343</oboInOwl:id>
+        <oboInOwl:hasDbXref>DOID:11705</oboInOwl:hasDbXref>
+        <oboInOwl:hasBroadSynonym>disease of kidney</oboInOwl:hasBroadSynonym>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/197663003"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/N25"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/disease_by_dysfunctional_structure.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/specific_disease_by_dysfunctional_structure.yaml"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005071">
+        <rdfs:label>nervous system disorder</rdfs:label>
+        <oboInOwl:hasExactSynonym>disorder of nervous system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neurological disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD9:349.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:349.89</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:863</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neurologic disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>EFO:0000618</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0027765</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SCTID:118940003</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neurologic disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease of nervous system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>nervous system disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>Wikipedia:Nervous_system_disease</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>neurological disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>disease or disorder of nervous system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>NCIT:C26835</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:G00-G99</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>nervous system disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005071</oboInOwl:id>
+        <rdfs:comment>&#39;psychiatric disorder&#39; is not classified as a &#39;nervous system disorder&#39; in Mondo (though it is often as such): the hallmarks of psychiatric disorders are based in behavior and emotional state, and the relation with nervous system malfunction or damage is not always clearly determined.</rdfs:comment>
+        <oboInOwl:hasDbXref>MESH:D009422</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A non-neoplastic or neoplastic disorder that affects the brain, spinal cord, or peripheral nerves.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>nervous system disease</oboInOwl:hasExactSynonym>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D009422"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/118940003"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0027765"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/G00-G99"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#rare_grouping"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_863"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26835"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005113">
+        <rdfs:label>bacterial infectious disease</rdfs:label>
+        <oboInOwl:hasDbXref>ICD9:041.89</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0004623</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:041.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Bacteria disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Bacteria infectious disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bacterial disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>bacterial disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>infections, bacterial</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>DOID:104</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>Bacteria caused disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>NCIT:C2890</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>infection, bacterial</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>MESH:D001424</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0000771</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:040.89</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>bacterial infectious disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SCTID:87628006</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>bacterial infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0005113</oboInOwl:id>
+        <obo:IAO_0000115>An acute infectious disorder that is caused by gram positive or gram negative bacteria; representative examples include pneumococcal, streptococcal, salmonella, and meningeal infections.</obo:IAO_0000115>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D001424"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/87628006"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0004623"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_104"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/NCIT_C2890"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/infectious_disease_by_agent.yaml"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005381 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005381">
+        <rdfs:label>bone disorder</rdfs:label>
+        <oboInOwl:hasDbXref>MESH:D001847</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease of bone element</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>ICD10CM:M80-M85</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>bone element disease or disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>SCTID:76069003</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>bone element disease</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>Diseases of bones.</obo:IAO_0000115>
+        <oboInOwl:id>MONDO:0005381</oboInOwl:id>
+        <oboInOwl:hasDbXref>UMLS:CN204768</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>EFO:0004260</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:731.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasRelatedSynonym>skeletal disease</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>disorder of bone element</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>rare bone disease related to a common gene or pathway defect</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>Orphanet:364803</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9:733.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS:C0005940</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>DOID:0080001</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>disease or disorder of bone element</oboInOwl:hasExactSynonym>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D001847"/>
+        <skos:exactMatch rdf:resource="http://identifiers.org/snomedct/76069003"/>
+        <skos:exactMatch rdf:resource="http://linkedlifedata.com/resource/umls/id/C0005940"/>
+        <skos:exactMatch rdf:resource="http://purl.bioontology.org/ontology/ICD10CM/M80-M85"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#disease_grouping"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/mondo#ordo_group_of_disorders"/>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_0080001"/>
+        <mondo:excluded_subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0003900"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0043510 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0043510">
+        <rdfs:label>brain injury</rdfs:label>
+        <oboInOwl:hasRelatedSynonym>brain trauma</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasDbXref>MESH:D001930</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>Acute and chronic (see also brain INJURIES, CHRONIC) injuries to the brain, including the cerebral hemispheres, CEREBELLUM, and brain STEM. Clinical manifestations depend on the nature of injury. Diffuse trauma to the brain is frequently associated with DIFFUSE AXONAL INJURY or COMA, POST-TRAUMATIC. Localized injuries may be associated with NEUROBEHAVIORAL MANIFESTATIONS; HEMIPARESIS, or other focal neurologic deficits.</obo:IAO_0000115>
+        <oboInOwl:hasRelatedSynonym>brain Traumas</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:hasExactSynonym>brain injury</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>injury of brain</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>MONDO:0043510</oboInOwl:id>
+        <oboInOwl:hasDbXref>Orphanet:90056</oboInOwl:hasDbXref>
+        <skos:exactMatch rdf:resource="http://identifiers.org/mesh/D001930"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+        <terms:conformsTo rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml"/>
+        <skos:narrowMatch rdf:resource="http://www.orpha.net/ORDO/Orphanet_90056"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0858950 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0858950">
+        <rdfs:label>traumatic brain injury</rdfs:label>
+        <oboInOwl:hasDbXref>DOID:0081292</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>A brain disease that is characterized by brain dysfunction caused by an outside force, usually a violent blow to the head.</obo:IAO_0000115>
+        <oboInOwl:id>MONDO:0858950</oboInOwl:id>
+        <skos:exactMatch rdf:resource="http://purl.obolibrary.org/obo/DOID_0081292"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/mondo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+
