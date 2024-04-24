@@ -2,10 +2,15 @@
 
 
 [Source ontology]
-ERO
+NCIT
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/ERO_0000007
+http://purl.obolibrary.org/obo/NCIT_C17369
+http://purl.obolibrary.org/obo/NCIT_C17007
+http://purl.obolibrary.org/obo/NCIT_C17204
+http://purl.obolibrary.org/obo/NCIT_C38101
+http://purl.obolibrary.org/obo/NCIT_C16809
+http://purl.obolibrary.org/obo/NCIT_C17230
 
 [Top level source term URIs and target direct superclass URIs]
 

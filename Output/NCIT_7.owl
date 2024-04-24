@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/t23ctuxd.owl#"
-     xml:base="http://ontofox.hegroup.org/t23ctuxd.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/325gkfac.owl#"
+     xml:base="http://ontofox.hegroup.org/325gkfac.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/t23ctuxd.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/325gkfac.owl"/>
     
 
 
@@ -112,7 +112,6 @@
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</oboInOwl:hasExactSynonym>
         <protege:readOnly rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</protege:readOnly>
     </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display_Name</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
@@ -123,6 +122,7 @@
         <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display_Name</obo:NCIT_P108>
         <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P107</obo:NCIT_NHC0>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly"/>
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P317">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA_Table</rdfs:label>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property used to flag terms that are part of an FDA data standard manual, including Route of Administration, Dosage Form, Package Type and Potency.</obo:IAO_0000115>
@@ -174,6 +174,43 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16199 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16199">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer Research</rdfs:label>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C1516225</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16199</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer Research</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer Research</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer Research Programs</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer Research Project</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cancer_Research_Project</obo:NCIT_P366>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Research Activity</obo:NCIT_P106>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Systematic investigation into the causes of cancer and development of strategies for prevention, diagnosis, treatment, and cure.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C175504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C175504">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smartphone</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mobile cellular telephone that has an integrated computer with an operating system capable of web browsing and running downloaded applications.  Smartphones typically have touchscreen interfaces, video calling capabilities, and other advanced built-in features and applications.</obo:IAO_0000115>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C175504</obo:NCIT_NHC0>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C3204335</obo:NCIT_P207>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRP</obo:NCIT_P322>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Manufactured Object</obo:NCIT_P106>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smartphone</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smartphone</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Smartphone</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
     
 
 

@@ -18,12 +18,14 @@
      xmlns:schema="https://schema.org/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:property="http://purl.allotrope.org/ontologies/property#"
      xmlns:resource="http://semanticscience.org/resource/"
      xmlns:owlready_ontology="http://www.lesfleursdunormal.fr/static/_downloads/owlready_ontology.owl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/bmo.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bmo/releases/2024-03-14/bmo.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/aqamzhtw.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/aqq30z9q.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/bnwne6wp.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/bv4teq8a.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/bz68tift.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/c5z80w3f.owl"/>
@@ -59,7 +61,6 @@
         <owl:imports rdf:resource="http://ontofox.hegroup.org/q02nf4n4.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/r46ho4pd.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/s8k8obrz.owl"/>
-        <owl:imports rdf:resource="http://ontofox.hegroup.org/t23ctuxd.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/ttdxyruj.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/uftgp0qv.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/uiw68d5s.owl"/>
@@ -86,6 +87,7 @@
         <owl:imports rdf:resource="http://ontofox.hegroup.org/226xmyxm.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/3haqtzby.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/3zid7hw0.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/325gkfac.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/4jxbmo5t.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/4qmp3oyj.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/47yqy8h4.owl"/>
@@ -102,6 +104,7 @@
         <owl:imports rdf:resource="http://ontofox.hegroup.org/6tqvf4a3.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/7pxh9gv8.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/7tsfqw6r.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/76w2hwi6.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/8knbfs0a.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/933i3weo.owl"/>
         <dc:contributor></dc:contributor>
@@ -367,14 +370,16 @@ your use.</rdfs:comment>
 
     <!-- http://purl.obolibrary.org/obo/bmo.owl#isCirculatingBiomarker -->
 
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl#isCirculatingBiomarker"/>
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl#isCirculatingBiomarker">
+        <rdfs:label>isCirculatingBiomarkerFor</rdfs:label>
+    </owl:ObjectProperty>
     
 
 
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040">
-        <rdfs:label xml:lang="en">isQualifiedBiomarker</rdfs:label>
+        <rdfs:label xml:lang="en">isQualifiedBiomarkerFor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -382,7 +387,39 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000057 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000057">
-        <rdfs:label xml:lang="en">isCandidateBiomarker</rdfs:label>
+        <rdfs:label xml:lang="en">isCandidateBiomarkerFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065">
+        <rdfs:label xml:lang="ru">isPrognosticBiomarkerFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066">
+        <rdfs:label xml:lang="ru">isDiagnosticBiomarkerFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067">
+        <rdfs:label xml:lang="ru">isMonitoringBiomarkerFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000071 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000071">
+        <rdfs:label xml:lang="ru">isPredictiveBiomarkerFor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -395,6 +432,14 @@ your use.</rdfs:comment>
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.allotrope.org/ontologies/realizable#AFRE_0000002 -->
+
+    <rdf:Description rdf:about="http://purl.allotrope.org/ontologies/realizable#AFRE_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    </rdf:Description>
     
 
 
@@ -1872,6 +1917,12 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_16737">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_557"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
@@ -2323,15 +2374,6 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3388">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005071"/>
-        <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-    </rdf:Description>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_3393 -->
-
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DOID_3393">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </rdf:Description>
     
@@ -3007,6 +3049,22 @@ your use.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16199 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C16199">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16809 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C16809">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17369"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C16866 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16866">
@@ -3016,10 +3074,50 @@ your use.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17007 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C17007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17369"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17204 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C17204">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17369"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17230 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C17230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17369"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C17237 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C17237">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000027"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17369 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C17369">
+        <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/realizable#AFRE_0000002"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C175504 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C175504">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000078"/>
     </rdf:Description>
     
 
@@ -3077,6 +3175,14 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C2902">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C38101 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C38101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17369"/>
     </rdf:Description>
     
 
@@ -3177,6 +3283,12 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OAE_0000001">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000057"/>
+                <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003919"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -3842,6 +3954,12 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001393">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004100"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
@@ -3851,6 +3969,31 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002307">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000073"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10283"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1324"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1612"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
@@ -3869,6 +4012,33 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000073"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16199"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000071"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <oboInOwl:hasExactSynonym>antigen p53</oboInOwl:hasExactSynonym>
     </owl:Class>
@@ -3879,6 +4049,32 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003777">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000072"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0014667"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000319"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0014667"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000319"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
@@ -3904,6 +4100,8 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005615">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000073"/>
     </owl:Class>
     
 
@@ -3912,6 +4110,39 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005897">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000072"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5844"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000319"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000071"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000061"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
@@ -4267,6 +4498,16 @@ your use.</rdfs:comment>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0034919">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
     </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl#N-Terminal_Pro-B-Type_Natriuretic_Peptide -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl#N-Terminal_Pro-B-Type_Natriuretic_Peptide">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <oboInOwl:hasExactSynonym>NT-proBNP</oboInOwl:hasExactSynonym>
+        <rdfs:label>N-Terminal Pro-B-Type Natriuretic Peptide</rdfs:label>
+    </owl:Class>
     
 
 
@@ -4688,18 +4929,6 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
-    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000039 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000039">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000035"/>
-        <obo:IAO_0000115>Kidney injury molecule 1 (KIM-1) is a transmembrane glycoprotein expressed by proximal tubular cells, recognized as an early, sensitive and specific urinary biomarker for kidney injury.</obo:IAO_0000115>
-        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/37664565/</obo:IAO_0000119>
-        <oboInOwl:hasExactSynonym>KIM-1</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">kidney injury molecule-1</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000041 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000041">
@@ -4793,6 +5022,30 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000050">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1612"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1612"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1612"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000071"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1612"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Human epidermal growth factor receptor 2 (HER2) is a member of the epidermal growth factor receptor family having tyrosine kinase activity.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/25276427/</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
@@ -4877,6 +5130,215 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
             </owl:Restriction>
         </owl:equivalentClass>
         <rdfs:label xml:lang="en">candidate biomarker TM_BIN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>D-dimer is a soluble fibrin degradation product that results from ordered breakdown of thrombi by the fibrinolytic system. Numerous studies have shown that D-dimer serves as a valuable marker of activation of coagulation and fibrinolysis</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/29096812/</obo:IAO_0000119>
+        <rdfs:label xml:lang="ru">d-dimer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000061">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003786"/>
+        <obo:IAO_0000115>A growth differentiation factor that is secreted in response to cell stress and in response to MACROPHAGE ACTIVATION. In addition growth differentiation factor 15 demonstrates a diverse array of biological properties including the induction of cartilage formation, the inhibition of hematopoietic progenitor proliferation, and the induction of neuronal migration.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/68055436</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>GDF-15</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Growth/differentiation factor-15</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>also named macrophage inhibitory cytokine-1</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="ru">Growth Differentiation Factor 15</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0000319"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>A lipoprotein that resembles the LOW-DENSITY LIPOPROTEINS but with an extra protein moiety, APOPROTEIN (A) also known as APOLIPOPROTEIN (A), linked to APOLIPOPROTEIN B-100 on the LDL by one or two disulfide bonds. High plasma level of lipoprotein (a) is associated with increased risk of atherosclerotic cardiovascular disease.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/68017270</obo:IAO_0000119>
+        <rdfs:label xml:lang="ru">lipoprotein a</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060903"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Plasma glycoprotein clotted by thrombin, composed of a dimer of three non-identical pairs of polypeptide chains (alpha, beta, gamma) held together by disulfide bonds. Fibrinogen clotting is a sol-gel change involving complex molecular arrangements: whereas fibrinogen is cleaved by thrombin to form polypeptides A and B, the proteolytic action of other enzymes yields different fibrinogen degradation products.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/?term=fibrinogen</obo:IAO_0000119>
+        <rdfs:label xml:lang="ru">fibrinogen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5844"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An isoenzyme of creatine kinase found in the CARDIAC MUSCLE.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/?term=Creatine+kinase-MB</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>CK-MB</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Creatine Kinase, MB Form</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="ru">Creatine Kinase-MB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+        <rdfs:label xml:lang="ru">biomarker repurposing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <rdfs:label xml:lang="ru">candidate biomarker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000070">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <terms:description>The &apos;diagnostic biomarker TM_BIN&apos; concept enables a compilation of diverse concepts that are related to diagnostic biomarkers for specific diseases/context of use via the Axiome &apos;isDiagnosticBiomarkerFor some disease&apos;.  Thus enables the adaptation of the ontology for text mining purposes for disease specific diagnostic biomarker related information retrieval and information extraction.</terms:description>
+        <rdfs:label xml:lang="ru">diagnostic biomarker TM_BIN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000072">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="ru">monitoring biomarker TM_BIN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000073">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="ru">prognostic biomarker TM_BIN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000074">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000071"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:label xml:lang="ru">predictive biomarker TM_BIN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <rdfs:label xml:lang="ru">pharmacodynamic biomarker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <rdfs:label xml:lang="ru">therapeutic biomarker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
+        <rdfs:label xml:lang="ru">digital biomarker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
+        <rdfs:label xml:lang="ru">digital device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000078"/>
+        <oboInOwl:hasExactSynonym>wearable device</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="ru">wearable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000080 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000080">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000079"/>
+        <rdfs:label xml:lang="ru">smartwatch</rdfs:label>
     </owl:Class>
     
 

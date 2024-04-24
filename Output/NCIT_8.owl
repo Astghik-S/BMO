@@ -1,0 +1,629 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/76w2hwi6.owl#"
+     xml:base="http://ontofox.hegroup.org/76w2hwi6.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/76w2hwi6.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DesignNote</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing notations made by NCI vocabulary curators. They are intended to provide supplemental, unstructured information to the user or additional insight about the concept.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DesignNote</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DesignNote</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DesignNote</obo:NCIT_P107>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P98</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P375">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maps_To</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing that a term in another terminology has been mapped to a term in NCIt and describes the relationship between the mapped terms.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maps_To</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maps_To</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P375</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A39">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_HL_Authorized_Value</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A39</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that shows which Authorized Values are possible for a specific PCDC HL Variable.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_HL_Authorized_Value</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_HL_Authorized_Value</obo:NCIT_P108>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A35">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_PCDC_ALL_Authorized_Value_For_Variable</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A35</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that indicates a PCDC ALL concept is a Authorized Value for a PCDC ALL Variable concept.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_PCDC_ALL_Authorized_Value_For_Variable</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_PCDC_ALL_Authorized_Value_For_Variable</obo:NCIT_P108>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A32">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_Value_For_GDC_Property</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A32</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that that connects a concept representing a GDC value to any associated GDC property concept(s).</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_Value_For_GDC_Property</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_Value_For_GDC_Property</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A33">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_PCDC_GCT_Authorized_Value_For_Variable</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A33</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that indicates a concept is a dedicated Authorized Value concept for a specific PCDC GCT Variable.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_PCDC_GCT_Authorized_Value_For_Variable</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_PCDC_GCT_Authorized_Value_For_Variable</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A31">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_GDC_Value</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A31</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that connects a concept representing a GDC property to its dedicated value concept(s).</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_GDC_Value</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_GDC_Value</obo:NCIT_P108>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in subset</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that connects the concept defining a particular terminology subset with concepts that belong to this subset.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Concept_In_Subset</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing a concept unique identifier within the NCI Enterprise Vocabulary Service&#39;s NCI Thesaurus.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NHC0</obo:NCIT_NHC0>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">code</oboInOwl:hasExactSynonym>
+        <protege:readOnly rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</protege:readOnly>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing_Source</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property is used to indicate when a non-EVS entity has contributed to, and has a stake in, a concept. This is used where such entities, within or outside NCI, have indicated the need to be able to track their own concepts. A single concept can have multiple instances of this property if multiple entities have such a defined stake.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing Source</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing_Source</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Contributing_Source</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P322</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy Concept Name</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing a retired unique concept identifier created and stored as Concept Name by legacy EVS software. Use of these values was long discouraged, but continued as late as 2009 when creation of new values ceased and Concept Name was retired. Legacy values are intended solely to help resolve and update earlier coding.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy Concept Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy Concept Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Legacy_Concept_Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P366</obo:NCIT_NHC0>
+        <protege:readOnly rdf:datatype="http://www.w3.org/2001/XMLSchema#string">true</protege:readOnly>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing the English language definitions of what NCI means by the concept. They may also include information about the definition&#39;s source and attribution in a form that can easily be interpreted by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DEFINITION</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A28">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_PCDC_EWS_Authorized_Value_For_Variable</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A28</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that indicates a PCDC EWS concept is a Authorized Value for a specific PCDC EWS Variable concept.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_PCDC_EWS_Authorized_Value_For_Variable</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_PCDC_EWS_Authorized_Value_For_Variable</obo:NCIT_P108>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A23">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_Data_Type</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A23</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that specifies one of three data types for a particular variable, String, Code or Number.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_Data_Type</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_PCDC_Data_Type</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A24">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_PCDC_AML_Authorized_Value_For_Variable</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A24</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that indicates a PCDC AML concept is a Authorized Value for a PCDC AML Variable concept.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_PCDC_AML_Authorized_Value_For_Variable</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is_PCDC_AML_Authorized_Value_For_Variable</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact synonym</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing a fully qualified synonym, contains the string, term type, source, and an optional source code if appropriate. Each subfield is deliniated to facilitate interpretation by software.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FULL_SYN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Synonym with Source Data</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A42">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_OORO_PC_Value</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A42</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association specifying the Values for a specific OORO Prostate Cancer (PC) Attribute.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_OORO_PC_Value</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_OORO_PC_Value</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A40">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_DIPG_DMG_Authorized_Value</rdfs:label>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A40</obo:NCIT_NHC0>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An association that shows which Authorized Values are possible for a specific DIPG/DMG Variable.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_DIPG_DMG_Authorized_Value</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has_DIPG_DMG_Authorized_Value</obo:NCIT_P108>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT_DEFINITION</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing the English language definition of a concept from a source other than NCI.</obo:IAO_0000115>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT_DEFINITION</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALT_DEFINITION</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P325</obo:NCIT_NHC0>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">[source] Definition</obo:NCIT_P107>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property that represents a description of the sort of thing or category to which a concept belongs in the context of the UMLS semantic network.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P98 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In general, applying semantic types aids in allowing users (or computer programs) to draw conclusions about concepts by virtue of the categories to which they have been assigned.  We use a set of semantic types developed for the UMLS Metathesaurus. There are currently 134 semantic types in the UMLS.</obo:NCIT_P98>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P106</obo:NCIT_NHC0>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic Type</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Semantic_Type</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <rdf:Description rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">label</rdfs:label>
+    </rdf:Description>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display_Name</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing an alternative Preferred Name for use in some NCI systems.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display Name</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display_Name</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Display_Name</obo:NCIT_P108>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P107</obo:NCIT_NHC0>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://protege.stanford.edu/plugins/owl/protege#readOnly"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing the word or phrase that NCI uses by preference to refer to the concept.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P108</obo:NCIT_NHC0>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred Name</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred Name</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred Term</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Preferred_Name</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A property representing the concept unique identifier (CUI) assigned by the National Library of Medicine (NLM). If a concept in any NCI-maintained knowledgebase exists in the NLM Unified Medical Language System (UMLS), NCI includes the NLM CUI among the information we provide about the concept.</obo:IAO_0000115>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">P207</obo:NCIT_NHC0>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS CUI</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI</oboInOwl:hasExactSynonym>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16809 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16809">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetic Resonance Imaging</rdfs:label>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A procedure in which radio waves and a powerful magnet linked to a computer are used to create detailed pictures of areas inside the body. These pictures can show the difference between normal and diseased tissue. NMRI makes better images of organs and soft tissue than other scanning techniques, such as computed tomography (CT) or x-ray. NMRI is especially useful for imaging the brain, the spine, the soft tissue of joints, and the inside of bones.</obo:NCIT_P325>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0024485</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C16809</obo:NCIT_NHC0>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIPG/DMG</obo:NCIT_P322>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic Procedure</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide amazingly clear and detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.</obo:NCIT_P325>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging that uses radiofrequency waves and a strong magnetic field rather than x-rays to provide detailed pictures of internal organs and tissues. The technique is valuable for the diagnosis of many pathologic conditions, including cancer, heart and vascular disease, stroke, and joint and musculoskeletal disorders.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MR</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MR Imaging</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MRI</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MRI</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MRI Scan</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetic Resonance</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetic Resonance Imaging</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetic Resonance Imaging</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetic Resonance Imaging</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetic Resonance Imaging Scan</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetic resonance imaging (procedure)</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetic_Resonance_Imaging</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical Imaging, Magnetic Resonance / Nuclear Magnetic Resonance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMR Imaging</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NMRI</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nuclear Magnetic Resonance Imaging</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OORO</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDC</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">magnetic resonance imaging</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">nuclear magnetic resonance imaging</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C101858"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174237"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174261"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178115"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178127"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C179478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C179481"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C183088"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C183096"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C183102"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186320"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186325"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186333"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C192234"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193245"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85492"/>
+        <obo:NCIT_A28 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C117438"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17369"/>
+        <obo:NCIT_A35 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C178084"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17007">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positron Emission Tomography</rdfs:label>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A procedure in which a small amount of radioactive glucose (sugar) is injected into a vein, and a scanner is used to make detailed, computerized pictures of areas inside the body where the glucose is used. Because cancer cells often use more glucose than normal cells, the pictures can be used to find cancer cells in the body.</obo:NCIT_P325>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A technique for measuring the gamma radiation produced by collisions of electrons and positrons (anti-electrons) within living tissue. In positron emission tomography (PET), a subject is given a dose of a positron-emitting radionuclide attached to a metabolically active substance (for example, 2-fluoro-2-deoxy-D-glucose (FDG), which is similar to a naturally occurring sugar, glucose, with the addition of a radioactive fluorine atom). When living tissue containing the positron emitter is bombarded by electrons, gamma radiation produced by collisions of electrons and positrons is detected by a scanner, revealing in fine detail the tissue location of the metabolically-active substance administered.</obo:IAO_0000115>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An imaging technique for measuring the gamma radiation produced by collisions of electrons and positrons (anti-electrons) within living tissue. In positron emission tomography (PET), a subject is given a dose of a positron-emitting radionuclide attached to a metabolically active substance. A scanner reveals the tissue location of the metabolically-active substance administered.</obo:NCIT_P325>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0032743</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C17007</obo:NCIT_NHC0>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRP</obo:NCIT_P322>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic Procedure</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical Imaging, Positron Emission Tomography</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OORO</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDC</obo:NCIT_P322>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PET</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PET</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PET SCAN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PET Scan</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PET scan</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pet Scan</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positron Emission Tomography</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positron Emission Tomography</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positron Emission Tomography</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positron Emission Tomography Scan</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positron emission tomography (procedure)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positron-Emission Tomography</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Positron_Emission_Tomography</obo:NCIT_P366>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">positron emission tomography scan</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proton magnetic resonance spectroscopic imaging</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177394"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186320"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186325"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186333"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C192234"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193245"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85492"/>
+        <obo:NCIT_A33 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C117438"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17369"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17204 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17204">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computed Tomography</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A method of examining structures within the body by scanning them with X rays and using a computer to construct a series of cross-sectional scans along a single axis.</obo:IAO_0000115>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A series of detailed pictures of areas inside the body; the pictures are created by a computer linked to an x-ray machine.</obo:NCIT_P325>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An imaging technique for examining structures within the body by scanning them with X rays and using a computer to construct a series of cross-sectional scans along a single axis.</obo:NCIT_P325>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0040405</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C17204</obo:NCIT_NHC0>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAT Scan</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CAT scan</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CT</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CT SCAN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CT Scan</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CT Scan</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CT scan</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRP</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computed Axial Tomography</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computed Tomography</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computed Tomography</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computed Tomography</obo:NCIT_P108>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computed_Tomography</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computerized Axial Tomography</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computerized Tomography</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Computerized axial tomography (procedure)</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIPG/DMG</obo:NCIT_P322>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic Procedure</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FDA</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OORO</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">computed tomography</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">computerized axial tomography</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">computerized tomography</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tomography</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C101858"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174237"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174261"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178115"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178127"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C179478"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C179481"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C183088"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C183096"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C183102"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186320"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186325"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186333"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C192234"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193245"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85492"/>
+        <obo:NCIT_A28 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C117438"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17369"/>
+        <obo:NCIT_A35 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C178084"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17230">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultrasound Imaging</rdfs:label>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-Dimensional Grayscale Ultrasound Imaging</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2-Dimensional Ultrasound Imaging</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2D-US</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A procedure in which high-energy sound waves are bounced off internal tissues or organs and make echoes. The echo patterns are shown on the screen of an ultrasound machine, forming a picture of body tissues called a sonogram.</obo:NCIT_P325>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A technique in which high-frequency sound waves are bounced off internal organs and the echo pattern is converted into a 2 dimensional picture of the structures beneath the transducer.</obo:NCIT_P325>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0041618</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C17230</obo:NCIT_NHC0>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRP</obo:NCIT_P322>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Health Care Activity</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NICHD</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OORO</obo:NCIT_P322>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The use of high-frequency sound waves to generate images of the body.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ULTRASOUND</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">US</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultrasonography</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultrasonography</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultrasound</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultrasound Imaging</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultrasound Imaging</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultrasound Test</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultrasound, Medical</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ultrasound_Imaging</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ultrasonography</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ultrasound</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C192234"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85492"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C89506"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C90259"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17369">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging Technique</rdfs:label>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A method of producing pictures of areas inside the body.</obo:NCIT_P325>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any technology or method that aids in the visualization of any biological process, cell, tissue or organ for use in screening, diagnosis, surgical procedures or therapy.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0079595</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C17369</obo:NCIT_NHC0>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DIPG/DMG</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic Imaging Technique</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic Procedure</obo:NCIT_P106>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IMAGING_METHOD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Image Type</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P375 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging</obo:NCIT_P375>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging (procedure)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging Procedures</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging Technique</obo:NCIT_P107>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging Technique</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging Technique</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Imaging_Technique</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical Imaging</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Method of imaging used to visualize and aspect of the patient for use in diagnosis or treatment.</obo:NCIT_P325>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OORO</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Type of imaging</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging procedure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging type</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">imaging_type</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C157711"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C173232"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174019"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174237"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174261"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177383"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177393"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177394"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177407"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177536"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C177537"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C183102"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186317"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186325"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186342"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C192234"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193245"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C103512"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C103514"/>
+        <obo:NCIT_A28 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C117438"/>
+        <obo:NCIT_A33 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C117438"/>
+        <obo:NCIT_A40 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12439"/>
+        <obo:NCIT_A40 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12998"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C162575"/>
+        <obo:NCIT_A42 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16588"/>
+        <obo:NCIT_A42 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16809"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16809"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16809"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17007"/>
+        <obo:NCIT_A42 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17007"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17007"/>
+        <obo:NCIT_A42 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17203"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17204"/>
+        <obo:NCIT_A42 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17204"/>
+        <obo:NCIT_A31 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17204"/>
+        <obo:NCIT_A24 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173262"/>
+        <obo:NCIT_A33 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173262"/>
+        <obo:NCIT_A33 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C173306"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17646"/>
+        <obo:NCIT_A32 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C177576"/>
+        <obo:NCIT_A33 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C178148"/>
+        <obo:NCIT_A42 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192579"/>
+        <obo:NCIT_A42 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C192627"/>
+        <obo:NCIT_A42 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19337"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C19337"/>
+        <obo:NCIT_A23 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25162"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C38087"/>
+        <obo:NCIT_A39 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C38101"/>
+        <obo:NCIT_A40 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48660"/>
+        <obo:NCIT_A42 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48789"/>
+        <obo:NCIT_A42 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71695"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C38101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C38101">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-Ray Imaging</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A radiographic procedure using the emission of x-rays to form an image of the structure penetrated by the radiation.</obo:IAO_0000115>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A radiographic procedure using the emission of x-rays, a type of penetrating energy wave.</obo:NCIT_P325>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0043299</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C38101</obo:NCIT_NHC0>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CTRP</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conventional X-Ray</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic Procedure</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic Radiology</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Medical Imaging, X-Ray</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OORO</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PCDC</obo:NCIT_P322>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plain film radiographs</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RG</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radiographic Imaging</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radiographic imaging procedure (procedure)</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P366 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radiography</obo:NCIT_P366>
+        <obo:NCIT_P107 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radiography</obo:NCIT_P107>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Radiography</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Static X-Ray</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-RAY</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-Ray</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-Ray Imaging</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-Ray Imaging</obo:NCIT_P108>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mCode</obo:NCIT_P322>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C101858"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174237"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C174261"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178115"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C178127"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186320"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186325"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186333"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C186341"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C192234"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193006"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C193245"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C85492"/>
+        <obo:NCIT_A28 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C117438"/>
+        <obo:NCIT_A35 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C178084"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

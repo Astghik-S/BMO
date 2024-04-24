@@ -7,6 +7,8 @@ NCIT
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/NCIT_C2902
 http://purl.obolibrary.org/obo/NCIT_C17993
+http://purl.obolibrary.org/obo/NCIT_C16199
+http://purl.obolibrary.org/obo/NCIT_C175504
 
 [Top level source term URIs and target direct superclass URIs]
 

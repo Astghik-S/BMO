@@ -2,10 +2,10 @@
 
 
 [Source ontology]
-ERO
+AFO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/ERO_0000007
+http://purl.allotrope.org/ontologies/realizable#AFRE_0000002
 
 [Top level source term URIs and target direct superclass URIs]
 

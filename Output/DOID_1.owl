@@ -1,13 +1,14 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://ontofox.hegroup.org/3zid7hw0.owl#"
      xml:base="http://ontofox.hegroup.org/3zid7hw0.owl"
-     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
-     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:obo="http://purl.obolibrary.org/obo/">
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://ontofox.hegroup.org/3zid7hw0.owl"/>
     
 
@@ -20,86 +21,155 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rdfs:isDefinedBy</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is defined by.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
-        <rdfs:label xml:lang="en">imported from</rdfs:label>
-    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">definition</rdfs:label>
-        <rdfs:label xml:lang="en">definition</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The official definition.</obo:IAO_0000115>
+        <obo:IAO_0000115>The official definition.</obo:IAO_0000115>
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">database_cross_reference</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reference database or publication source.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_related_synonym</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Has related synonym.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">id</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An identifier for an individual entity.</obo:IAO_0000115>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact match</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A skos concept mapping used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">comment</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Comment.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_obo_namespace</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Name space of the ontology.</obo:IAO_0000115>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</rdfs:comment>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has exact synonym</rdfs:label>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_exact_synonym</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Exact synonym.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">created_by</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Author of the class.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">creation_date</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Date class was created.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_alternative_id</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ID of merged class.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">label</rdfs:label>
-        <rdfs:label xml:lang="en">label</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A human readable name for this class.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">in_subset</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In subset.</obo:IAO_0000115>
-    </owl:AnnotationProperty>
-    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
-        <rdfs:label>IEDB alternative term</rdfs:label>
-        <obo:IAO_0000115>An alternative term used by the IEDB.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">definition</rdfs:label>
+        <rdfs:label>definition</rdfs:label>
     </owl:AnnotationProperty>
     
 
 
-    <!-- 
-    ///////////////////////////////////////////////////////////////////////////////////////
-    //
-    // Datatypes
-    //
-    ///////////////////////////////////////////////////////////////////////////////////////
-     -->
+    <!-- http://purl.obolibrary.org/obo/IAO_0000412 -->
 
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
+        <obo:IAO_0000115>An alternative term used by the IEDB.</obo:IAO_0000115>
+        <rdfs:label>IEDB alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by">
+        <obo:IAO_0000115>Author of the class.</obo:IAO_0000115>
+        <rdfs:label>created_by</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date">
+        <obo:IAO_0000115>Date class was created.</obo:IAO_0000115>
+        <rdfs:label>creation_date</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasAlternativeId -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasAlternativeId">
+        <obo:IAO_0000115>ID of merged class.</obo:IAO_0000115>
+        <rdfs:label>has_alternative_id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <obo:IAO_0000115>Reference database or publication source.</obo:IAO_0000115>
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <obo:IAO_0000115>Exact synonym.</obo:IAO_0000115>
+        <rdfs:label>has exact synonym</rdfs:label>
+        <rdfs:label>has_exact_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBONamespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <obo:IAO_0000115>Name space of the ontology.</obo:IAO_0000115>
+        <rdfs:comment>disease_ontology</rdfs:comment>
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym">
+        <obo:IAO_0000115>Has related synonym.</obo:IAO_0000115>
+        <rdfs:label>has_related_synonym</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id">
+        <obo:IAO_0000115>An identifier for an individual entity.</obo:IAO_0000115>
+        <obo:IAO_0000115>An identifier is an information content entity that is the outcome of a dubbing process and is used to refer to one instance of entity shared by a group of people to refer to that individual entity.</obo:IAO_0000115>
+        <rdfs:label>id</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset">
+        <obo:IAO_0000115>In subset.</obo:IAO_0000115>
+        <rdfs:label>in_subset</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#comment -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment">
+        <obo:IAO_0000115>Comment.</obo:IAO_0000115>
+        <rdfs:label>comment</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#isDefinedBy -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#isDefinedBy">
+        <obo:IAO_0000115>Is defined by.</obo:IAO_0000115>
+        <rdfs:label>rdfs:isDefinedBy</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label">
+        <obo:IAO_0000115>A human readable name for this class.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">label</rdfs:label>
+        <rdfs:label>label</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch">
+        <obo:IAO_0000115>A skos concept mapping used to link two concepts, indicating a high degree of confidence that the concepts can be used interchangeably.</obo:IAO_0000115>
+        <rdfs:label>has exact match</rdfs:label>
+    </owl:AnnotationProperty>
     
 
 
@@ -117,22 +187,22 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0014667 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0014667">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease of metabolism</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease that involving errors in metabolic processes of building or degradation of molecules.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0014667</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:E88.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:277.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D008659</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C3235</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:75934005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0025517</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A disease that involving errors in metabolic processes of building or degradation of molecules.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:E88.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:277.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D008659</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3235</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:75934005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0025517</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">metabolic disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0014667</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>disease of metabolism</rdfs:label>
     </owl:Class>
     
 
@@ -140,22 +210,22 @@
     <!-- http://purl.obolibrary.org/obo/DOID_0050589 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050589">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">inflammatory bowel disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An intestinal disease characterized by inflammation located in all parts of digestive tract.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050589</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0003767</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:05321</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D015212</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C3138</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:PS266600</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:155759008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0021390</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>An intestinal disease characterized by inflammation located in all parts of digestive tract.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0003767</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:05321</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D015212</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3138</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:PS266600</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:155759008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0021390</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050589</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>Xref MGI.
+OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>inflammatory bowel disease</rdfs:label>
     </owl:Class>
     
 
@@ -163,14 +233,14 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_0050830 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050830">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peripheral artery disease</rdfs:label>
-        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2014-02-18T12:41:09Z</oboInOwl:creation_date>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An artery disease that is characterized by build up of plaque in the arteries that carry blood to your head, organs, and limbs.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0050830</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D058729</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lschriml</oboInOwl:created_by>
+        <obo:IAO_0000115>An artery disease that is characterized by build up of plaque in the arteries that carry blood to your head, organs, and limbs.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:created_by>lschriml</oboInOwl:created_by>
+        <oboInOwl:creation_date>2014-02-18T12:41:09Z</oboInOwl:creation_date>
+        <oboInOwl:hasDbXref>MESH:D058729</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:0050830</oboInOwl:id>
+        <rdfs:label>peripheral artery disease</rdfs:label>
     </owl:Class>
     
 
@@ -178,41 +248,37 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_10283 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10283">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">prostate cancer</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A male reproductive organ cancer that is located_in the prostate.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10283</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:514</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:C61</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:185</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:05215</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D011471</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C3343</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C7378</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:176807</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:300147</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:300704</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:601518</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:602759</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608656</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608658</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:609299</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:609558</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:610321</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:610997</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:611100</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:611868</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:611928</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:611955</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:611958</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:611959</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORDO:1331</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:126906006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:93974005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0033578</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0376358</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A male reproductive organ cancer that is located_in the prostate.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:514</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:C61</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:185</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:05215</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D011471</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3343</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C7378</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:176807</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:300147</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:300704</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:601518</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:602759</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:608656</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:608658</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:609299</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:609558</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:610321</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:610997</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:611100</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:611868</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:611928</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:611955</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:611958</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:611959</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:1331</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:126906006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:93974005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0033578</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0376358</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">NGP - new growth of prostate</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">hereditary prostate cancer</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant tumor of the prostate</oboInOwl:hasExactSynonym>
@@ -221,13 +287,17 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasExactSynonym xml:lang="en">prostatic cancer</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">prostatic neoplasm</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">tumor of the prostate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:10283</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>Xref MGI.
+OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>prostate cancer</rdfs:label>
     </owl:Class>
     
 
@@ -235,18 +305,18 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_10538 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10538">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gastric fundus cancer</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A stomach cancer that is located_in the gastric fundus.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10538</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:C16.1</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:151.3</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:93809003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0153420</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A stomach cancer that is located_in the gastric fundus.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:C16.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:151.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:93809003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153420</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Ca fundus - stomach</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant neoplasm of fundus of stomach</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant tumor of fundus of stomach</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:10538</oboInOwl:id>
+        <rdfs:label>gastric fundus cancer</rdfs:label>
     </owl:Class>
     
 
@@ -254,24 +324,20 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_10591 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10591">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pre-eclampsia</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hypertension occurring during pregnancy characterized by large amounts of protein in the urine (proteinuria) and edema, usually by the last trimester of pregnancy.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10591</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:12684</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:O14</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D011225</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C85021</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:189800</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:609402</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:609403</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:609404</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:614592</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORDO:275555</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:6758009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0032914</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A hypertension occurring during pregnancy characterized by large amounts of protein in the urine (proteinuria) and edema, usually by the last trimester of pregnancy.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:12684</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:O14</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D011225</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C85021</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:189800</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:609402</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:609403</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:609404</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:614592</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:275555</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:6758009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0032914</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">gestational hypertension</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">hypertension induced by pregnancy</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">pre-eclamptic toxaemia</oboInOwl:hasExactSynonym>
@@ -281,9 +347,13 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasExactSynonym xml:lang="en">pregnancy toxemia</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">proteinuric hypertension of pregnancy</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">toxaemia of pregnancy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:10591</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>Xref MGI.
+OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>pre-eclampsia</rdfs:label>
     </owl:Class>
     
 
@@ -291,36 +361,36 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_10608 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10608">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">celiac disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An autoimmune disease of gastrointestinal tract that is caused by a reaction located_in small intestine to gliadin, a prolamin (gluten protein) found in wheat, and similar proteins found in the crops of the tribe Triticeae. The disease is associated with HLA-DQ gene. It has_symptom abdominal pain, has_symptom constipation, has_symptom diarrhea, has_symptom nausea and vomiting, and has_symptom loss of appetite.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10608</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0001060</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GARD:11998</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:K90.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:579.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D002446</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C26714</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:607202</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:609754</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:611598</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:612005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:612006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:612007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:612008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:612009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:612011</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORDO:555</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:197477005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0007570</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>An autoimmune disease of gastrointestinal tract that is caused by a reaction located_in small intestine to gliadin, a prolamin (gluten protein) found in wheat, and similar proteins found in the crops of the tribe Triticeae. The disease is associated with HLA-DQ gene. It has_symptom abdominal pain, has_symptom constipation, has_symptom diarrhea, has_symptom nausea and vomiting, and has_symptom loss of appetite.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0001060</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GARD:11998</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:K90.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:579.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002446</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C26714</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:607202</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:609754</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:611598</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:612005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:612006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:612007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:612008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:612009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:612011</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:555</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:197477005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0007570</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">celiac sprue</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">coeliac disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">idiopathic steatorrhea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:10608</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>Xref MGI.
+OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>celiac disease</rdfs:label>
     </owl:Class>
     
 
@@ -328,23 +398,23 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_10763 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10763">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hypertension</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An artery disease characterized by chronic elevated blood pressure in the arteries.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10763</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000537</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:I10</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:401-405.99</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D006973</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C3117</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:38341003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0020538</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>An artery disease characterized by chronic elevated blood pressure in the arteries.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0000537</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I10</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:401-405.99</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006973</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3117</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:38341003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0020538</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">HTN</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">hyperpiesia</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">hypertensive disease</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">vascular hypertensive disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">hypertensive disease</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>DOID:10763</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>hypertension</rdfs:label>
     </owl:Class>
     
 
@@ -352,20 +422,20 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_114 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_114">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">heart disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cardiovascular system disease that involves the heart.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:114</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:I51.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:429.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D006331</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C3079</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:194707003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0018799</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A cardiovascular system disease that involves the heart.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:I51.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:429.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006331</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3079</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:194707003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0018799</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:114</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>heart disease</rdfs:label>
     </owl:Class>
     
 
@@ -373,19 +443,16 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_11612 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11612">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polycystic ovary syndrome</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An ovarian dysfunction that is characterized by hyperandrogenism, polycystic ovaries, hirsutism, oligomenorrhea or amenorrhea, anovulation and excessive body weight.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:11612</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000660</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:E28.2</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:256.4</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D011085</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C26862</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:184700</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:69878008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0032460</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>An ovarian dysfunction that is characterized by hyperandrogenism, polycystic ovaries, hirsutism, oligomenorrhea or amenorrhea, anovulation and excessive body weight.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0000660</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:E28.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:256.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D011085</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C26862</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:184700</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:69878008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0032460</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Multicystic ovaries</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">PCOS</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Polycystic Ovarian disease</oboInOwl:hasExactSynonym>
@@ -393,8 +460,11 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasExactSynonym xml:lang="en">Stein-Leventhal synd.</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Stein-Leventhal syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">polycystic ovary</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:11612</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>polycystic ovary syndrome</rdfs:label>
     </owl:Class>
     
 
@@ -402,26 +472,26 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_12858 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12858">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Huntington&#39;s disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A neurodegenerative disease that has_material_basis_in autosomal dominant inheritance and is characterized by unwanted choreatic movements, behavioral and psychiatric disturbances and dementia and has_material_basis_in expansion of CAG triplet repeats (glutamine) resulting in neuron degeneration affecting muscle coordination, cognitive abilities.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:12858</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GARD:6677</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:G10</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:333.4</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:05016</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D006816</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C82342</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:143100</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:58756001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0020179</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A neurodegenerative disease that has_material_basis_in autosomal dominant inheritance and is characterized by unwanted choreatic movements, behavioral and psychiatric disturbances and dementia and has_material_basis_in expansion of CAG triplet repeats (glutamine) resulting in neuron degeneration affecting muscle coordination, cognitive abilities.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>GARD:6677</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:G10</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:333.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:05016</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006816</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C82342</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:143100</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:58756001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0020179</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">HD</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Huntington disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">Huntington&#39;s chorea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Huntington&apos;s chorea</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:12858</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>Huntington&apos;s disease</rdfs:label>
     </owl:Class>
     
 
@@ -429,24 +499,24 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_1287 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1287">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cardiovascular system disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of anatomical entity which occurs in the blood, heart, blood vessels or the lymphatic system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells or lymph to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1287</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:73</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:429.2</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D002318</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C2931</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:266275004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0007222</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A disease of anatomical entity which occurs in the blood, heart, blood vessels or the lymphatic system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells or lymph to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:73</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD9CM:429.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002318</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2931</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:266275004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0007222</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">disease of subdivision of hemolymphoid system</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:1287</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>cardiovascular system disease</rdfs:label>
     </owl:Class>
     
 
@@ -454,38 +524,38 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_1324 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1324">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung cancer</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A respiratory system cancer that is located_in the lung.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:13075</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1322</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1324</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9881</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:C34.1</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:C34.2</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:C34.3</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:162.3</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:162.4</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:162.5</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:162.8</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:211980</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608935</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:612571</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:612593</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:614210</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:187860004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:187864008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:187868006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:187874006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0024624</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0153491</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0153492</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0153493</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A respiratory system cancer that is located_in the lung.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:13075</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:1322</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9881</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:C34.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C34.2</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C34.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:162.3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:162.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:162.5</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:162.8</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:211980</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:608935</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:612571</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:612593</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:614210</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:187860004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:187864008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:187868006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:187874006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0024624</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153491</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153492</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0153493</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym xml:lang="en">lung neoplasm</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>DOID:1324</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>lung cancer</rdfs:label>
     </owl:Class>
     
 
@@ -493,27 +563,27 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_14499 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14499">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fabry disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sphingolipidosis that is characterized by the buildup of globotriaosylceramide in the body&#39;s cells and has_material_basis_in X-linked inherited mutations in the GLA gene, encoding alpha-galactosidase A, on chromosome Xq22.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:14499</oboInOwl:id>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fabry Disease, Cardiac Variant</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GARD:6400</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:E75.21</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D000795</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C84701</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:301500</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:16652001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0002986</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A sphingolipidosis that is characterized by the buildup of globotriaosylceramide in the body&apos;s cells and has_material_basis_in X-linked inherited mutations in the GLA gene, encoding alpha-galactosidase A, on chromosome Xq22.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>GARD:6400</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:E75.21</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D000795</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C84701</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:301500</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:16652001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0002986</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Alpha-galactosidase A deficiency</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Angiokeratoma Corporis Diffusum</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">Fabry&#39;s disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym xml:lang="en">Fabry&apos;s disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">alpha galactosidase deficiency</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">deficiency of melibiase</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Fabry Disease, Cardiac Variant</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:14499</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>Fabry disease</rdfs:label>
     </owl:Class>
     
 
@@ -521,11 +591,11 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_1575 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1575">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rheumatic disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A musculoskeletal system disease that involves inflammation or pain in the muscles, joints, or fibrous tissue.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1575</oboInOwl:id>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A musculoskeletal system disease that involves inflammation or pain in the muscles, joints, or fibrous tissue.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:1575</oboInOwl:id>
+        <rdfs:label>rheumatic disease</rdfs:label>
     </owl:Class>
     
 
@@ -533,21 +603,21 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_1579 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1579">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">respiratory system disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of anatomical entity that located_in the respiratory system which extends from the nasal sinuses to the diaphragm.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1579</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3226</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:J98</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:519</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:155603009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0029582</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A disease of anatomical entity that located_in the respiratory system which extends from the nasal sinuses to the diaphragm.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:3226</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:J98</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:519</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:155603009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0029582</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:1579</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_GXD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_MGI_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>respiratory system disease</rdfs:label>
     </owl:Class>
     
 
@@ -555,33 +625,33 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_1612 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1612">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">breast cancer</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A thoracic cancer that originates in the mammary gland.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1612</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1648</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:4241</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:C50</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D001943</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C9335</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:114480</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:254837009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0006142</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A thoracic cancer that originates in the mammary gland.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:1648</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:4241</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:C50</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001943</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C9335</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:114480</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:254837009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0006142</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">breast tumor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant neoplasm of breast</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant tumor of the breast</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">mammary cancer</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">mammary neoplasm</oboInOwl:hasRelatedSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">mammary tumor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">primary breast cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">mammary neoplasm</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>DOID:1612</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>Xref MGI.
+OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>breast cancer</rdfs:label>
     </owl:Class>
     
 
@@ -589,21 +659,20 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_162 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_162">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cancer</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:162</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:C80.1</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:199</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICDO:8000/3</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D009369</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C9305</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:269513004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0006826</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Updating out dated UMLS CUI.</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:C80.1</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:199</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICDO:8000/3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D009369</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C9305</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:269513004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0006826</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant neoplasm</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant tumor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">primary cancer</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:162</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_AGR_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
@@ -611,7 +680,8 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>Updating out dated UMLS CUI.</rdfs:comment>
+        <rdfs:label>cancer</rdfs:label>
     </owl:Class>
     
 
@@ -619,35 +689,35 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_178 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_178">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vascular disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A cardiovascular system disease that primarily affects the blood vessels which includes the arteries, veins and capillaries that carry blood to and from the heart.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0000405</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:178</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2403</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2869</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:324</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:325</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:45</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:I72.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:442.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D000783</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D014652</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D020758</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D020760</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C26693</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C35117</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:27550009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:371029002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:432119003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0002940</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0042373</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0752127</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0752130</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A cardiovascular system disease that primarily affects the blood vessels which includes the arteries, veins and capillaries that carry blood to and from the heart.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:0000405</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:2403</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:2869</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:324</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:325</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:45</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:I72.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:442.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D000783</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D014652</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D020758</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D020760</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C26693</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C35117</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:27550009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:371029002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:432119003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0002940</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0042373</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0752127</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0752130</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">vascular tissue disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:178</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>vascular disease</rdfs:label>
     </owl:Class>
     
 
@@ -655,22 +725,22 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_2355 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2355">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anemia</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A hematopoietic system disease that is characterized by a decrease in the normal number of red blood cells.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2355</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0004272</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:D64.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:285.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D000740</oboInOwl:hasDbXref>
-        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D000740</skos:exactMatch>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C2869</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRISM.</rdfs:comment>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:64593003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0002871</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym xml:lang="en">anaemia</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <obo:IAO_0000115>A hematopoietic system disease that is characterized by a decrease in the normal number of red blood cells.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0004272</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:D64.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:285.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D000740</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2869</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:64593003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0002871</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">anaemia</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:2355</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:comment>PRISM.</rdfs:comment>
+        <rdfs:label>anemia</rdfs:label>
+        <skos:exactMatch>MESH:D000740</skos:exactMatch>
     </owl:Class>
     
 
@@ -678,37 +748,35 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_2394 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2394">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ovarian cancer</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A female reproductive organ cancer that is located_in the ovary.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0060070</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2144</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2394</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9595</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GARD:7295</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:C56</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:183.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D010051</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C4984</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C7431</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:167000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:607893</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORDO:213500</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORDO:213517</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:123843001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:372117006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:93934004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0919267</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C1140680</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C1299247</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A female reproductive organ cancer that is located_in the ovary.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:0060070</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:2144</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9595</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>GARD:7295</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C56</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:183.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D010051</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C4984</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C7431</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:167000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:607893</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:213500</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:213517</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:123843001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:372117006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:93934004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0919267</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C1140680</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C1299247</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant Ovarian tumor</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">malignant tumour of ovary</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">ovarian neoplasm</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">ovary neoplasm</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">primary ovarian cancer</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">tumor of the Ovary</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:2394</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
@@ -716,7 +784,9 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#TopNodes_DOcancerslim"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>Xref MGI.
+OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>ovarian cancer</rdfs:label>
     </owl:Class>
     
 
@@ -724,36 +794,36 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_2841 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2841">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">asthma</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A bronchial disease that is characterized by chronic inflammation and narrowing of the airways, which is caused by a combination of environmental and genetic factors. The disease has_symptom recurring periods of wheezing (a whistling sound while breathing), has_symptom chest tightness, has_symptom shortness of breath, has_symptom mucus production and has_symptom coughing.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:12703</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:13829</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:13830</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2840</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2841</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:5783</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000270</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GARD:10246</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:J45</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:493</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:05310</oboInOwl:hasDbXref>
-        <skos:exactMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D001249</skos:exactMatch>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D001249</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C28397</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:600807</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:187687003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0004096</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A bronchial disease that is characterized by chronic inflammation and narrowing of the airways, which is caused by a combination of environmental and genetic factors. The disease has_symptom recurring periods of wheezing (a whistling sound while breathing), has_symptom chest tightness, has_symptom shortness of breath, has_symptom mucus production and has_symptom coughing.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:12703</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:13829</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:13830</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:2840</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:5783</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>EFO:0000270</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GARD:10246</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:J45</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:493</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:05310</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001249</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C28397</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:600807</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:187687003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0004096</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Exercise induced asthma</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">bronchial hyperreactivity</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">chronic obstructive asthma</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">chronic obstructive asthma with acute exacerbation</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">chronic obstructive asthma with status asthmaticus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">exercise-induced asthma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:2841</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>Xref MGI.</rdfs:comment>
+        <rdfs:label>asthma</rdfs:label>
+        <skos:exactMatch>MESH:D001249</skos:exactMatch>
     </owl:Class>
     
 
@@ -761,19 +831,19 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_3082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3082">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">interstitial lung disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lung disease that is characterized by inflammation and altered lung interstitium compromising pulmonary function and often has_symptom shortness of breath, dyspnea, and/or cough.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3082</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GARD:13336</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:J84.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D017563</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C164315</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:64667001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0206062</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym xml:lang="en">ILD</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <obo:IAO_0000115>A lung disease that is characterized by inflammation and altered lung interstitium compromising pulmonary function and often has_symptom shortness of breath, dyspnea, and/or cough.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>GARD:13336</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:J84.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D017563</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C164315</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:64667001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0206062</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym xml:lang="en">ILD</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:3082</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
+        <rdfs:label>interstitial lung disease</rdfs:label>
     </owl:Class>
     
 
@@ -781,32 +851,29 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_3312 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3312">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bipolar disorder</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mood disorder that involves alternating periods of mania and depression.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3311</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3312</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9554</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9555</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000289</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GARD:10249</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:F31</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:296.40</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:296.60</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:296.80</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D001714</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C34423</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C34424</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C34805</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:16506000</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:191627008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:192355004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:68569003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0005586</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0005587</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0024713</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0236780</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym xml:lang="en">Depressive-manic psych.</oboInOwl:hasRelatedSynonym>
+        <obo:IAO_0000115>A mood disorder that involves alternating periods of mania and depression.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:3311</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9554</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:9555</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>EFO:0000289</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GARD:10249</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:F31</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:296.40</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:296.60</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:296.80</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D001714</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C34423</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C34424</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C34805</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:16506000</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:191627008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:192355004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:68569003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0005586</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0005587</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0024713</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0236780</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Manic Bipolar Affective disorder</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Manic Depressive disorder</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Manic bipolar I disorder</oboInOwl:hasExactSynonym>
@@ -815,9 +882,12 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
         <oboInOwl:hasExactSynonym xml:lang="en">manic depression</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">manic disorder</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">mixed bipolar disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:hasRelatedSynonym xml:lang="en">Depressive-manic psych.</oboInOwl:hasRelatedSynonym>
+        <oboInOwl:id>DOID:3312</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>bipolar disorder</rdfs:label>
     </owl:Class>
     
 
@@ -825,71 +895,19 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_3388 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3388">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">periodontal disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A mouth disease that is relating to or affecting the structures surrounding and supporting the teeth.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3388</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:K05.6</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D010510</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C63743</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:196354003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0031090</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A mouth disease that is relating to or affecting the structures surrounding and supporting the teeth.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:K05.6</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D010510</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C63743</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:196354003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0031090</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">disease of supporting structures of teeth</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">periodontium disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:3388</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DOID_3393 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3393">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">coronary artery disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An artery disease that is characterized by plaque building up along the inner walls of the arteries of the heart resulting in a narrowing of the arteries and a reduced blood supply to the cardiac muscles.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:10506</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3363</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3393</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3394</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9420</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0001645</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:I20-I25</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:I25</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:I25.10</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:410-414.99</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:414.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:414.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D003324</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D003327</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D017202</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C35505</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C50625</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:300464</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:607339</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608316</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608318</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608320</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:610947</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:611139</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:612030</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:614293</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:194852007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:233822007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:41702007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:53741008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0010054</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0010068</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0151744</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0264694</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym xml:lang="en">CHD</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">Coronary disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">coronary arteriosclerosis</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym xml:lang="en">coronary heart disease</oboInOwl:hasExactSynonym>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>periodontal disease</rdfs:label>
     </owl:Class>
     
 
@@ -897,31 +915,31 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_37 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_37">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">skin disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An integumentary system disease that is located_in skin.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1576</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:1698</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:187</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:37</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:6486</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:8948</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:702</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D012871</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D012873</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C156032</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C3371</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:201095006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:5613003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:95320005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0029574</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0037274</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0037277</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>An integumentary system disease that is located_in skin.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:1576</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:1698</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:187</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:6486</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:8948</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD9CM:702</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D012871</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D012873</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C156032</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3371</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:201095006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:5613003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:95320005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0029574</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0037274</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0037277</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Genodermatosis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">skin and subcutaneous tissue disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:37</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>skin disease</rdfs:label>
     </owl:Class>
     
 
@@ -929,22 +947,22 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_3908 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3908">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung non-small cell carcinoma</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lung carcinoma that is characterized as any type of epithelial lung cancer other than small cell lung carcinoma.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3908</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0003060</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:05223</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D002289</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C2926</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:254637007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0007131</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A lung carcinoma that is characterized as any type of epithelial lung cancer other than small cell lung carcinoma.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0003060</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:05223</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002289</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2926</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:254637007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0007131</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">NSCLC</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Non-small cell lung cancer</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">non-small cell lung carcinoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:3908</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>lung non-small cell carcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -952,17 +970,17 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_4 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:4</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D004194</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C2991</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:64572001</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0012634</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>MESH:D004194</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2991</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:64572001</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0012634</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:4</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>disease</rdfs:label>
     </owl:Class>
     
 
@@ -970,23 +988,23 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_409 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_409">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liver disease</rdfs:label>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2164</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:2165</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:409</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:46</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:K76.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:573.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D008107</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C3196</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:62857009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0023895</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:2164</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:2165</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:46</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:K76.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:573.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D008107</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3196</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:62857009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0023895</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">disorder of liver</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">hepatic disorder</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:409</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>liver disease</rdfs:label>
     </owl:Class>
     
 
@@ -994,18 +1012,18 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_417 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_417">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An immune system disease that is an overactive immune response of the body against substances and tissues normally present in the body resulting from an abnormal functioning of the immune system that results in the production of antibodies or T cell directed against the host tissues.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:417</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:720</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:109100</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0003089</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.</rdfs:comment>
-        <obo:OBI_9991118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autoimmune disease</obo:OBI_9991118>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>An immune system disease that is an overactive immune response of the body against substances and tissues normally present in the body resulting from an abnormal functioning of the immune system that results in the production of antibodies or T cell directed against the host tissues.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <obo:OBI_9991118>autoimmune disease</obo:OBI_9991118>
+        <oboInOwl:hasDbXref>ICD9CM:720</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:109100</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0003089</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">autoimmune hypersensitivity disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">hypersensitivity reaction type II disease</oboInOwl:hasExactSynonym>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:417</oboInOwl:id>
+        <rdfs:comment>Xref MGI.</rdfs:comment>
+        <rdfs:label>autoimmune disease</rdfs:label>
     </owl:Class>
     
 
@@ -1013,19 +1031,19 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_5082 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5082">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">liver cirrhosis</rdfs:label>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:5082</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0001422</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:K74.60</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D008103</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C2951</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:19943007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0023890</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0001422</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:K74.60</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D008103</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2951</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:19943007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0023890</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Cirrhosis</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">cirrhosis of liver</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:5082</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>liver cirrhosis</rdfs:label>
     </owl:Class>
     
 
@@ -1033,23 +1051,23 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_557 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_557">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kidney disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A urinary system disease that is located_in the kidney.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:11705</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:557</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0003086</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:N08</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D007674</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C3149</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:266612003</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0022658</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">impaired renal function disease</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A urinary system disease that is located_in the kidney.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:11705</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>EFO:0003086</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:N08</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D007674</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3149</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:266612003</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0022658</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">nephropathy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>impaired renal function disease</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:557</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>kidney disease</rdfs:label>
     </owl:Class>
     
 
@@ -1057,18 +1075,18 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_576 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_576">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">proteinuria</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A kidney disease that is characterized by the presence of excess proteins in the urine.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:576</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:R80</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:791.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D011507</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C38012</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:144515004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0033687</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <obo:IAO_0000115>A kidney disease that is characterized by the presence of excess proteins in the urine.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:R80</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:791.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D011507</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C38012</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:144515004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0033687</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:576</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label>proteinuria</rdfs:label>
     </owl:Class>
     
 
@@ -1076,22 +1094,22 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_5844 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5844">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">myocardial infarction</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A coronary artery disease characterized by myocardial cell death (myocardial necrosis) due to prolonged ischaemia.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:5844</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000612</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:I21</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D009203</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C27996</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608557</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:66514008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0027051</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A coronary artery disease characterized by myocardial cell death (myocardial necrosis) due to prolonged ischaemia.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0000612</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I21</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D009203</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C27996</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:608557</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:66514008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0027051</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Myocardial infarct</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">heart attack</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:5844</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>Xref MGI.</rdfs:comment>
+        <rdfs:label>myocardial infarction</rdfs:label>
     </owl:Class>
     
 
@@ -1099,28 +1117,28 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_6000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6000">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">congestive heart failure</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A heart disease that is characterized by any structural or functional cardiac disorder that impairs the ability of the heart to fill with or pump a sufficient amount of blood throughout the body.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:395</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:6000</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:I50</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:I50.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:428</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:428.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D006333</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C3080</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C50577</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:155374007</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:195108009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0018801</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0018802</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A heart disease that is characterized by any structural or functional cardiac disorder that impairs the ability of the heart to fill with or pump a sufficient amount of blood throughout the body.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:395</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:I50</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I50.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:428</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:428.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006333</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3080</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C50577</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:155374007</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:195108009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0018801</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0018802</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">CHF</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Cardiac Failure Congestive</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Congestive heart disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">Weak heart</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:6000</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>congestive heart failure</rdfs:label>
     </owl:Class>
     
 
@@ -1128,26 +1146,26 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_6713 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6713">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cerebrovascular disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An vascular disease that is characterized by dysfunction of the blood vessels supplying the brain.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:12214</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:3455</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:6713</oboInOwl:id>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:8231</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000712</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:I67.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:437.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D002561</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C2938</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:266312006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0007820</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>An vascular disease that is characterized by dysfunction of the blood vessels supplying the brain.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:12214</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:3455</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:8231</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>EFO:0000712</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:I67.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:437.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D002561</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2938</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:266312006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0007820</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">CVA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">cerebrovascular disorder</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">stroke</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:6713</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>cerebrovascular disease</rdfs:label>
     </owl:Class>
     
 
@@ -1155,26 +1173,26 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_684 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_684">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hepatocellular carcinoma</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A liver carcinoma that has_material_basis_in undifferentiated hepatocytes and located_in the liver.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:5005</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:684</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000182</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:C22.0</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICDO:8170/3</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D006528</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C3099</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:114550</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ORDO:88673</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:154469006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C2239176</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A liver carcinoma that has_material_basis_in undifferentiated hepatocytes and located_in the liver.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:5005</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>EFO:0000182</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:C22.0</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICDO:8170/3</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D006528</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3099</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:114550</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ORDO:88673</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:154469006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C2239176</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">Hepatoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:684</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>hepatocellular carcinoma</rdfs:label>
     </owl:Class>
     
 
@@ -1182,24 +1200,24 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_784 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_784">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chronic kidney disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A kidney failure that is characterized by the gradual loss of kidney function.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:784</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:N18.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:585.6</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D007676</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C9438</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:155856009</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0022661</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A kidney failure that is characterized by the gradual loss of kidney function.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:N18.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:585.6</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D007676</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C9438</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:155856009</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0022661</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">CKD</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">CRF</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">chronic kidney failure</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">chronic renal disease</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">chronic renal failure syndrome</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">renal failure - chronic</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:784</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:label>chronic kidney disease</rdfs:label>
     </owl:Class>
     
 
@@ -1207,23 +1225,23 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_850 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_850">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lung disease</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A lower respiratory tract disease in which the function of the lungs is adversely affected by narrowing or blockage of the airways resulting in poor air flow, a loss of elasticity in the lungs that produces a decrease in the total volume of air that the lungs are able to hold, and clotting, scarring, or inflammation of the blood vessels that affect the ability of the lungs to take up oxygen and to release carbon dioxide.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:11894</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:11895</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:29</oboInOwl:hasAlternativeId>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:766</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:850</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:J98.4</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D008171</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C3198</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:266374002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0024115</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Updating out dated CUI and removing lung abscess as a synonym.</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A lower respiratory tract disease in which the function of the lungs is adversely affected by narrowing or blockage of the airways resulting in poor air flow, a loss of elasticity in the lungs that produces a decrease in the total volume of air that the lungs are able to hold, and clotting, scarring, or inflammation of the blood vessels that affect the ability of the lungs to take up oxygen and to release carbon dioxide.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:11894</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:11895</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:29</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasAlternativeId>DOID:766</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:J98.4</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D008171</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3198</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:266374002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0024115</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:850</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>Updating out dated CUI and removing lung abscess as a synonym.</rdfs:comment>
+        <rdfs:label>lung disease</rdfs:label>
     </owl:Class>
     
 
@@ -1231,23 +1249,23 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_8893 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8893">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">psoriasis</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A skin disease that is characterized by patches of thick red skin and silvery scales.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:8893</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0000676</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GARD:10262</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:L40</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D011565</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C3346</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:PS177900</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:156369008</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0033860</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.
-Update outdated UMLS CUI from C00295134 to C0033860.</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A skin disease that is characterized by patches of thick red skin and silvery scales.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0000676</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>GARD:10262</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:L40</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D011565</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C3346</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:PS177900</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:156369008</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0033860</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:8893</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_rare_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>Xref MGI.
+Update outdated UMLS CUI from C00295134 to C0033860.</rdfs:comment>
+        <rdfs:label>psoriasis</rdfs:label>
     </owl:Class>
     
 
@@ -1255,27 +1273,27 @@ Update outdated UMLS CUI from C00295134 to C0033860.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_9256 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9256">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">colorectal cancer</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A large intestine cancer that is located_in the colon and/or located_in the rectum.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9256</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:C18.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:05210</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D015179</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C2956</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C4978</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:114500</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:126837005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:93854002</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0009404</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0346629</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>A large intestine cancer that is located_in the colon and/or located_in the rectum.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>ICD10CM:C18.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:05210</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D015179</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2956</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C4978</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:114500</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:126837005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:93854002</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0009404</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0346629</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:9256</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_CFDE_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_RAD_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_cancer_slim"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>Xref MGI.
+OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>colorectal cancer</rdfs:label>
     </owl:Class>
     
 
@@ -1283,20 +1301,20 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_9351 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9351">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes mellitus</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A glucose metabolism disease that is characterized by chronic hyperglycaemia with disturbances of carbohydrate, fat and protein metabolism resulting from defects in insulin secretion, insulin action, or both.</obo:IAO_0000115>
-        <oboInOwl:hasAlternativeId rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:0081062</oboInOwl:hasAlternativeId>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9351</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:E08-E13</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:250</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D003920</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C2985</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:267467004</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0011849</oboInOwl:hasDbXref>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diabetes</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <obo:IAO_0000115>A glucose metabolism disease that is characterized by chronic hyperglycaemia with disturbances of carbohydrate, fat and protein metabolism resulting from defects in insulin secretion, insulin action, or both.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasAlternativeId>DOID:0081062</oboInOwl:hasAlternativeId>
+        <oboInOwl:hasDbXref>ICD10CM:E08-E13</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:250</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D003920</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C2985</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:267467004</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0011849</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>diabetes</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:9351</oboInOwl:id>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
+        <rdfs:label>diabetes mellitus</rdfs:label>
     </owl:Class>
     
 
@@ -1304,32 +1322,32 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_9352 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9352">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">type 2 diabetes mellitus</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A diabetes mellitus that is characterized by high blood sugar, insulin resistance, and relative lack of insulin.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9352</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0001360</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:E11</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">KEGG:04930</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D003924</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C26747</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:125853</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:601283</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:601407</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:603694</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:608036</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:44054006</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0011860</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Xref MGI.
-OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">insulin resistance</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000115>A diabetes mellitus that is characterized by high blood sugar, insulin resistance, and relative lack of insulin.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0001360</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:E11</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>KEGG:04930</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D003924</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C26747</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:125853</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:601283</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:601407</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:603694</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:608036</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:44054006</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0011860</oboInOwl:hasDbXref>
         <oboInOwl:hasExactSynonym xml:lang="en">NIDDM</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">non-insulin-dependent diabetes mellitus</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">type 2 diabetes</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym xml:lang="en">type II diabetes mellitus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>insulin resistance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:9352</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>Xref MGI.
+OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>type 2 diabetes mellitus</rdfs:label>
     </owl:Class>
     
 
@@ -1337,26 +1355,26 @@ OMIM mapping confirmed by DO. [SN].</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/DOID_9970 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9970">
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obesity</rdfs:label>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An overnutrition that is characterized by excess body fat, traditionally defined as an elevated ratio of weight to height (specifically 30 kilograms per meter squared), has_material_basis_in a multifactorial etiology related to excess nutrition intake, decreased caloric utilization, and genetic susceptibility, and possibly medications and certain disorders of metabolism, endocrine function, and mental illness.</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DOID:9970</oboInOwl:id>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EFO:0001073</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD10CM:E66.9</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICD9CM:278.00</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MESH:D009765</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCI:C159658</oboInOwl:hasDbXref>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM mapping confirmed by DO. [SN].</rdfs:comment>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OMIM:601665</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SNOMEDCT_US_2022_09_01:5476005</oboInOwl:hasDbXref>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UMLS_CUI:C0028754</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease_ontology</oboInOwl:hasOBONamespace>
+        <obo:IAO_0000115>An overnutrition that is characterized by excess body fat, traditionally defined as an elevated ratio of weight to height (specifically 30 kilograms per meter squared), has_material_basis_in a multifactorial etiology related to excess nutrition intake, decreased caloric utilization, and genetic susceptibility, and possibly medications and certain disorders of metabolism, endocrine function, and mental illness.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <oboInOwl:hasDbXref>EFO:0001073</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD10CM:E66.9</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>ICD9CM:278.00</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>MESH:D009765</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>NCI:C159658</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>OMIM:601665</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>SNOMEDCT_US_2022_09_01:5476005</oboInOwl:hasDbXref>
+        <oboInOwl:hasDbXref>UMLS_CUI:C0028754</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>disease_ontology</oboInOwl:hasOBONamespace>
+        <oboInOwl:id>DOID:9970</oboInOwl:id>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#DO_FlyBase_slim"/>
         <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/doid#NCIthesaurus"/>
-        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/doid.owl"/>
+        <rdfs:comment>OMIM mapping confirmed by DO. [SN].</rdfs:comment>
+        <rdfs:label>obesity</rdfs:label>
     </owl:Class>
 </rdf:RDF>
 
 
 
-<!-- Generated by the OWL API (version 1.3.5.1016) http://owlapi.sourceforge.net -->
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
 
