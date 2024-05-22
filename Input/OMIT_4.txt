@@ -7,6 +7,10 @@ OMIT
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/OMIT_0003470
 http://purl.obolibrary.org/obo/OMIT_0007313
+http://purl.obolibrary.org/obo/OMIT_0026160
+http://purl.obolibrary.org/obo/OMIT_0006913
+http://purl.obolibrary.org/obo/OMIT_0008544
+http://purl.obolibrary.org/obo/OMIT_0019447
 
 [Top level source term URIs and target direct superclass URIs]
 

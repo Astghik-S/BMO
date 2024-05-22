@@ -2,12 +2,15 @@
 
 
 [Source ontology]
-NCIT
+CMO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/NCIT_C2902
-http://purl.obolibrary.org/obo/NCIT_C16199
-http://purl.obolibrary.org/obo/NCIT_C175504
+http://purl.obolibrary.org/obo/CMO_0002812
+http://purl.obolibrary.org/obo/CMO_0003717
+http://purl.obolibrary.org/obo/CMO_0002812
+http://purl.obolibrary.org/obo/CMO_0001324
+http://purl.obolibrary.org/obo/CMO_0003815
+http://purl.obolibrary.org/obo/CMO_0000907
 
 [Top level source term URIs and target direct superclass URIs]
 

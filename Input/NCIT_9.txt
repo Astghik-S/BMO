@@ -5,9 +5,12 @@
 NCIT
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/NCIT_C2902
-http://purl.obolibrary.org/obo/NCIT_C16199
-http://purl.obolibrary.org/obo/NCIT_C175504
+http://purl.obolibrary.org/obo/NCIT_C94515
+http://purl.obolibrary.org/obo/NCIT_C116753
+http://purl.obolibrary.org/obo/NCIT_C128056
+http://purl.obolibrary.org/obo/NCIT_C64862
+http://purl.obolibrary.org/obo/NCIT_C116487
+http://purl.obolibrary.org/obo/NCIT_C16810
 
 [Top level source term URIs and target direct superclass URIs]
 

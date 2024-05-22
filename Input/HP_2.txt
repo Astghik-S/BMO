@@ -6,6 +6,7 @@ HP
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/HP_0012823
+http://purl.obolibrary.org/obo/HP_0004934
 
 [Top level source term URIs and target direct superclass URIs]
 

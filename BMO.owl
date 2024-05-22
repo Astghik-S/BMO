@@ -25,31 +25,32 @@
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/bmo/releases/2024-03-14/bmo.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/aqamzhtw.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/aqq30z9q.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/bcwgn5jv.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/bnwne6wp.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/bv4teq8a.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/bz68tift.owl"/>
-        <owl:imports rdf:resource="http://ontofox.hegroup.org/c5z80w3f.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/cj7pi5cw.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/cnb02b47.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/cury2ea6.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/cxbfs3hx.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/d3ffhde3.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/du3742p6.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/dut859ko.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/e8z780zj.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/eg7dshd6.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/fth8abo3.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/g3wcygyd.owl"/>
-        <owl:imports rdf:resource="http://ontofox.hegroup.org/h0vh2pzo.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/gjma8x9n.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/gtnipah6.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/hazyb3tz.owl"/>
-        <owl:imports rdf:resource="http://ontofox.hegroup.org/hb5z9rf9.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/hp9dk3h8.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/ice4a0d2.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/iutjjwqu.owl"/>
-        <owl:imports rdf:resource="http://ontofox.hegroup.org/ivkr8xq9.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/ixg0bk3b.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/jngmowhc.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/kpavhdex.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/kxy0d6y5.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/mkdv864u.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/n0qu5nu3.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/o6j0e47o.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/ogveqtcp.owl"/>
@@ -58,14 +59,15 @@
         <owl:imports rdf:resource="http://ontofox.hegroup.org/orp6jn7p.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/oxetjkei.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/priapr0m.owl"/>
-        <owl:imports rdf:resource="http://ontofox.hegroup.org/q02nf4n4.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/r46ho4pd.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/s8k8obrz.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/t8yndj9i.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/ttdxyruj.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/uftgp0qv.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/uiw68d5s.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/umra307b.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/up7f2oyo.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/uxj9x5xj.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/uygtm276.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/vqqcknt0.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/vrwn42bp.owl"/>
@@ -73,6 +75,7 @@
         <owl:imports rdf:resource="http://ontofox.hegroup.org/x4kjzvbq.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/xnizwnd2.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/xqwijypf.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/xravizmr.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/ynkwsmcz.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/z3v60bis.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/z4ymby8c.owl"/>
@@ -80,17 +83,17 @@
         <owl:imports rdf:resource="http://ontofox.hegroup.org/zbpcworn.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/zdtapaty.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/zdx7fwsy.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/zuttb5ub.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/0ac5cj8t.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/0ans0w8j.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/022i04xp.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/2rbe7cmt.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/2ziw9aia.owl"/>
-        <owl:imports rdf:resource="http://ontofox.hegroup.org/226xmyxm.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/3ep3n665.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/3haqtzby.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/3zid7hw0.owl"/>
-        <owl:imports rdf:resource="http://ontofox.hegroup.org/325gkfac.owl"/>
-        <owl:imports rdf:resource="http://ontofox.hegroup.org/4jxbmo5t.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/4qmp3oyj.owl"/>
-        <owl:imports rdf:resource="http://ontofox.hegroup.org/47yqy8h4.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/5by3sv2y.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/5iqzaw07.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/5qsm923c.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/5qvnzxsi.owl"/>
@@ -100,12 +103,15 @@
         <owl:imports rdf:resource="http://ontofox.hegroup.org/50o5dimb.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/53gjev8z.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/53usxyn4.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/56sughux.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/574859r4.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/6gi7pa2b.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/6tqvf4a3.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/7pxh9gv8.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/7tsfqw6r.owl"/>
-        <owl:imports rdf:resource="http://ontofox.hegroup.org/76w2hwi6.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/8knbfs0a.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/83fqb4gh.owl"/>
+        <owl:imports rdf:resource="http://ontofox.hegroup.org/9v9x4sw4.owl"/>
         <owl:imports rdf:resource="http://ontofox.hegroup.org/933i3weo.owl"/>
         <dc:contributor></dc:contributor>
         <dc:creator>Astghik Sargsyan</dc:creator>
@@ -286,7 +292,7 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000048 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000048">
-        <rdfs:label xml:lang="en">fromOldVersion</rdfs:label>
+        <rdfs:label>fromOldVersion</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -379,7 +385,7 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040">
-        <rdfs:label xml:lang="en">isQualifiedBiomarkerFor</rdfs:label>
+        <rdfs:label>isQualifiedBiomarkerFor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -387,7 +393,7 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000057 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000057">
-        <rdfs:label xml:lang="en">isCandidateBiomarkerFor</rdfs:label>
+        <rdfs:label>isCandidateBiomarkerFor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -395,7 +401,7 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065">
-        <rdfs:label xml:lang="ru">isPrognosticBiomarkerFor</rdfs:label>
+        <rdfs:label>isPrognosticBiomarkerFor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -403,7 +409,7 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066">
-        <rdfs:label xml:lang="ru">isDiagnosticBiomarkerFor</rdfs:label>
+        <rdfs:label>isDiagnosticBiomarkerFor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -411,7 +417,7 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067">
-        <rdfs:label xml:lang="ru">isMonitoringBiomarkerFor</rdfs:label>
+        <rdfs:label>isMonitoringBiomarkerFor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -419,7 +425,23 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000071 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000071">
-        <rdfs:label xml:lang="ru">isPredictiveBiomarkerFor</rdfs:label>
+        <rdfs:label>isPredictiveBiomarkerFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097">
+        <rdfs:label>isDigitalBiomarkerFor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099">
+        <rdfs:label>isImagingBiomarkerFor</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -2007,6 +2029,20 @@ your use.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CHEBI_27680 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_27680">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CHEBI_27899 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_27899">
@@ -2030,6 +2066,22 @@ your use.</rdfs:comment>
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_35664">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47774 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_47774">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_47775 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_47775">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
     </rdf:Description>
     
 
@@ -2125,6 +2177,71 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CL_0000094"/>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0000907 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0000907">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0001324 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0001324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:hasExactSynonym>blood oxygen saturation</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0002812 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0002812">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0003717 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0003717">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004517"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CMO_0003815 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CMO_0003815">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+    </rdf:Description>
     
 
 
@@ -2646,6 +2763,20 @@ your use.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/HP_0004934 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0004934">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/HP_0012823 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012823">
@@ -2775,6 +2906,20 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MAXO_0000647">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MAXO_0000002"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MAXO_0000972 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MAXO_0000972">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -3017,6 +3162,44 @@ your use.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C116487 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C116487">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16809"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C116753 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C116753">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C120540 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C120540">
+        <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/realizable#AFRE_0000002"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C128056 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C128056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16809"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C129416 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C129416">
@@ -3061,6 +3244,14 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C16809">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17369"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16810 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C16810">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16809"/>
     </rdf:Description>
     
 
@@ -3110,6 +3301,21 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C17369">
         <rdfs:subClassOf rdf:resource="http://purl.allotrope.org/ontologies/realizable#AFRE_0000002"/>
+        <oboInOwl:hasExactSynonym>imaging modality</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C174446 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C174446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -3221,6 +3427,14 @@ your use.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C64862 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C64862">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16809"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C686 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C686">
@@ -3275,6 +3489,20 @@ your use.</rdfs:comment>
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C94342">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C94515 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCIT_C94515">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 
@@ -3655,6 +3883,17 @@ your use.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0006913 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0006913">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <obo:IAO_0000115>A change in electrical resistance of the skin, occurring in emotion and in certain other conditions.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/?term=galvanic+skin+response</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>skin conductance</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIT_0007313 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0007313">
@@ -3662,6 +3901,16 @@ your use.</rdfs:comment>
         <obo:IAO_0000115>Deviations from the average values for a specific age and sex in any or all of the following: height, weight, skeletal proportions, osseous development, or maturation of features. Included here are both acceleration and retardation of growth.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/?term=growth+disorder</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>growth disorder</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0008544 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0008544">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <obo:IAO_0000115>Pressure within the cranial cavity. It is influenced by brain mass, the circulatory system, CSF dynamics, and skull rigidity.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/68007427</obo:IAO_0000119>
     </rdf:Description>
     
 
@@ -3733,6 +3982,9 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0019447">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <obo:IAO_0000115>definition
+A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOCYTOCHEMISTRY methods. Ki-67 is a nuclear antigen present only in the nuclei of cycling cells.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/68019394</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3771,6 +4023,22 @@ your use.</rdfs:comment>
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0026160 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0026160">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004517"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Numerical expression indicating the measure of stiffness in a material. It is defined by the ratio of stress in a unit area of substance to the resulting deformation (strain). This allows the behavior of a material under load (such as bone) to be calculated.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/?term=elastic+modulus</obo:IAO_0000119>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIT_0026291 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OMIT_0026291">
@@ -3795,8 +4063,6 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0030323">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
-        <obo:IAO_0000115>The ARG1 gene encodes the enzyme arginase-1, which is a key enzyme in the urea cycle. The urea cycle is a series of biochemical reactions that occur in the liver and are responsible for removing excess nitrogen from the body in the form of urea. Arginase-1 specifically catalyzes the conversion of arginine to ornithine and urea.</obo:IAO_0000115>
-        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3805,8 +4071,6 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0033136">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
-        <obo:IAO_0000115>The KLRB1 gene encodes a protein called Killer cell lectin-like receptor B1, also known as CD161. This gene is located on chromosome 12q24.13 in humans. CD161 is a type II transmembrane glycoprotein that belongs to the C-type lectin superfamily and is primarily expressed on certain subsets of immune cells, particularly natural killer (NK) cells, T cells, and some subsets of innate lymphoid cells (ILCs).</obo:IAO_0000115>
-        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3815,8 +4079,6 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0033342">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
-        <obo:IAO_0000115>The MAF gene, also known as musculoaponeurotic fibrosarcoma oncogene homolog (MAF), is a gene that encodes a transcription factor protein belonging to the basic leucine zipper (bZIP) family. The MAF gene is found on chromosome 16q23.1 in humans.</obo:IAO_0000115>
-        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>musculoaponeurotic fibrosarcoma oncogene homolog</oboInOwl:hasExactSynonym>
     </owl:Class>
     
@@ -3826,8 +4088,6 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0033345">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
-        <obo:IAO_0000115>The MAFG gene is a member of the MAF family of transcription factors and encodes the MAFG protein. This gene is located on chromosome 17q25.3 in humans. MAFG, along with other members of the MAF family, plays important roles in regulating gene expression and various cellular processes.</obo:IAO_0000115>
-        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3836,8 +4096,6 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0036686">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
-        <obo:IAO_0000115>The TPST1 gene encodes the enzyme tyrosylprotein sulfotransferase 1 (TPST1). This gene is located on chromosome 22q13.2 in humans. TPST1 is responsible for the post-translational modification known as tyrosine sulfation, which involves the transfer of a sulfate group from 3&apos;-phosphoadenosine 5&apos;-phosphosulfate (PAPS) to the hydroxyl group of tyrosine residues in target proteins.</obo:IAO_0000115>
-        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3846,8 +4104,6 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0036840">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
-        <obo:IAO_0000115>The AKR1C3 gene encodes the enzyme Aldo-keto reductase family 1 member C3, often abbreviated as AKR1C3. This gene is located on chromosome 10q23.3 and belongs to the aldo-keto reductase (AKR) superfamily.</obo:IAO_0000115>
-        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
     </owl:Class>
     
 
@@ -3856,8 +4112,6 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0043247">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OGG_0000000002"/>
-        <obo:IAO_0000115>The WWC3 gene encodes the protein WWC family member 3, also known as KIBRA (Kidney and Brain expressed protein). This gene is located on chromosome 2q35 in humans. WWC3/KIBRA is a scaffolding protein involved in various cellular processes, including cell polarity, cell adhesion, and cell signaling.</obo:IAO_0000115>
-        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>KIBRA</oboInOwl:hasExactSynonym>
     </owl:Class>
     
@@ -3969,7 +4223,6 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000002307">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000073"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
@@ -4012,9 +4265,6 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000070"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000073"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000074"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
@@ -4029,14 +4279,32 @@ your use.</rdfs:comment>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000071"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000071"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
@@ -4049,12 +4317,16 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003777">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000070"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000072"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0014667"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4067,6 +4339,12 @@ your use.</rdfs:comment>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0014667"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4100,8 +4378,66 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005615">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000070"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000073"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_784"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001919"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004975"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003144"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_162"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_557"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0004975"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://www.ebi.ac.uk/efo/EFO_0003144"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </owl:Class>
     
 
@@ -4110,13 +4446,22 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000005897">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000070"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000072"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000074"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5844"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4128,19 +4473,19 @@ your use.</rdfs:comment>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000061"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000061"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000071"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000061"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
@@ -4251,6 +4596,20 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0032991"/>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SCDO_0000993 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SCDO_0000993">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
     
 
 
@@ -4501,16 +4860,6 @@ your use.</rdfs:comment>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/bmo.owl#N-Terminal_Pro-B-Type_Natriuretic_Peptide -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl#N-Terminal_Pro-B-Type_Natriuretic_Peptide">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <oboInOwl:hasExactSynonym>NT-proBNP</oboInOwl:hasExactSynonym>
-        <rdfs:label>N-Terminal Pro-B-Type Natriuretic Peptide</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000005 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000005">
@@ -4519,7 +4868,7 @@ your use.</rdfs:comment>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <oboInOwl:hasExactSynonym>CNV biomarker</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">copy number variant biomarker</rdfs:label>
+        <rdfs:label>copy number variant biomarker</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/30203254/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4532,7 +4881,7 @@ your use.</rdfs:comment>
         <obo:IAO_0000115>A biomarker to discriminate between healthy individuals and those in an early stage of the disease.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">screening biomarker</rdfs:label>
+        <rdfs:label>screening biomarker</rdfs:label>
     </owl:Class>
     
 
@@ -4544,7 +4893,7 @@ your use.</rdfs:comment>
         <obo:IAO_0000115>A biomarker that is essential to the efficacy and safety of a corresponding therapeutic product.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">companion endpoint</rdfs:label>
+        <rdfs:label>companion endpoint</rdfs:label>
     </owl:Class>
     
 
@@ -4556,7 +4905,7 @@ your use.</rdfs:comment>
         <obo:IAO_0000115>A biomarker that reports interaction of the drug with its target</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">target biomarker</rdfs:label>
+        <rdfs:label>target biomarker</rdfs:label>
     </owl:Class>
     
 
@@ -4568,7 +4917,7 @@ your use.</rdfs:comment>
         <obo:IAO_0000115>A biomarker to monitor efficacy or side effects of a drug treatment.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">monitoring biomarker</rdfs:label>
+        <rdfs:label>monitoring biomarker</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/32541893/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4581,7 +4930,7 @@ your use.</rdfs:comment>
         <obo:IAO_0000115>A biomarker that distinguishes between different stages of chronic disease.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">staging biomarker</rdfs:label>
+        <rdfs:label>staging biomarker</rdfs:label>
     </owl:Class>
     
 
@@ -4593,7 +4942,7 @@ your use.</rdfs:comment>
         <obo:IAO_0000115>A biomarker that predicts a beneficial effect of a given treatment.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">efficacy biomarker</rdfs:label>
+        <rdfs:label>efficacy biomarker</rdfs:label>
     </owl:Class>
     
 
@@ -4605,7 +4954,7 @@ your use.</rdfs:comment>
         <obo:IAO_0000115>A biomarker that indicates adverse response to a treatment</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">safety biomarker</rdfs:label>
+        <rdfs:label>safety biomarker</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/36385904/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4618,7 +4967,7 @@ your use.</rdfs:comment>
         <obo:IAO_0000115>A biomarker that reports to the toxic effect of a drug on an in vitro or in vivo system.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22752797/</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">toxicity biomarker</rdfs:label>
+        <rdfs:label>toxicity biomarker</rdfs:label>
     </owl:Class>
     
 
@@ -4628,9 +4977,9 @@ your use.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000014">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16866"/>
         <obo:IAO_0000115>The Cox proportional hazards regression model, often referred to as Cox regression or just proportional hazards model, is a statistical technique used to analyze the relationship between the survival time of subjects and predictor variables. It&apos;s commonly employed in survival analysis, a branch of statistics that deals with time-to-event data, such as time until death or time until recurrence of a disease.</obo:IAO_0000115>
-        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">COX proportional hazards regression model</rdfs:label>
+        <rdfs:label>COX proportional hazards regression model</rdfs:label>
     </owl:Class>
     
 
@@ -4644,7 +4993,7 @@ your use.</rdfs:comment>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <oboInOwl:hasExactSynonym>surrogate endpoint</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>surrogate marker</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">surrogate biomarker</rdfs:label>
+        <rdfs:label>surrogate biomarker</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/32541893/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4657,7 +5006,7 @@ your use.</rdfs:comment>
         <obo:IAO_0000115>The context of use is a concise description of a biomarker&apos;s specified use in drug developement.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.fda.gov/media/122319/download</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>COU</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">context of use</rdfs:label>
+        <rdfs:label>context of use</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/29110507/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4669,7 +5018,7 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0302911"/>
         <obo:IAO_0000115>Validation is a process to establish that the performance of a test, tool, or instrument is acceptable for its intended purpose.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/33545385/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">biomarker validation</rdfs:label>
+        <rdfs:label>biomarker validation</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/20199395/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4679,9 +5028,9 @@ your use.</rdfs:comment>
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000017"/>
-        <obo:IAO_0000119>Analytical validation aims to establish the performance characteristics of a biomarker including sensitivity, specificity, accuracy, precision, inter-laboratory reproducibility and other relevant performance characteristics following a pre-specified protocol.</obo:IAO_0000119>
+        <obo:IAO_0000115>Analytical validation aims to establish the performance characteristics of a biomarker including sensitivity, specificity, accuracy, precision, inter-laboratory reproducibility and other relevant performance characteristics following a pre-specified protocol.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/33545385/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">analitical validation</rdfs:label>
+        <rdfs:label>analitical validation</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/32541893/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4693,7 +5042,7 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000017"/>
         <obo:IAO_0000115>Clinical validation aims to establish an association between the biomarker and the endpoint of interest and to demonstrate the usefulness of the biomarker. Clinical validation relies on external validation and can be done by retrospective use of clinical trial data or by prospective clinical trials. Retrospective use of clinical trial data is a form of external clinical validation where the biomarker evaluation is not part of the original study design.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/33545385/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">clinical validation</rdfs:label>
+        <rdfs:label>clinical validation</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/32541893/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4702,10 +5051,10 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000020 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000020">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000045"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000144"/>
         <obo:IAO_0000115>Sensitivity of the biomarker, is the ability of a biomarker or a change in biomarker to predict a meaningful change in a clinical endpoint. Sensitivity describes the relationship between the magnitude of change in the biomarker and the magnitude of change in the clinical endpoint.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/27891226/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">clinical sensitivity</rdfs:label>
+        <rdfs:label>clinical sensitivity</rdfs:label>
     </owl:Class>
     
 
@@ -4713,10 +5062,10 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000021 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000045"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000144"/>
         <obo:IAO_0000115>Specificity of the biomarker, referred to as the ability of a biomarker or a change in biomarker to distinguish patients who are responders to an intervention from those who are non-responders in terms of changes in clinical endpoints.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/27891226/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">clinical specificity</rdfs:label>
+        <rdfs:label>clinical specificity</rdfs:label>
     </owl:Class>
     
 
@@ -4724,11 +5073,11 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000022 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000022">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000045"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000144"/>
         <obo:IAO_0000115>False negatives occur when no change or a small observed change in a biomarker fails to signal a positive, meaningful change in a clinical endpoint; for instance a tumor that does not express PD-L1 but does respond to anti-PD-L1 immunotherapy is a false negative.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/27891226/</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>false negative rate</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">probability of false negatives</rdfs:label>
+        <rdfs:label>probability of false negatives</rdfs:label>
     </owl:Class>
     
 
@@ -4736,10 +5085,10 @@ your use.</rdfs:comment>
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000023 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000023">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000045"/>
+        <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000144"/>
         <obo:IAO_0000115>False positives occur when a desired change in a biomarker is not reflected by a positive change in a clinical endpoint or even worse, is associated with a negative change in a clinical endpoint. An example of a false positive is the detection of elevated levels of the functional or biochemical marker in the absence of clinical response to treatment. For example, a tumor that has expressed PD-L1 on the tumor cells, but does not respond to targeted anti-PD-L1 immunotherapy, is a false positive.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/27891226/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">probability of false positives</rdfs:label>
+        <rdfs:label>probability of false positives</rdfs:label>
     </owl:Class>
     
 
@@ -4750,7 +5099,7 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://semanticscience.org/resource/SIO_000144"/>
         <obo:IAO_0000115>The sensitivity and specificity of the assay must be demonstrated through robust ROC curves that provide support for the cut points established to identify responders vs. non-responders.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/27891226/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">cut point</rdfs:label>
+        <rdfs:label>cut point</rdfs:label>
     </owl:Class>
     
 
@@ -4762,7 +5111,7 @@ your use.</rdfs:comment>
         <obo:IAO_0000115>When a biomarker test is designed to be used in conjunction with specific treatment, the test is known as a CDx. Safety and efficacy of the new drug and of the CDx are typically demonstrated in the same clinical trial for both the drug and the test.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/27891226/</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>CDx</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">companion diagnostics</rdfs:label>
+        <rdfs:label>companion diagnostics</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/29110507/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4774,7 +5123,7 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
         <obo:IAO_0000115>Complementary diagnostics are tests that, although not needed for the prescription of the corresponding therapeutic product, provide useful information on the drug risk/benefit in specific patient subsets</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/27891226/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">complementary diagnostics</rdfs:label>
+        <rdfs:label>complementary diagnostics</rdfs:label>
     </owl:Class>
     
 
@@ -4784,7 +5133,7 @@ your use.</rdfs:comment>
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
         <obo:IAO_0000115>A biomarker regulatory entity refers to a regulatory organization responsible for qualification and acceptance of biomarkers for futrher use in pharmaceutical research and development.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">biomarker regulatory entity</rdfs:label>
+        <rdfs:label>biomarker regulatory entity</rdfs:label>
     </owl:Class>
     
 
@@ -4797,7 +5146,7 @@ your use.</rdfs:comment>
         <obo:IAO_0000119>https://www.pmda.go.jp/english/about-pmda/outline/0005.html</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>PMDA</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>The Japanese Pharmaceuticals and Medical Device Agency</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">Japan’s Pharmaceuticals and Medical Devices Agency</rdfs:label>
+        <rdfs:label>Japan’s Pharmaceuticals and Medical Devices Agency</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/29110507/</rdfs:seeAlso>
         <rdfs:seeAlso>https://www.pmda.go.jp/english/</rdfs:seeAlso>
     </owl:Class>
@@ -4810,7 +5159,7 @@ your use.</rdfs:comment>
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
         <obo:IAO_0000115>Biomarkers that represent acute and chronic pain, predisposition to develop chronic pain and , and pain chronification, recovery and treatment outcomes.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32541893/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">chronic pain biomarker</rdfs:label>
+        <rdfs:label>chronic pain biomarker</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/30844399/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4823,7 +5172,7 @@ your use.</rdfs:comment>
         <obo:IAO_0000115>A biomarker, clinical outcome assesment, or any other method, material, or measure
 determined to aid drug development and regulatory review (FD&amp;C Act, section 507(e)(5)).</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.fda.gov/media/133511/download</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">drug development tool</rdfs:label>
+        <rdfs:label>drug development tool</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/29110507/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4835,7 +5184,7 @@ determined to aid drug development and regulatory review (FD&amp;C Act, section 
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000233"/>
         <obo:IAO_0000115>A guidance that describes a voluntary program for the qualification of medical device development tools (MDDTs) for use in the evaluation of devices regulated by CDRH.  Specifically, this guidance describes the framework for voluntary proposal and qualification of an MDDT, including definitions of applicable terms, criteria for evaluating an MDDT for a specific context of use, considerations for qualification, and the contents of a qualification package. CDRH believes that MDDTs will facilitate the development and timely evaluation of medical devices by providing a more efficient and predictable means for collecting information to support regulatory submissions and associated decision-making.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.fda.gov/regulatory-information/search-fda-guidance-documents/qualification-medical-device-development-tools</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Qualification of Medical Device Development Tools Guidance for Industry, Tool Developers, and Food and Drug Administration Staff</rdfs:label>
+        <rdfs:label>Qualification of Medical Device Development Tools Guidance for Industry, Tool Developers, and Food and Drug Administration Staff</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/29110507/</rdfs:seeAlso>
         <rdfs:seeAlso>https://www.fda.gov/media/87134/download</rdfs:seeAlso>
     </owl:Class>
@@ -4849,7 +5198,7 @@ determined to aid drug development and regulatory review (FD&amp;C Act, section 
         <obo:IAO_0000115>The guidance representing the Center for Drug Evaluation and
 Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s (CBER’s)  current thinking on implementation of section 507 of the FD&amp;C Act with respect to describing the process for requestors5 interested in qualifying DDTs and on taxonomy for biomarkers and other DDTs.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.fda.gov/media/133511/download</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">Qualification Process for Drug Development Tools Guidance for Industry and FDA Staff</rdfs:label>
+        <rdfs:label>Qualification Process for Drug Development Tools Guidance for Industry and FDA Staff</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/29110507</rdfs:seeAlso>
     </owl:Class>
     
@@ -4861,7 +5210,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000233"/>
         <obo:IAO_0000115>The 21st Century Cures Act (Cures Act), signed into law on December 13, 2016, is designed to help accelerate medical product development and bring new innovations and advances to patients who need them faster and more efficiently.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.fda.gov/regulatory-information/selected-amendments-fdc-act/21st-century-cures-act</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">21st Century Cures Act</rdfs:label>
+        <rdfs:label>21st Century Cures Act</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/29110507/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4872,7 +5221,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/ICO_0000233"/>
         <obo:IAO_0000115>The guidance document is intended to facilitate progress in the field of pharmacogenomics and genetics by helping to shorten development and review timelines, facilitate rapid transfer of new technology from the research bench to the clinical diagnostic laboratory, and encourage informed use of pharmacogenomic and genetic diagnostic devices. It provides recommendations to sponsors and FDA reviewers in preparing and reviewing premarket approval applications (PMA) and premarket notification (510(k)) submissions for pharmacogenetic and other human genetic tests, whether testing is for single markers or for multiple markers simultaneously (multiplex tests). Array-based tests (commonly referred to as microarrays) are a subset of multiplex tests and are included in the scope of this document. The recommendations within this guidance for elements of a genetic test submission apply to pharmacogenetic (e.g., drug-metabolizing enzyme allele tests, single nucleotide polymorphism (SNP) analysis) and other types of genetic tests. Tests of gene expression and tests for non-heritable (somatic) mutations are not specifically addressed, although many of the same principles may apply. In addition, this guidance considers nucleic acid-based analysis only, but the principles may be applied to other matrices (e.g., protein) when the purpose is to provide genetic information.</obo:IAO_0000115>
-        <rdfs:label xml:lang="en">Pharmacogenetic Tests and Genetic Tests for Heritable Markers Guidance for Industry and FDA Staff</rdfs:label>
+        <rdfs:label>Pharmacogenetic Tests and Genetic Tests for Heritable Markers Guidance for Industry and FDA Staff</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/29110507/</rdfs:seeAlso>
         <rdfs:seeAlso>https://www.fda.gov/media/71422/download</rdfs:seeAlso>
         <rdfs:seeAlso>https://www.fda.gov/regulatory-information/search-fda-guidance-documents/pharmacogenetic-tests-and-genetic-tests-heritable-markers</rdfs:seeAlso>
@@ -4886,7 +5235,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
         <obo:IAO_0000115>Qualified biomarkers have the potential to provide valuable information that may reduce uncertainty in regulatory decisions during drug development. When a biomarker is qualified, it means that it has undergone a formal regulatory process to ensure that we can rely on it to have a specific interpretation and application in medical product development and regulatory review, within the stated context of use (COU) . It is important to note that a biomarker is qualified, and not the biomarker measurement method.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.fda.gov/drugs/biomarker-qualification-program/about-biomarkers-and-qualification</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">qualified biomarker</rdfs:label>
+        <rdfs:label>qualified biomarker</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/20199395/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4899,7 +5248,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <obo:IAO_0000115>Total Kidney Volume (TKV) is the primary measure of kidney growth and can provide information on disease status and its progression. MRI or CT scan are the best methods to obtain TKV measurements.</obo:IAO_0000115>
         <obo:IAO_0000119>https://resources.pkdcure.org/resources/what-is-total-kidney-volume-tkv-and-why-is-it-important-to-me/</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>TKV</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">total kidney volume</rdfs:label>
+        <rdfs:label>total kidney volume</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/35383043/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4912,7 +5261,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <obo:IAO_0000115>Kidney injury molecule 1 (KIM-1) is a transmembrane glycoprotein expressed by proximal tubular cells, recognized as an early, sensitive and specific urinary biomarker for kidney injury.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/37664565/</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>KIM-1</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">kidney injury molecule-1</rdfs:label>
+        <rdfs:label>kidney injury molecule-1</rdfs:label>
     </owl:Class>
     
 
@@ -4924,7 +5273,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <obo:IAO_0000115>Urinary total protein (UTP) includes all proteins in urine samples. The presence of some quantities of proteins (&lt;150 mg/day) is considered normal.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.human.de/lab-professionals/trends-topics/urinary-total-protein-more-than-just-protein</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>total protein</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">urine total potein</rdfs:label>
+        <rdfs:label>urine total potein</rdfs:label>
     </owl:Class>
     
 
@@ -4936,7 +5285,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <obo:IAO_0000115>Cross-validation or out-of-sample testing is a technique that is used to ensure that a model is robust if separate training and test data sets are not available.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32541893/</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>out-of-sample testing</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">cross-validation testing</rdfs:label>
+        <rdfs:label>cross-validation testing</rdfs:label>
     </owl:Class>
     
 
@@ -4945,11 +5294,11 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
-        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
+        <obo:IAO_0000115>Composite biomarkers, also known as multimarker panels or signatures, are combinations of multiple individual biomarkers that are used collectively to assess biological processes, disease states, or responses to treatments. These biomarkers can be diverse, including genetic, molecular, cellular, or clinical markers.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>multimarker panel</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>multimarker signature</oboInOwl:hasExactSynonym>
-        <rdfs:comment>Composite biomarkers, also known as multimarker panels or signatures, are combinations of multiple individual biomarkers that are used collectively to assess biological processes, disease states, or responses to treatments. These biomarkers can be diverse, including genetic, molecular, cellular, or clinical markers.</rdfs:comment>
-        <rdfs:label xml:lang="en">composite biomarkers</rdfs:label>
+        <rdfs:label>composite biomarkers</rdfs:label>
     </owl:Class>
     
 
@@ -4958,7 +5307,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000043">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <rdfs:label xml:lang="en">regulatory standard</rdfs:label>
+        <obo:IAO_0000115>A regulatory standard refers to a set of rules, guidelines, specifications, or requirements established by regulatory authorities to ensure the safety, efficacy, quality, and compliance of products, services, processes, or systems within a particular industry or jurisdiction. Regulatory standards play a critical role in protecting public health, safety, and welfare, promoting fair trade practices, and maintaining consumer confidence in regulated sectors.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <rdfs:label>regulatory standard</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/32541893/</rdfs:seeAlso>
     </owl:Class>
     
@@ -4968,17 +5319,10 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
-        <rdfs:label xml:lang="en">regulatory guideline</rdfs:label>
+        <obo:IAO_0000115>Regulatory guidelines are documents issued by regulatory authorities or standardization organizations to provide recommendations, interpretations, instructions, or best practices for complying with regulatory requirements, industry standards, or established norms within a specific jurisdiction or field of activity. These guidelines offer guidance to regulated entities, stakeholders, and practitioners on how to interpret, implement, and adhere to applicable regulations, standards, or policies effectively.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <rdfs:label>regulatory guideline</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/32541893/</rdfs:seeAlso>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000045 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000045">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-        <rdfs:label xml:lang="en">statistical measure</rdfs:label>
     </owl:Class>
     
 
@@ -4989,7 +5333,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
         <obo:IAO_0000115>Qualification is the evidentiary process of linking a biomarker with biological processes and clinical end points.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/20199395/</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">biomarker qualification</rdfs:label>
+        <rdfs:label>biomarker qualification</rdfs:label>
     </owl:Class>
     
 
@@ -5001,7 +5345,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <obo:IAO_0000115>Cardiac function refers to the hearts capability to fulfill its task as the motor or pump of the blood circuit satisfying the bodies demands of oxygen and nutritive substances as well as the removal of waste products.</obo:IAO_0000115>
         <obo:IAO_0000119>https://doi.org/10.53347/rID-85803</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">cardiac function</rdfs:label>
+        <rdfs:label>cardiac function</rdfs:label>
     </owl:Class>
     
 
@@ -5013,7 +5357,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <obo:IAO_0000115>Systolic function refers to the heart&apos;s ability to throw out a specific amount of blood in a certain amount of time.</obo:IAO_0000115>
         <obo:IAO_0000119>https://doi.org/10.53347/rID-85803</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">systolic function</rdfs:label>
+        <rdfs:label>systolic function</rdfs:label>
     </owl:Class>
     
 
@@ -5050,7 +5394,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/25276427/</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <oboInOwl:hasExactSynonym>HER-2</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">human epidermal growth factor receptor 2</rdfs:label>
+        <rdfs:label>human epidermal growth factor receptor 2</rdfs:label>
     </owl:Class>
     
 
@@ -5062,7 +5406,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <obo:IAO_0000115>A biomarker that measures epigenetic alterations, such as DNA methylation, histone methylation, histone acetylation, microRNAs, or other non-coding RNA.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/22122639/</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">epigenetic biomarker</rdfs:label>
+        <rdfs:label>epigenetic biomarker</rdfs:label>
     </owl:Class>
     
 
@@ -5072,12 +5416,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000052">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
         <obo:IAO_0000115>Inflammatory biomarkers are molecules or substances that are indicative of inflammation occurring in the body. Inflammation is a natural response by the immune system to infection, injury, or other harmful stimuli, and it plays a crucial role in the body&apos;s defense mechanisms. However, chronic or excessive inflammation can contribute to the development and progression of various diseases, including autoimmune disorders, cardiovascular diseases, cancer, and neurodegenerative conditions.</obo:IAO_0000115>
-        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
         <oboInOwl:hasExactSynonym>inflammation biomarker</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>inflammation marker</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>inflammatory marker</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="en">inflammatory biomarker</rdfs:label>
+        <rdfs:label>inflammatory biomarker</rdfs:label>
     </owl:Class>
     
 
@@ -5087,8 +5431,8 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000053">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
         <obo:IAO_0000115>A stratification biomarker is a biological characteristic or measurement used to categorize individuals into different subgroups based on their likelihood of responding to a particular treatment or exhibiting certain disease characteristics. These biomarkers are especially valuable in the context of personalized or precision medicine, where treatments can be tailored to individual patients based on their unique characteristics.</obo:IAO_0000115>
-        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
-        <rdfs:label xml:lang="en">stratification biomarker</rdfs:label>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
+        <rdfs:label>stratification biomarker</rdfs:label>
     </owl:Class>
     
 
@@ -5098,9 +5442,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000054">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16866"/>
         <obo:IAO_0000115>A prediction model, also known as a predictive model or forecasting model, is a statistical or computational tool used to make predictions or forecasts about future events or outcomes based on historical data and patterns. Prediction models are widely used across various fields, including finance, healthcare, marketing, weather forecasting, and sports analytics, among others. These models leverage patterns and relationships within the data to make predictions about future behavior or events.</obo:IAO_0000115>
-        <obo:IAO_0000119>ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 02.04.2024</obo:IAO_0000119>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
-        <rdfs:label xml:lang="en">prediction model</rdfs:label>
+        <rdfs:label>prediction model</rdfs:label>
     </owl:Class>
     
 
@@ -5114,22 +5458,8 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <dc:description>The &apos;qualified biomarker TM_BIN&apos; concept enables a compilation of diverse concepts that are related to qualified biomarkers in a specific disease via the Axiome &apos;isQualifiedBiomarkerFor some disease&apos;.  Thus enables the adaptation of the ontology for text mining purposes for qualified biomarker related information retrieval and information extraction within specific disease.</dc:description>
-        <rdfs:label xml:lang="en">qualified biomarker TM_BIN</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000056 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000056">
-        <owl:equivalentClass>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000057"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
-            </owl:Restriction>
-        </owl:equivalentClass>
-        <rdfs:label xml:lang="en">candidate biomarker TM_BIN</rdfs:label>
+        <dc:description>The concept of the &apos;qualified biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to qualified biomarkers in a specific disease via the axiom &apos;isQualifiedBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to qualified biomarkers within a specific disease.</dc:description>
+        <rdfs:label>qualified biomarker TM_BIN</rdfs:label>
     </owl:Class>
     
 
@@ -5140,7 +5470,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
         <obo:IAO_0000115>D-dimer is a soluble fibrin degradation product that results from ordered breakdown of thrombi by the fibrinolytic system. Numerous studies have shown that D-dimer serves as a valuable marker of activation of coagulation and fibrinolysis</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/29096812/</obo:IAO_0000119>
-        <rdfs:label xml:lang="ru">d-dimer</rdfs:label>
+        <rdfs:label>d-dimer</rdfs:label>
     </owl:Class>
     
 
@@ -5154,7 +5484,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <oboInOwl:hasExactSynonym>GDF-15</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Growth/differentiation factor-15</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>also named macrophage inhibitory cytokine-1</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="ru">Growth Differentiation Factor 15</rdfs:label>
+        <rdfs:label>Growth Differentiation Factor 15</rdfs:label>
     </owl:Class>
     
 
@@ -5171,7 +5501,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         </rdfs:subClassOf>
         <obo:IAO_0000115>A lipoprotein that resembles the LOW-DENSITY LIPOPROTEINS but with an extra protein moiety, APOPROTEIN (A) also known as APOLIPOPROTEIN (A), linked to APOLIPOPROTEIN B-100 on the LDL by one or two disulfide bonds. High plasma level of lipoprotein (a) is associated with increased risk of atherosclerotic cardiovascular disease.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/68017270</obo:IAO_0000119>
-        <rdfs:label xml:lang="ru">lipoprotein a</rdfs:label>
+        <rdfs:label>lipoprotein a</rdfs:label>
     </owl:Class>
     
 
@@ -5188,7 +5518,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         </rdfs:subClassOf>
         <obo:IAO_0000115>Plasma glycoprotein clotted by thrombin, composed of a dimer of three non-identical pairs of polypeptide chains (alpha, beta, gamma) held together by disulfide bonds. Fibrinogen clotting is a sol-gel change involving complex molecular arrangements: whereas fibrinogen is cleaved by thrombin to form polypeptides A and B, the proteolytic action of other enzymes yields different fibrinogen degradation products.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/?term=fibrinogen</obo:IAO_0000119>
-        <rdfs:label xml:lang="ru">fibrinogen</rdfs:label>
+        <rdfs:label>fibrinogen</rdfs:label>
     </owl:Class>
     
 
@@ -5197,7 +5527,12 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000064">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
@@ -5208,7 +5543,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
         <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/?term=Creatine+kinase-MB</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>CK-MB</oboInOwl:hasExactSynonym>
         <oboInOwl:hasExactSynonym>Creatine Kinase, MB Form</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="ru">Creatine Kinase-MB</rdfs:label>
+        <rdfs:label>Creatine Kinase-MB</rdfs:label>
     </owl:Class>
     
 
@@ -5217,7 +5552,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000068">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
-        <rdfs:label xml:lang="ru">biomarker repurposing</rdfs:label>
+        <obo:IAO_0000115>Biomarker repurposing, the novel application of existing biomarkers for other purposes.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/30044870/</obo:IAO_0000119>
+        <rdfs:label>biomarker repurposing</rdfs:label>
     </owl:Class>
     
 
@@ -5226,7 +5563,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000069">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
-        <rdfs:label xml:lang="ru">candidate biomarker</rdfs:label>
+        <obo:IAO_0000115>Properly performed, biomarker discovery can lead to effective candidates that can ultimately serve as predictors of disease, medical condition, define therapeutic parameters, and many other applications in medicine.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/27975230/</obo:IAO_0000119>
+        <rdfs:label>candidate biomarker</rdfs:label>
     </owl:Class>
     
 
@@ -5240,8 +5579,8 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <terms:description>The &apos;diagnostic biomarker TM_BIN&apos; concept enables a compilation of diverse concepts that are related to diagnostic biomarkers for specific diseases/context of use via the Axiome &apos;isDiagnosticBiomarkerFor some disease&apos;.  Thus enables the adaptation of the ontology for text mining purposes for disease specific diagnostic biomarker related information retrieval and information extraction.</terms:description>
-        <rdfs:label xml:lang="ru">diagnostic biomarker TM_BIN</rdfs:label>
+        <terms:description>The concept of the &apos;diagnostic biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to diagnostic biomarkers in a specific disease via the axiom &apos;isDiagnosticBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to diagnostic biomarkers within a specific disease.</terms:description>
+        <rdfs:label>diagnostic biomarker TM_BIN</rdfs:label>
     </owl:Class>
     
 
@@ -5255,7 +5594,8 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:label xml:lang="ru">monitoring biomarker TM_BIN</rdfs:label>
+        <dc:description>The concept of the &apos;monitoring biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to monitoring biomarkers in a specific disease via the axiom &apos;isMonitoringBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to monitoring biomarkers within a specific disease.</dc:description>
+        <rdfs:label>monitoring biomarker TM_BIN</rdfs:label>
     </owl:Class>
     
 
@@ -5269,7 +5609,8 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:label xml:lang="ru">prognostic biomarker TM_BIN</rdfs:label>
+        <dc:description>The concept of the &apos;prognostic biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to prognostic biomarkers in a specific disease via the axiom &apos;isPrognosticBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to prognostic biomarkers within a specific disease.</dc:description>
+        <rdfs:label>prognostic biomarker TM_BIN</rdfs:label>
     </owl:Class>
     
 
@@ -5283,7 +5624,8 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
                 <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
             </owl:Restriction>
         </owl:equivalentClass>
-        <rdfs:label xml:lang="ru">predictive biomarker TM_BIN</rdfs:label>
+        <dc:description>The concept of the &apos;predictive biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to predictive biomarkers in a specific disease via the axiom &apos;isPredictiveBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to predictive biomarkers within a specific disease.</dc:description>
+        <rdfs:label>predictive biomarker TM_BIN</rdfs:label>
     </owl:Class>
     
 
@@ -5292,7 +5634,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000075">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
-        <rdfs:label xml:lang="ru">pharmacodynamic biomarker</rdfs:label>
+        <obo:IAO_0000115>A pharmacodynamic biomarker is a response biomarker that indicates biological activity of a medical product or environmental agent without necessarily drawing conclusions about efficacy or disease outcome or necessarily linking this activity to an established mechanism of action.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/books/NBK402286/</obo:IAO_0000119>
+        <rdfs:label>pharmacodynamic biomarker</rdfs:label>
     </owl:Class>
     
 
@@ -5301,7 +5645,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000076">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
-        <rdfs:label xml:lang="ru">therapeutic biomarker</rdfs:label>
+        <obo:IAO_0000115>A therapeutic biomarker is a measurable biological characteristic or indicator that is used to assess the response to a therapeutic intervention, such as a medication, treatment, or therapy. These biomarkers provide valuable information about the effectiveness, safety, and potential side effects of the intervention, helping healthcare professionals tailor treatment plans to individual patients and optimize therapeutic outcomes.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <rdfs:label>therapeutic biomarker</rdfs:label>
     </owl:Class>
     
 
@@ -5310,7 +5656,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000077">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPMI_0000445"/>
-        <rdfs:label xml:lang="ru">digital biomarker</rdfs:label>
+        <obo:IAO_0000115>Digital biomarkers are objective, quantifiable, physiological, and behavioral measures that are collected by means of digital devices that are portable, wearable, implantable, or digestible.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/32095769/</obo:IAO_0000119>
+        <rdfs:label>digital biomarker</rdfs:label>
     </owl:Class>
     
 
@@ -5319,7 +5667,9 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000078">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000968"/>
-        <rdfs:label xml:lang="ru">digital device</rdfs:label>
+        <obo:IAO_0000115>A digital device refers to any electronic tool, gadget, or hardware that utilizes digital technology to perform specific functions or tasks. These devices are prevalent in various aspects of modern life, including communication, entertainment, productivity, health, and education. Digital devices encompass a wide range of technologies, from computers and smartphones to wearables and smart home appliances.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <rdfs:label>digital device</rdfs:label>
     </owl:Class>
     
 
@@ -5328,8 +5678,10 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000079">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000078"/>
+        <obo:IAO_0000115>Wearables are electronic devices that can be worn on the body, typically as accessories or clothing items, to provide functionality, collect data, and offer convenience and connectivity. These devices have gained popularity in recent years for their ability to track health metrics, provide notifications, and integrate with smartphones and other digital platforms, enhancing users&apos; lifestyles and well-being.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>wearable device</oboInOwl:hasExactSynonym>
-        <rdfs:label xml:lang="ru">wearable</rdfs:label>
+        <rdfs:label>wearable</rdfs:label>
     </owl:Class>
     
 
@@ -5338,7 +5690,569 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000080">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000079"/>
-        <rdfs:label xml:lang="ru">smartwatch</rdfs:label>
+        <obo:IAO_0000115>A smartwatch is a wearable device that combines the functionality of a traditional wristwatch with features typically associated with smartphones and other electronic devices. Smartwatches offer a wide range of capabilities, including timekeeping, notifications, health and fitness tracking, communication, and app integration, all accessible from the user&apos;s wrist.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <rdfs:label>smartwatch</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <obo:IAO_0000115>A metric is a quantifiable measure or indicator used to assess, analyze, and evaluate performance, progress, or quality in various contexts. Metrics provide objective data that can be compared, tracked over time, and used to make informed decisions, set goals, and drive improvement. In different fields and industries, metrics serve specific purposes and may encompass a wide range of parameters, variables, and key performance indicators (KPIs).</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <rdfs:label>metric</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000083">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004517"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Augmentation index is a measure of systemic arterial stiffness derived from the ascending aortic pressure waveform.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/10811742/</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>AIx</oboInOwl:hasExactSynonym>
+        <rdfs:label>augmentation index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000084 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000084">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004517"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Arterial compliance is a change in dimension in response to a given change in stress.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/9549658/</obo:IAO_0000119>
+        <rdfs:label>arterial compliance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000085">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004517"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The stiffness index (SI) derived from the analysis of digital volume pulse (DVP) is a noninvasive indirect technique of measuring arterial stiffness peripherally.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/18551104/</obo:IAO_0000119>
+        <rdfs:label>stiffness index</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:label>activity level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000087">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000086"/>
+        <obo:IAO_0000115>Step count is a widely used metric for tracking physical activity, particularly walking. It measures the total number of steps an individual takes over a specified period, typically daily. Step count is a simple yet effective way to monitor activity levels and promote a healthy lifestyle.</obo:IAO_0000115>
+        <obo:IAO_0000115>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000115>
+        <rdfs:label>step count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000086"/>
+        <obo:IAO_0000115>Distance walked is a straightforward and important metric that reflects the total length covered by an individual during a specified period, typically measured in meters or miles. This metric is widely used in various fields, including healthcare, fitness, sports, and rehabilitation, to assess physical activity levels, mobility, and overall health.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <rdfs:label>distance walked</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000089">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000086"/>
+        <obo:IAO_0000115>Distance run refers to the total length covered by an individual while running, typically measured in miles or kilometers. It is a fundamental metric used to assess a runner&apos;s performance, track progress, and set goals for training and competition. Distance running is a popular form of aerobic exercise that provides numerous health benefits and is enjoyed by people of all ages and fitness levels.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <rdfs:label>distance run</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000086"/>
+        <obo:IAO_0000119>Active minutes refer to the total duration of physical activity during which an individual engages in moderate to vigorous intensity exercise. This metric is commonly used to track and quantify the amount of time spent being physically active, providing insight into one&apos;s overall activity level and adherence to recommended exercise guidelines.</obo:IAO_0000119>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <rdfs:label>active minute</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000091">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <obo:IAO_0000115>Sleep stages refer to the different phases of sleep that a person cycles through during the night. These stages are characterized by distinct patterns of brain activity, physiological changes, and differing levels of consciousness. Understanding sleep stages is crucial for assessing sleep quality and diagnosing sleep disorders.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <rdfs:label>sleep stage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000092 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000092">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Blood glucose level, also known as blood sugar level, refers to the concentration of glucose (sugar) present in the bloodstream. Glucose is a vital source of energy for the body&apos;s cells, and its levels are tightly regulated to maintain stable energy supply and overall health.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>blood sugar level</oboInOwl:hasExactSynonym>
+        <rdfs:label>blood glucose level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Determination of the level of functional limitation that may be due to pathology, and evaluating rehabilitative intervention of the way in which the body moves from one point to another. Most often, this is done by walking.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://www.ncbi.nlm.nih.gov/mesh/2027898</obo:IAO_0000119>
+        <rdfs:label>gait analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000094">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The process of examining the acoustic properties of a person&apos;s voice to extract meaningful information. This can include pitch, tone, volume, speech patterns, and other vocal features.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <rdfs:label>voice analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <obo:IAO_0000115>Photoplethysmographic blood volume pulse (BVP) is a noninvasive sensor and is used to measure blood volume changes and vasodilator function in the microvessels of the finger. BVP is widely used to detect the peripheral pulse waveform that is converted to blood volume amplitude (BVA). Blood volume amplitude reflects arterial dilation and contraction that are controlled by the autonomic nervous system (ANS).</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/24842231/</obo:IAO_0000119>
+        <rdfs:label>blood volume pulse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000098">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <dc:description>The concept of the &apos;digital biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to digital biomarkers in a specific disease via the axiom &apos;isDigitalBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to digital biomarkers within a specific disease.</dc:description>
+        <rdfs:label>digital biomarker TM_BIN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000100">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <dc:description>The concept of the &apos;imaging biomarker TM_BIN&apos; allows for the compilation of diverse concepts related to imaging biomarkers in a specific disease via the axiom &apos;isImagingBiomarkerFor some disease&apos;. This enables the adaptation of the ontology for text mining purposes, facilitating the retrieval and extraction of information related to imaging biomarkers within a specific disease.</dc:description>
+        <rdfs:label>imaging biomarker TM_BIN</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The rate at which the heart rate returns to baseline after physical activity, indicative of cardiovascular fitness and recovery capacity.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 03.05.2024</obo:IAO_0000119>
+        <rdfs:label>heart rate recovery</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <obo:IAO_0000115>Blood lipid levels refer to the concentration of various lipid molecules in the blood. These lipids include cholesterol (including LDL cholesterol, HDL cholesterol, and total cholesterol) and triglycerides.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 03.05.2024</obo:IAO_0000119>
+        <rdfs:label>blood lipid level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000104 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000104">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000103"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Total cholesterol represents the sum of all cholesterol in the blood, including both LDL (low-density lipoprotein) and HDL (high-density lipoprotein) cholesterol. Elevated total cholesterol levels can be associated with an increased risk of cardiovascular disease.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 03.05.2024</obo:IAO_0000119>
+        <rdfs:label>total cholesterol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000108">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>The myelin water fraction (MWF) is defined as the ratio of the myelin water signal (15 ms &lt; T2 &lt; 40 ms) to the total water signal and correlates strongly with histological staining for myelin.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/27923744/</obo:IAO_0000119>
+        <rdfs:label>myelin water fraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000109 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000109">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16809"/>
+        <obo:IAO_0000115>Dynamic susceptibility contrast magnetic resonance imaging (DSC MRI) provides a noninvasive means to create high resolution maps of the regional distribution of cerebral blood volume (CBV). Most DSC MRI studies conducted to date have focused on the evaluation of patients with cerebral neoplasms, ischemia or infarction, and epilepsy.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/9370546/</obo:IAO_0000119>
+        <rdfs:label>Dynamic susceptibility contrast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Cerebral blood volume (CBV) is one of the parameters generated by perfusion techniques (CT perfusion and MR perfusion). CBV is defined as the volume of blood in a given amount of brain tissue, most commonly milliliters of blood per 100 g of brain tissue.</obo:IAO_0000115>
+        <obo:IAO_0000119>Gaillard F, Sharma R, Foster T, et al. Cerebral blood volume (CBV). Reference article, Radiopaedia.org (Accessed on 07 May 2024) https://doi.org/10.53347/rID-43778</obo:IAO_0000119>
+        <rdfs:label>cerebral blood volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000111 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000111">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
+        <obo:IAO_0000115>Tumor metabolism refers to the biochemical processes occurring within cancer cells to meet their energy demands, support growth, and sustain proliferation. Cancer cells exhibit distinct metabolic characteristics compared to normal cells, which enable them to adapt to the unique microenvironment of tumors and support their uncontrolled growth.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000119>
+        <rdfs:label>tumor metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Lesion load codes the amount of damage to a given brain region of interest. Lesion load aims to reduce the complex 3D lesion information into a feature that can reflect both site of damage, defined by the location of the region of interest, and size of damage within that region of interest.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/36947181/</obo:IAO_0000119>
+        <rdfs:label>lesion load</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Gray matter volume refers to the amount or volume of gray matter present in the brain. Gray matter consists of neuronal cell bodies, dendrites, and synapses, and it plays a crucial role in processing information and coordinating various functions within the brain. Measurements of gray matter volume are typically obtained using structural magnetic resonance imaging (MRI) techniques. MRI allows researchers and clinicians to visualize and quantify the volume of gray matter in specific brain regions or across the entire brain.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000119>
+        <rdfs:label>gray matter volume</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000114 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000114">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <obo:IAO_0000115>The attenuation coefficient is a measure of how much the incident energy beam (e.g. ultrasound or x-rays) is weakened by the material it is passing through.</obo:IAO_0000115>
+        <obo:IAO_0000119>Nadrljanski M, McKay L, Worsley C, et al. Attenuation coefficient. Reference article, Radiopaedia.org (Accessed on 07 May 2024) https://doi.org/10.53347/rID-9035</obo:IAO_0000119>
+        <rdfs:label>tissue attenuation coefficient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Functional connectivity density (FCD) is a measure used in neuroimaging, particularly in functional magnetic resonance imaging (fMRI) studies, to quantify the strength and distribution of functional connections between different brain regions.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000119>
+        <rdfs:label>functional connectivity density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <obo:IAO_0000115>The blood-oxygen-level-dependent (BOLD) signal, detected in fMRI, reflects changes in deoxyhemoglobin driven by localized changes in brain blood flow and blood oxygenation, which are coupled to underlying neuronal activity by a process termed neurovascular coupling.</obo:IAO_0000115>
+        <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/25032494/</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>BOLD signal</oboInOwl:hasExactSynonym>
+        <rdfs:label>blood oxygen level-dependent signal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000117 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000117">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Axonal water fraction (AWF) is a metric used in diffusion MRI (dMRI) to characterize the microstructural properties of white matter in the brain. It quantifies the proportion of water molecules associated specifically with the axonal compartments within white matter tissue.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000119>
+        <rdfs:label>axonal water fraction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Apparent Fiber Density (AFD) is a metric derived from diffusion MRI (dMRI) data, particularly from high-angular resolution diffusion imaging (HARDI) or diffusion spectrum imaging (DSI). It quantifies the density of axons within a specific region of interest or white matter pathway in the brain. AFD is calculated based on the orientation distribution functions (ODFs) obtained from dMRI data. It reflects the density of axons within the imaging voxel and provides information about the microstructural integrity of white matter tracts.</obo:IAO_0000115>
+        <obo:IAO_0000115>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000115>
+        <rdfs:label>apparent fiber density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Fractional Anisotropy (FA) is a metric derived from diffusion tensor imaging (DTI), a magnetic resonance imaging (MRI) technique used to study the microstructural organization of tissues, particularly white matter in the brain. FA quantifies the degree of anisotropy of water diffusion within tissue. In white matter, water molecules tend to diffuse more easily along the direction of the fiber tracts (axonal bundles) than perpendicular to them. FA values range from 0 to 1, where higher values indicate greater directionality or organization of the tissue microstructure, typically reflecting intact white matter tracts.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000119>
+        <rdfs:label>fractional anisotropy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000120 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000120">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Amyloid deposition refers to the accumulation of amyloid proteins, specifically amyloid-beta (Aβ) peptides, in various tissues and organs throughout the body. In the context of neuroscience and neuroimaging, amyloid deposition commonly refers to the accumulation of Aβ plaques in the brain, which is a pathological hallmark of Alzheimer&apos;s disease (AD) and some other neurodegenerative disorders.
+In AD, abnormal accumulation of Aβ peptides leads to the formation of plaques, which disrupt neuronal function and contribute to neurodegeneration. Imaging techniques such as positron emission tomography (PET) using radioligands targeting Aβ can detect and quantify amyloid deposition in the brain.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000119>
+        <rdfs:label>amyloid deposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Tau deposition refers to the accumulation of abnormal tau protein aggregates in the brain, which is a characteristic feature of several neurodegenerative disorders, including Alzheimer&apos;s disease (AD), frontotemporal dementia (FTD), and certain forms of Parkinson&apos;s disease (PD), among others.
+In neuroimaging, techniques such as positron emission tomography (PET) using radioligands targeting tau can visualize and quantify tau deposition in the brain. These imaging methods enable researchers and clinicians to detect the presence of abnormal tau aggregates and assess their distribution and severity.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000119>
+        <rdfs:label>tau deposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Mean diffusivity (MD) is a metric derived from diffusion-weighted magnetic resonance imaging (DW-MRI) data. It quantifies the average magnitude of water molecule diffusion within a particular tissue or region of interest.
+MD is calculated based on the diffusion tensor, which characterizes the rate and directionality of water diffusion in tissue. Unlike fractional anisotropy (FA), which measures the degree of diffusion directionality, MD represents the overall magnitude of diffusion regardless of direction.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000119>
+        <rdfs:label>mean diffusivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000093"/>
+        <obo:IAO_0000115>Gait speed, also known as walking speed, is a crucial parameter in the study of human locomotion and biomechanics. It is defined as the distance covered per unit of time while walking. Gait speed is often measured in meters per second (m/s) or feet per second (ft/s) and is an important indicator of overall health, functional status, and mobility.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>walking speed</oboInOwl:hasExactSynonym>
+        <rdfs:label>gait speed</rdfs:label>
+        <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/33971647/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000128">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000093"/>
+        <obo:IAO_0000115>Stride length is a key parameter in the study of human gait and biomechanics. It refers to the distance covered between two successive placements of the same foot. Essentially, it is the distance traveled during one complete gait cycle, involving both the left and right foot.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <rdfs:label>stride length</rdfs:label>
+        <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/33971647/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000093"/>
+        <obo:IAO_0000115>Gait cycle time is an important parameter in the study of human locomotion and biomechanics. It refers to the duration of a complete gait cycle, which encompasses all the phases of walking from one foot making contact with the ground to the same foot making contact again.</obo:IAO_0000115>
+        <obo:IAO_0000115>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000115>
+        <rdfs:label>gait cycle time</rdfs:label>
+        <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/33971647/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000093"/>
+        <rdfs:label>gait unsteadiness</rdfs:label>
+        <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/33971647/</rdfs:seeAlso>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <obo:IAO_0000115>N-terminal pro b-type natriuretic peptide (NT-proBNP) is a non-active prohormone that is released from the same molecule that produces B-type natriuretic peptide (BNP), a hormone involved in the regulation of blood pressure and fluid balance. It is a biomarker used primarily in the diagnosis and management of heart failure.</obo:IAO_0000115>
+        <obo:IAO_0000119></obo:IAO_0000119>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
+        <oboInOwl:hasExactSynonym>NT-proBNP</oboInOwl:hasExactSynonym>
+        <rdfs:label>N-Terminal Pro-B-Type Natriuretic Peptide</rdfs:label>
     </owl:Class>
     
 
@@ -5567,6 +6481,14 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0003923 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0003923">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0004100 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004100">
@@ -5578,7 +6500,13 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     <!-- http://www.ebi.ac.uk/efo/EFO_0004134 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004134">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
@@ -5629,7 +6557,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     <!-- http://www.ebi.ac.uk/efo/EFO_0004325 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004325">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
     
@@ -5682,9 +6610,17 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     <!-- http://www.ebi.ac.uk/efo/EFO_0004517 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004517">
-        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
     </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004574 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004574">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+    </rdf:Description>
     
 
 
@@ -5705,6 +6641,34 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004840 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004840">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004870 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0004870">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0004952 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004952">
@@ -5714,11 +6678,33 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005035 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0005035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0005208 -->
 
     <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005208">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005527 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0005527">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+    </rdf:Description>
     
 
 
@@ -5746,10 +6732,52 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     
 
 
+    <!-- http://www.ebi.ac.uk/efo/EFO_0006866 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0006866">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000097"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- http://www.ebi.ac.uk/efo/EFO_0006890 -->
 
     <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0006890">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005070"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008351 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0008351">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009367 -->
+
+    <rdf:Description rdf:about="http://www.ebi.ac.uk/efo/EFO_0009367">
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000099"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
     </rdf:Description>
     
 

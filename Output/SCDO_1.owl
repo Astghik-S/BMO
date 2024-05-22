@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/h0vh2pzo.owl#"
-     xml:base="http://ontofox.hegroup.org/h0vh2pzo.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/mkdv864u.owl#"
+     xml:base="http://ontofox.hegroup.org/mkdv864u.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -9,7 +9,7 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/h0vh2pzo.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/mkdv864u.owl"/>
     
 
 
@@ -106,6 +106,11 @@
         <obo:SCDO_0000363>Only label adapted</obo:SCDO_0000363>
         <obo:SCDO_0000929>organizational term</obo:SCDO_0000929>
     </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/SCDO_1000910">
+        <rdfs:label>previous identifier</rdfs:label>
+        <dc:creator>SCDO (Jade Hotchkiss)</dc:creator>
+        <obo:IAO_0000115>Used to record the identifier that had been used previously but is no longer in use.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
     <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
         <rdfs:label>dc:creator</rdfs:label>
         <skos:prefLabel>Creator</skos:prefLabel>
@@ -136,6 +141,23 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SCDO_0000993 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SCDO_0000993">
+        <rdfs:label>Respiratory Rate</rdfs:label>
+        <obo:SCDO_1000910>SCDO:0000993</obo:SCDO_1000910>
+        <oboInOwl:hasExactSynonym>Breathing Frequency</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasDbXref>MESH:D056152</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>The number of times an organism breathes with the lungs (respiration) per unit time, usually per minute.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>Respiration Rate</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Pulmonary Ventilation Rate</oboInOwl:hasExactSynonym>
+        <obo:SCDO_1000288>Sufficient</obo:SCDO_1000288>
+        <obo:SCDO_0000340 rdf:resource="http://purl.bioontology.org/ontology/MESH/D056152"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/scdo.owl"/>
+    </owl:Class>
     
 
 

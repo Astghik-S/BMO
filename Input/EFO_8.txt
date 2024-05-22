@@ -2,14 +2,12 @@
 
 
 [Source ontology]
-CHEBI
+EFO
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/CHEBI_24621
-http://purl.obolibrary.org/obo/CHEBI_24432
-http://purl.obolibrary.org/obo/CHEBI_47774
-http://purl.obolibrary.org/obo/CHEBI_47775
-http://purl.obolibrary.org/obo/CHEBI_27680
+http://www.ebi.ac.uk/efo/EFO_0004870
+
+includeAllChildren
 
 [Top level source term URIs and target direct superclass URIs]
 

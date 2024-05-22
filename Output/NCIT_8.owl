@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/76w2hwi6.owl#"
-     xml:base="http://ontofox.hegroup.org/76w2hwi6.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/t8yndj9i.owl#"
+     xml:base="http://ontofox.hegroup.org/t8yndj9i.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
@@ -8,7 +8,7 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/76w2hwi6.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/t8yndj9i.owl"/>
     
 
 
@@ -239,6 +239,21 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C120540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C120540">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pupillometry</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A technique used to measure the diameter of the pupil in response to stimuli.</obo:IAO_0000115>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0260180</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C120540</obo:NCIT_NHC0>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diagnostic Procedure</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pupillometry</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pupillometry</obo:NCIT_P108>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
     
 
 
@@ -566,6 +581,40 @@
         <obo:NCIT_A40 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48660"/>
         <obo:NCIT_A42 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C48789"/>
         <obo:NCIT_A42 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C71695"/>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C174446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C174446">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Body Temperature</rdfs:label>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A measurement of the temperature of the body.</obo:IAO_0000115>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A measurement of the temperature of the body.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Body Temperature</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P108 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Body Temperature</obo:NCIT_P108>
+        <obo:NCIT_P207 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C0005903</obo:NCIT_P207>
+        <obo:NCIT_NHC0 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">C174446</obo:NCIT_NHC0>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ICDC</obo:NCIT_P322>
+        <obo:NCIT_P322 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OORO</obo:NCIT_P322>
+        <obo:NCIT_P106 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Quantitative Concept</obo:NCIT_P106>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TEMP</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temperature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temperature in Celsius or Fahrenheit</oboInOwl:hasExactSynonym>
+        <obo:NCIT_P325 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Temperature measured in Celsius or Fahrenheit</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body temperature</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">body_temperature</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C165451"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C166373"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C192234"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66741"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C67153"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.oboInOwllibrary.org/oboInOwl/NCIT_C77526"/>
+        <obo:NCIT_A42 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C41132"/>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/ncit.owl"/>
     </owl:Class>
     

@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/5by3sv2y.owl#"
+     xml:base="http://ontofox.hegroup.org/5by3sv2y.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:efo="http://www.ebi.ac.uk/efo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/5by3sv2y.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/source_definition"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/EFO_URI"/>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/organizational_class"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112">
+        <rdfs:label>example of usage</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition_citation">
+        <rdfs:label>definition_citation</rdfs:label>
+        <obo:IAO_0000115>A definition citation is a document, ontology class, person or organization from which the definition of the class is derived. It is used in the same sense as a citation in literature, in that the definition may have been derived from these sources or that this definition is related to these source.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#comment"/>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/ArrayExpress_label"/>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/branch_class">
+        <rdfs:comment>For use in the EMBL-EBI ArrayExpress interface.</rdfs:comment>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBONamespace">
+        <rdfs:label>has_obo_namespace</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#is_metadata_tag"/>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym">
+        <rdfs:label>has_exact_synonym</rdfs:label>
+        <obo:IAO_0000115>An alternative label for a given entity such as a commonly used abbreviation or synonym. </obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by">
+        <rdfs:label>created_by</rdfs:label>
+        <rdfs:subPropertyOf rdf:resource="http://purl.org/dc/elements/1.1/creator"/>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand">
+        <rdfs:label>shorthand</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/gwas_trait"/>
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator">
+        <rdfs:label>creator</rdfs:label>
+        <oboInOwl:is_metadata_tag rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</oboInOwl:is_metadata_tag>
+        <oboInOwl:id>dc-creator</oboInOwl:id>
+        <oboInOwl:hasDbXref>http://purl.org/dc/elements/1.1/creator</oboInOwl:hasDbXref>
+        <oboInOwl:hasOBONamespace>uberon</oboInOwl:hasOBONamespace>
+        <oboInOwl:shorthand>dc-creator</oboInOwl:shorthand>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004807 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004807">
+        <rdfs:label>short sleep</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000115>Is a quantification of sleep time in humans where average sleep time was less than five hours.</obo:IAO_0000115>
+        <efo:definition_citation>http://www.ncbi.nlm.nih.gov/pubmed/22322875</efo:definition_citation>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004870 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004870">
+        <rdfs:label>sleep measurement</rdfs:label>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000115>Is a quantification of some sleep parameter.</obo:IAO_0000115>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005271 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005271">
+        <rdfs:label>sleep duration</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000115>duration of sleep, measured either via a self-reporting questionnaire, interview or through obversation in a sleep lab</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005272 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005272">
+        <rdfs:label>sleep quality</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>NCIt:C121705</oboInOwl:hasDbXref>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000115>quantification of some aspect of sleep quality, such as number of awakenings during a sleep interval or time taken to get to sleep. Sleep quality can be evaluated either through self-reporting, observation in a sleep lab or using a sleep monitoring device</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005273 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005273">
+        <rdfs:label>sleep depth</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000115>self-reported assessment of how difficult an individual is to wake</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005274 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005274">
+        <rdfs:label>sleep time</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000115>measurement of the time at which sleep begins</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005280 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005280">
+        <rdfs:label>sleep latency</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000115>amount of time, usually recorded in minutes, between going to bed and falling asleep</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0007827 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007827">
+        <rdfs:label>nighttime rest measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000115>quantification of some aspect of nighttime rest such as duration or quality</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>PMID:27126917</oboInOwl:hasDbXref>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0007828 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007828">
+        <rdfs:label>daytime rest measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>PMID:27126917</oboInOwl:hasDbXref>
+        <obo:IAO_0000115>quantification of some aspect of daytime rest such as duration, frequency or quality</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0007875 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007875">
+        <rdfs:label>excessive daytime sleepiness measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000115>quantification of excessive daytime sleepiness such as how often it occurs and its severity</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0007876 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0007876">
+        <rdfs:label>insomnia measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000115>quantification of insomnia such as how often it occurs and its severity</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008328 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008328">
+        <rdfs:label>chronotype measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000115>quantification of some aspect of chronotype such as ease of getting up in the morning</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008341 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008341">
+        <rdfs:label>snoring measurement</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000115>quantification of some aspect of snoring such as frequency or severity</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <oboInOwl:hasDbXref>PMID:28604731</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0803363 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0803363">
+        <rdfs:label xml:lang="en">wake after sleep onset</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>NCIt:C156554</oboInOwl:hasDbXref>
+        <oboInOwl:hasExactSynonym>WASO</oboInOwl:hasExactSynonym>
+        <obo:IAO_0000117>Santhi Ramachandran</obo:IAO_0000117>
+        <obo:IAO_0000115>A measurement of the sum of durations of wakefulness episodes throughout the night, not including the wakefulness before sleep onset.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0803364 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0803364">
+        <rdfs:label xml:lang="en">sleep efficiency</rdfs:label>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004870"/>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <oboInOwl:hasDbXref>NCIt:C156553</oboInOwl:hasDbXref>
+        <obo:IAO_0000117>Santhi Ramachandran</obo:IAO_0000117>
+        <obo:IAO_0000115>A relative measurement of the time spent asleep to the total time spent in bed.</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

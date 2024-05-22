@@ -11,6 +11,8 @@ http://purl.obolibrary.org/obo/NCIT_C17204
 http://purl.obolibrary.org/obo/NCIT_C38101
 http://purl.obolibrary.org/obo/NCIT_C16809
 http://purl.obolibrary.org/obo/NCIT_C17230
+http://purl.obolibrary.org/obo/NCIT_C174446
+http://purl.obolibrary.org/obo/NCIT_C120540
 
 [Top level source term URIs and target direct superclass URIs]
 

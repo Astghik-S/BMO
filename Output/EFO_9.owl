@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://ontofox.hegroup.org/uxj9x5xj.owl#"
+     xml:base="http://ontofox.hegroup.org/uxj9x5xj.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:efo="http://www.ebi.ac.uk/efo/">
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/uxj9x5xj.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117">
+        <rdfs:label>term editor</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000412">
+        <rdfs:label xml:lang="en">imported from</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref">
+        <rdfs:label>database_cross_reference</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/gwas_trait"/>
+    <owl:AnnotationProperty rdf:about="http://www.ebi.ac.uk/efo/definition_citation">
+        <rdfs:label>definition_citation</rdfs:label>
+        <obo:IAO_0000115>A definition citation is a document, ontology class, person or organization from which the definition of the class is derived. It is used in the same sense as a citation in literature, in that the definition may have been derived from these sources or that this definition is related to these source.</obo:IAO_0000115>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0004840 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0004840">
+        <rdfs:label>cortical thickness</rdfs:label>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000117>Helen Parkinson</obo:IAO_0000117>
+        <efo:definition_citation>http://www.ncbi.nlm.nih.gov/pubmed/21810643</efo:definition_citation>
+        <obo:IAO_0000115>Is a quantification of the thickness of brain cortex, e.g. measured by MRI, used in the diagnosis of Alzheimer&#39;s disease and other neurological conditions</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005035 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005035">
+        <rdfs:label>hippocampal volume</rdfs:label>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000115>Measurement of the volume of the hippocampus</obo:IAO_0000115>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0005527 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0005527">
+        <rdfs:label>ejection fraction measurement</rdfs:label>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000115>quantification of the volumetric fraction of blood pumped out of the left and right ventricle with each heartbeat or cardiac cycle</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0008351 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0008351">
+        <rdfs:label>amyloid deposition measurement</rdfs:label>
+        <obo:IAO_0000117>Dani Welter</obo:IAO_0000117>
+        <obo:IAO_0000115>quantification of some aspect of the deposition of amyloid proteins in an organ</obo:IAO_0000115>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.ebi.ac.uk/efo/EFO_0009367 -->
+
+    <owl:Class rdf:about="http://www.ebi.ac.uk/efo/EFO_0009367">
+        <rdfs:label>glucose metabolism measurement</rdfs:label>
+        <efo:gwas_trait rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</efo:gwas_trait>
+        <obo:IAO_0000117>Annalisa Buniello</obo:IAO_0000117>
+        <obo:IAO_0000115>Quantification of a glucose metabolic process.</obo:IAO_0000115>
+        <oboInOwl:hasDbXref>PMID:29130521</oboInOwl:hasDbXref>
+        <obo:IAO_0000412 rdf:resource="http://www.ebi.ac.uk/efo/efo.owl"/>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.2.4.1806) http://owlapi.sourceforge.net -->
+

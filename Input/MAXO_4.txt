@@ -6,6 +6,7 @@ MAXO
 
 [Low level source term URIs]
 http://purl.obolibrary.org/obo/MAXO_0000018
+http://purl.obolibrary.org/obo/MAXO_0000972
 
 [Top level source term URIs and target direct superclass URIs]
 

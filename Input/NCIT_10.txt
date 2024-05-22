@@ -2,14 +2,10 @@
 
 
 [Source ontology]
-CHEBI
+NCIT
 
 [Low level source term URIs]
-http://purl.obolibrary.org/obo/CHEBI_24621
-http://purl.obolibrary.org/obo/CHEBI_24432
-http://purl.obolibrary.org/obo/CHEBI_47774
-http://purl.obolibrary.org/obo/CHEBI_47775
-http://purl.obolibrary.org/obo/CHEBI_27680
+http://purl.obolibrary.org/obo/NCIT_C16199
 
 [Top level source term URIs and target direct superclass URIs]
 

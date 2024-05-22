@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
-<rdf:RDF xmlns="http://ontofox.hegroup.org/ivkr8xq9.owl#"
-     xml:base="http://ontofox.hegroup.org/ivkr8xq9.owl"
+<rdf:RDF xmlns="http://ontofox.hegroup.org/bcwgn5jv.owl#"
+     xml:base="http://ontofox.hegroup.org/bcwgn5jv.owl"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:obo="http://purl.obolibrary.org/obo/">
-    <owl:Ontology rdf:about="http://ontofox.hegroup.org/ivkr8xq9.owl"/>
+    <owl:Ontology rdf:about="http://ontofox.hegroup.org/bcwgn5jv.owl"/>
     
 
 
@@ -56,10 +56,46 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/OMIT_0006913 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0006913">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Galvanic Skin Response</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OMIT_0007313 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0007313">
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Growth Disorders</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0008544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0008544">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Intracranial Pressure</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0019447 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0019447">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ki-67 Antigen</rdfs:label>
+        <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OMIT_0026160 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OMIT_0026160">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elastic Modulus</rdfs:label>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/omit.owl"/>
     </owl:Class>
 </rdf:RDF>

@@ -7,6 +7,8 @@ EFO
 [Low level source term URIs]
 http://www.ebi.ac.uk/efo/EFO_0000714
 http://www.ebi.ac.uk/efo/EFO_0022597
+http://www.ebi.ac.uk/efo/EFO_0006866
+http://www.ebi.ac.uk/efo/EFO_0003923
 
 [Top level source term URIs and target direct superclass URIs]
 
