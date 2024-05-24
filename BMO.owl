@@ -221,7 +221,6 @@ your use.</rdfs:comment>
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118">
         <rdfs:isDefinedBy rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <rdfs:label xml:lang="en">alternative term</rdfs:label>
     </owl:AnnotationProperty>
     
 
@@ -5764,6 +5763,8 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000086">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000081"/>
+        <obo:IAO_0000115>Activity level refers to the amount and intensity of physical activity an individual engages in over a specific period. It is an important factor in maintaining overall health, fitness, and well-being. Understanding and monitoring activity levels can help individuals achieve their health and fitness goals, manage weight, and reduce the risk of chronic diseases.</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22.05.2024</obo:IAO_0000119>
         <rdfs:label>activity level</rdfs:label>
     </owl:Class>
     
@@ -5774,7 +5775,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000087">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000086"/>
         <obo:IAO_0000115>Step count is a widely used metric for tracking physical activity, particularly walking. It measures the total number of steps an individual takes over a specified period, typically daily. Step count is a simple yet effective way to monitor activity levels and promote a healthy lifestyle.</obo:IAO_0000115>
-        <obo:IAO_0000115>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
         <rdfs:label>step count</rdfs:label>
     </owl:Class>
     
@@ -5806,7 +5807,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000090">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000086"/>
-        <obo:IAO_0000119>Active minutes refer to the total duration of physical activity during which an individual engages in moderate to vigorous intensity exercise. This metric is commonly used to track and quantify the amount of time spent being physically active, providing insight into one&apos;s overall activity level and adherence to recommended exercise guidelines.</obo:IAO_0000119>
+        <obo:IAO_0000115>Active minutes refer to the total duration of physical activity during which an individual engages in moderate to vigorous intensity exercise. This metric is commonly used to track and quantify the amount of time spent being physically active, providing insight into one&apos;s overall activity level and adherence to recommended exercise guidelines.</obo:IAO_0000115>
         <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
         <rdfs:label>active minute</rdfs:label>
     </owl:Class>
@@ -6120,7 +6121,7 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
             </owl:Restriction>
         </rdfs:subClassOf>
         <obo:IAO_0000115>Apparent Fiber Density (AFD) is a metric derived from diffusion MRI (dMRI) data, particularly from high-angular resolution diffusion imaging (HARDI) or diffusion spectrum imaging (DSI). It quantifies the density of axons within a specific region of interest or white matter pathway in the brain. AFD is calculated based on the orientation distribution functions (ODFs) obtained from dMRI data. It reflects the density of axons within the imaging voxel and provides information about the microstructural integrity of white matter tracts.</obo:IAO_0000115>
-        <obo:IAO_0000115>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 3,5 on 07.05.2024</obo:IAO_0000119>
         <rdfs:label>apparent fiber density</rdfs:label>
     </owl:Class>
     
@@ -6227,7 +6228,7 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000129">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000093"/>
         <obo:IAO_0000115>Gait cycle time is an important parameter in the study of human locomotion and biomechanics. It refers to the duration of a complete gait cycle, which encompasses all the phases of walking from one foot making contact with the ground to the same foot making contact again.</obo:IAO_0000115>
-        <obo:IAO_0000115>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000115>
+        <obo:IAO_0000119>generated with ChatGPT version 4,0 on 22․05․24</obo:IAO_0000119>
         <rdfs:label>gait cycle time</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/33971647/</rdfs:seeAlso>
     </owl:Class>
@@ -6238,6 +6239,9 @@ MD is calculated based on the diffusion tensor, which characterizes the rate and
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000130">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000093"/>
+        <obo:IAO_0000115>Gait unsteadiness, also known as unsteady gait or ataxic gait, refers to a lack of coordination and stability while walking, resulting in an irregular or unsteady walking pattern. This condition can arise from various underlying causes and can significantly impact a person&apos;s mobility and quality of life. It is often characterized by a wide-based stance, irregular steps, and a tendency to stagger or lose balance.</obo:IAO_0000115>
+        <oboInOwl:hasExactSynonym>ataxic gait</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>unsteady gait</oboInOwl:hasExactSynonym>
         <rdfs:label>gait unsteadiness</rdfs:label>
         <rdfs:seeAlso>https://pubmed.ncbi.nlm.nih.gov/33971647/</rdfs:seeAlso>
     </owl:Class>
