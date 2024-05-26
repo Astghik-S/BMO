@@ -3,7 +3,7 @@
 The Biomarker Ontology is built for TextMining perpose.
 
 ## Development
--InputFiles
+- InputFiles
   - contains Ontofox input files
   - manually created
 - OutputModules
