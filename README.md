@@ -1,6 +1,6 @@
 # BMO (BiomarkerOntology)
 
-The Biomarker Ontology is built for TextMining perpose.
+The ontology is proposed to be used for improving biomarker identification tasks, as well as a supportive integratable tool for abundant AI techniques, such as Machine Learning (ML) and Large Learning Model (LLM).
 
 ## Development
 - InputFiles
