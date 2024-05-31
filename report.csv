@@ -370,13 +370,13 @@ WARN,duplicate_scoped_synonym,http://www.ebi.ac.uk/efo/EFO_0005769,oboInOwl:hasE
 WARN,duplicate_scoped_synonym,http://www.ebi.ac.uk/efo/EFO_0005769,oboInOwl:hasExactSynonym,calcium metabolism disorder
 WARN,duplicate_scoped_synonym,http://www.ebi.ac.uk/efo/EFO_0005769,oboInOwl:hasRelatedSynonym,calcium metabolism disease
 WARN,duplicate_scoped_synonym,http://www.ebi.ac.uk/efo/EFO_0005769,oboInOwl:hasRelatedSynonym,calcium metabolism disorder
-WARN,equivalent_class_axiom_no_genus,obo:bmo.owl/BMO_0000055,obo:bmo.owl/BMO_0000040,DOID:4
 WARN,equivalent_class_axiom_no_genus,obo:bmo.owl/BMO_0000070,obo:bmo.owl/BMO_0000066,DOID:4
 WARN,equivalent_class_axiom_no_genus,obo:bmo.owl/BMO_0000072,obo:bmo.owl/BMO_0000067,DOID:4
 WARN,equivalent_class_axiom_no_genus,obo:bmo.owl/BMO_0000073,obo:bmo.owl/BMO_0000065,DOID:4
 WARN,equivalent_class_axiom_no_genus,obo:bmo.owl/BMO_0000074,obo:bmo.owl/BMO_0000071,DOID:4
 WARN,equivalent_class_axiom_no_genus,obo:bmo.owl/BMO_0000098,obo:bmo.owl/BMO_0000097,DOID:4
 WARN,equivalent_class_axiom_no_genus,obo:bmo.owl/BMO_0000100,obo:bmo.owl/BMO_0000099,DOID:4
+WARN,equivalent_class_axiom_no_genus,obo:bmo.owl/BMO_0000132,obo:bmo.owl/BMO_0000057,DOID:4
 WARN,invalid_xref,OBCS:0000054,oboInOwl:hasDbXref,STATO_0000182
 WARN,invalid_xref,http://www.ebi.ac.uk/efo/EFO_0000714,oboInOwl:hasDbXref,PERSON: James Malone
 WARN,missing_definition,http://purl.allotrope.org/ontologies/property#AFX_0002808,IAO:0000115,
@@ -415,7 +415,6 @@ WARN,missing_definition,obo:UBPROP_0000202,IAO:0000115,
 WARN,missing_definition,obo:bmo.owl#isCirculatingBiomarker,IAO:0000115,
 WARN,missing_definition,obo:bmo.owl/BMO_0000040,IAO:0000115,
 WARN,missing_definition,obo:bmo.owl/BMO_0000048,IAO:0000115,
-WARN,missing_definition,obo:bmo.owl/BMO_0000055,IAO:0000115,
 WARN,missing_definition,obo:bmo.owl/BMO_0000057,IAO:0000115,
 WARN,missing_definition,obo:bmo.owl/BMO_0000065,IAO:0000115,
 WARN,missing_definition,obo:bmo.owl/BMO_0000066,IAO:0000115,
@@ -429,6 +428,7 @@ WARN,missing_definition,obo:bmo.owl/BMO_0000097,IAO:0000115,
 WARN,missing_definition,obo:bmo.owl/BMO_0000098,IAO:0000115,
 WARN,missing_definition,obo:bmo.owl/BMO_0000099,IAO:0000115,
 WARN,missing_definition,obo:bmo.owl/BMO_0000100,IAO:0000115,
+WARN,missing_definition,obo:bmo.owl/BMO_0000132,IAO:0000115,
 WARN,missing_definition,obo:mondo#excluded_subClassOf,IAO:0000115,
 WARN,missing_definition,dc11:identifier,IAO:0000115,
 WARN,missing_definition,dc:contributor,IAO:0000115,
@@ -648,10 +648,10 @@ INFO,lowercase_definition,http://www.ebi.ac.uk/efo/EFO_0007876,IAO:0000115,quant
 INFO,lowercase_definition,http://www.ebi.ac.uk/efo/EFO_0008328,IAO:0000115,quantification of some aspect of chronotype such as ease of getting up in the morning
 INFO,lowercase_definition,http://www.ebi.ac.uk/efo/EFO_0008341,IAO:0000115,quantification of some aspect of snoring such as frequency or severity
 INFO,lowercase_definition,http://www.ebi.ac.uk/efo/EFO_0008351,IAO:0000115,quantification of some aspect of the deposition of amyloid proteins in an organ
-INFO,missing_superclass,obo:bmo.owl/BMO_0000055,rdfs:subClassOf,
 INFO,missing_superclass,obo:bmo.owl/BMO_0000070,rdfs:subClassOf,
 INFO,missing_superclass,obo:bmo.owl/BMO_0000072,rdfs:subClassOf,
 INFO,missing_superclass,obo:bmo.owl/BMO_0000073,rdfs:subClassOf,
 INFO,missing_superclass,obo:bmo.owl/BMO_0000074,rdfs:subClassOf,
 INFO,missing_superclass,obo:bmo.owl/BMO_0000098,rdfs:subClassOf,
 INFO,missing_superclass,obo:bmo.owl/BMO_0000100,rdfs:subClassOf,
+INFO,missing_superclass,obo:bmo.owl/BMO_0000132,rdfs:subClassOf,
