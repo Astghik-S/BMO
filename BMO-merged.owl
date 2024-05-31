@@ -1928,22 +1928,6 @@ WHERE {
     
 
 
-    <!-- http://purl.obolibrary.org/obo/bmo.owl#isCirculatingBiomarker -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl#isCirculatingBiomarker">
-        <rdfs:label>isCirculatingBiomarkerFor</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040">
-        <rdfs:label>isQualifiedBiomarkerFor</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000057 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000057">
@@ -10205,12 +10189,6 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000001393">
         <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0004100"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SYMP_0000061"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A protein that is a translation product of the human IL6 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
@@ -10305,12 +10283,6 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000003035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000040"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16199"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
@@ -10774,12 +10746,6 @@ A CELL CYCLE and tumor growth marker which can be readily detected using IMMUNOC
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000016506">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl#isCirculatingBiomarker"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005542"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115>A protein that is a translation product of the human TNNI3 gene or a 1:1 ortholog thereof.</obo:IAO_0000115>
         <obo:IAO_0000412 rdf:resource="http://purl.obolibrary.org/obo/pr.owl"/>
         <bmo:BMO_0000048>yes</bmo:BMO_0000048>
