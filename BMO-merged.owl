@@ -12150,7 +12150,19 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000036 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000036">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://www.ebi.ac.uk/efo/EFO_0001444"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Total Kidney Volume (TKV) is the primary measure of kidney growth and can provide information on disease status and its progression. MRI or CT scan are the best methods to obtain TKV measurements.</obo:IAO_0000115>
         <obo:IAO_0000119>https://resources.pkdcure.org/resources/what-is-total-kidney-volume-tkv-and-why-is-it-important-to-me/</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>TKV</oboInOwl:hasExactSynonym>
@@ -12163,7 +12175,25 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000037 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000037">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Kidney injury molecule 1 (KIM-1) is a transmembrane glycoprotein expressed by proximal tubular cells, recognized as an early, sensitive and specific urinary biomarker for kidney injury.</obo:IAO_0000115>
         <obo:IAO_0000119>https://pubmed.ncbi.nlm.nih.gov/37664565/</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>KIM-1</oboInOwl:hasExactSynonym>
@@ -12175,7 +12205,25 @@ Research’s (CDER’s) and the Center for Biologics Evaluation and Research’s
     <!-- http://purl.obolibrary.org/obo/bmo.owl/BMO_0000038 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000038">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/PR_000000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000065"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000066"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/bmo.owl/BMO_0000067"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <obo:IAO_0000115>Urinary total protein (UTP) includes all proteins in urine samples. The presence of some quantities of proteins (&lt;150 mg/day) is considered normal.</obo:IAO_0000115>
         <obo:IAO_0000119>https://www.human.de/lab-professionals/trends-topics/urinary-total-protein-more-than-just-protein</obo:IAO_0000119>
         <oboInOwl:hasExactSynonym>total protein</oboInOwl:hasExactSynonym>
